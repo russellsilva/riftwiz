@@ -482,7 +482,7 @@ Wheel of Death: Deal 200 dark damage to a random enemy unit; 5 charges; Dark & S
 
 Upgrades:
 
-Charges: +3 chargesm 4
+Charges: +3 charges; 4
 Death Roulette: On kill, gain a roulette stack for 10 turns. Wheel of Death hits an additional enemy for each stack of roulette on cast; 7
 -------------------------------------------------------------------------------------------------------------------------------
 Touch of Death: Deal 200 dark damage; 1(melee) range; 9 charges; Dark & Sorcery; Level 3

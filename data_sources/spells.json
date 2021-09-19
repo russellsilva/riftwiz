@@ -1551,7 +1551,12 @@
 "charges" : "5",
 "schools" : ["Dark","Sorcery"],
 "level" : "4",
-"upgrades" : [,
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+3 charges",
+		"cost" : "4"
+	},
 	{
 		"title" : "Death Roulette",
 		"description" : "On kill, gain a roulette stack for 10 turns. Wheel of Death hits an additional enemy for each stack of roulette on cast",
