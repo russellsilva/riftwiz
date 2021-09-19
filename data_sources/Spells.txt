@@ -1,0 +1,1224 @@
+Fireball: Deal 9 fire damage in a 2 radius burst; 8 range; 18 charges; Fire & Sorcery; Level 1
+
+Upgrades:
+
+Radius: +1 radius; 3
+Damage: +8 damage; 2
+Charges: +8 charges; 2
+Range: +3 range; 1
+Chaos Ball: Fireball deals physical, lightning or fire at random. Lowest resist element chosen; 3
+Energy Ball: Fireball deals arcane; holy or fire at random. Lowest resist element chosen; 4
+Ash Ball: Fireball deals poison; dark or fire at random. Lowest resist element chosen. Blinds for 1 turn; 5
+-------------------------------------------------------------------------------------------------------------------------------
+Meteor Shower: Rains 7 meteors down on random tiles in a 7 tile radius each turn. Meteors deal 23 physical damage, destroy walls, and inflict stun for 2 turns. Meteors also deal 23 fire damage in a 2 radius. This spell can be channeled for up to 5 turns.  The effect is repeated each turn the spell is channeled; 1 charge; Fire & Sorcery; Level 7
+
+Upgrades:
+
+Num targets: +3 meteors; 4
+Stun duration: +3 turns, 2
+Meteor size: +1 radius to physical damage and stun; 2
+Max channel: +5 turns, 2
+-------------------------------------------------------------------------------------------------------------------------------
+Lightning Bolt: Deal 12 lightning damage in a beam; 10 range; 18 charges; Lightning & Sorcery; Level 1
+
+Upgrades:
+
+Damage: +9 damage; 3
+Range: +5 range; 2
+Charges: +12 charges; 2
+Channel: Can channel for 10 turns, 3
+Judgement bolt: Lightning Bolt also deals holy and dark damage; 6
+Energy bolt: Lightning Bolt also deals fire and arcane damage; 6
+-------------------------------------------------------------------------------------------------------------------------------
+Annihilate: Deal 16 fire, lightning and physical damage to target; 6 range; 8 charges; Chaos & Sorcery; Level 2
+
+Upgrades:
+
+Cascade: Remaining hits of Annihilate will jump to another target in range 4 if original is killed; 3
+Dark: Annihilate also deals dark damage; 1
+Arcane: Annihilate also deals arcane damage; 1
+Charges: +4 charges; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Mega Annihilate: Deal 99 fire, lightning and physical damage to target; 6 range; 3 charges; Chaos & Sorcery; Level 5
+
+Upgrades:
+
+Cascade: Remaining hits of Mega Annihilate will jump to another target in range 4 if original is killed; 3
+Dark: Mega Annihilate also deals dark damage; 2
+Arcane: Mega Annihilate also deals arcane damage; 2
+Damage: +99 damage; 4
+-------------------------------------------------------------------------------------------------------------------------------
+Teleport: Teleport to the target tile; 15 range; 1 charge; Sorcery & Arcane & Translocation; Level 5
+
+Upgrades:
+
+Charges: +2 charges; 3
+Range: +8 range; 2
+Void Teleport: Teleport deals arcane damage equal to its max charges to all enemy units in LoS of target tile; 5
+-------------------------------------------------------------------------------------------------------------------------------
+Blink: Teleport to the target tile in LoS; 5 range; 6 charges; Arcane & Sorcery & Translocation; Level 3
+
+Upgrades:
+
+Blindcasting: Blink no longer requires LoS; 2
+Range: +3 range; 3
+Charges: +5 charges; 2
+Lightning Blink: Blink deals lightning damage equal to twice the tiles traveled, rounded up, in a 3 tile burst on arrival; 4
+Dark Blink: Blink deals dark damage equal to twice the tiles traveled, rounded up, in a 3 tile burst on arrival; 4
+-------------------------------------------------------------------------------------------------------------------------------
+Flame Gate: Whenever you cast a fire spell, summon a fire elemental near the target. Fire elementals last for 9 turns, have 22 hp, 100 fire, 50 physical and -50 ice resist and a 4 range 7 damage fire attack. Flame Gate lasts until you fail to cast a fire spell; Fire & Enchantment & Conjuration; Level 3
+
+Upgrades:
+
+Minion range: +2 minion range; 2
+Minion duration: +7 minion duration; 2
+Minion damage: +7 minion damage; 4
+-------------------------------------------------------------------------------------------------------------------------------
+Lightning Form: On casting a lightning spell, teleport to target location. Gain 100 physical and lightning resistance. Lasts until you fail to cast a lightning spell; Lightning & Enchantment; Level 4
+
+Upgrades:
+
+Charges: +3 charges; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Void Beam: Deal 25 arcane damage and destroy walls in a beam;15 range; no LoS required; 7 charges; Arcane & Sorcery; Level 4
+
+Upgrades:
+
+Damage: +21 damage; 5
+Range: +5 range; 2
+Charges: +3 charges; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Thunder Strike: Deal 24 lightning damage to target. Stun all enemies in 2 radius burst around the target for 3 turns; 10 range; 9 charges; Lightning & Sorcery; Level 2
+
+Upgrades:
+
+Duration: +3 stun duration; 2
+Blindcasting: No longer requires LoS; 3
+Damage: +36 damage; 4
+Storm power: Radius and stun duration are doubled if the target is in a storm cloud
+Heaven strike: Also deals holy damage
+-------------------------------------------------------------------------------------------------------------------------------
+(Not ingame) Stone Giant Form: Gain physical resistance and the ability to hurl boulders; 9 charges; Nature & Enchantment; Level 2
+
+Add: Boulders deal 25 physical damage with range of 6
+
+Upgrades: 
+
+Damage: +15 damage; 2
+Duration: +15 duration; 1
+-------------------------------------------------------------------------------------------------------------------------------
+Chaos Barrage: Fire 8 bolts of 9 physical, fire or lightning damage at random units in a cone; 7 range; 8 charges; Chaos & Sorcery; Level 2
+
+Upgrades:
+
+Charges: +4 charges; 1
+Damage: +4 damage; 5
+Bolts: +5 bolts; 4
+-------------------------------------------------------------------------------------------------------------------------------
+(Not ingame) Inferno: Create a spreading inferno that deals 10 fire damage to units inside; doesn't require LoS; 3 range; 1 charge; Fire; Level 5
+
+Upgrades:
+
+Range: +5 range; 1
+Charges: +2 charges; 1
+-------------------------------------------------------------------------------------------------------------------------------
+Disperse: Teleport all units in 3 tile radius to random locations, caster not affected; 6 range; 15 charges; Arcane & Sorcery & Translocation; Level 2
+
+Upgrades:
+
+Radius: +2 radius; 2
+Charges: +10 charges; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Petrify: Petrify target for 10 turns; 8 range; 10 charges; Arcane & Enchantment; Level 2
+
+Upgrades:
+
+Charges: +5 charges; 1
+Glassify: Glassify instead of petrify; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Petrification Aura: For 7 turns, inflict a 2-turn petrify each turn to 3 unpetrified enemies in 7 radius; 3 charges; Arcane & Enchantment; Level 4
+
+Upgrades:
+
+Petrify duration: +2 petrify duration; 3
+Target: +2 targets; 2
+Duration: +15 duration; 2
+Glassify: Glassify instead of petrify; 6
+-------------------------------------------------------------------------------------------------------------------------------
+Wolf: Summon a wolf (Living, Nature) which has 11 hp and a melee attack which deals 5 physical damage; 5 range; 12 charges; Nature & Conjuration; Level 1
+
+Upgrades:
+
+Pounce: Wolves gain a range 4 leap attack; 3
+Minion damage: +4 minion damage; 1
+Minion hp: +12 minion hp; 3
+Blood hound: Summon Blood hound instead of wolf; 3 (Blood hounds gain +2 damage for 10 turns with each attack, have 75 dark resist and are types demon & nature)
+Ice hound: Summon Ice hound instead of wolf; 3 (Ice hounds deal ice damage, have 100 ice, 50 dark and -50 fire resists, are types demon & ice and deal 4 ice damage to melee attackers)
+Clay hound: Summon Clay hound instead of wolf; 6 (Clay hound has 50 physical, fire and lightning resist and 3 permanent regen)
+Wolf pack: Casting wolf consumes 2 charges and summons 4 wolves; 8
+-------------------------------------------------------------------------------------------------------------------------------
+(Not ingame) Dire Wolf: Summon a dire wolf with 20 hp and 16 physical damage melee attack; 6 charges; Nature & Conjuration; Level 2
+
+Upgrades:
+
+Pounce: Dire wolves gain a 3 range leap attack; 4
+Minion hp: +15 minion hp; 3
+Minion damage: +8 minion damage; 1
+-------------------------------------------------------------------------------------------------------------------------------
+Giant Bear: Summon a giant bear (Living, Nature) which has 65 hp and a melee attack which deals 10 physical damage; 5 range; 3 charges; Nature & Conjuration; Level 3
+
+Upgrades:
+
+Minion hp: +30 minion hp; 2
+Minion damage: +15 minion dmg; 4
+Charges: +2 charges; 3
+Minion attacks: Causes bear to attack twice per turn; 3
+Armored Bear: Summon Armored bear instead of giant bear; 3 (Armored bear has 79 hp, 50 physical and -50 lightning resistance)
+Venom bear: Summon Venom bear instead of giant bear; 4 (Venom bear attack poisons for 5 turns, it heals whenever an enemy takes poison damage, gains 100 poison resistance and is types living & poison & nature)
+Blood bear: Summon Blood bear instead of giant bear; 5 (Blood bear gains +3 damage for 10 turns on attack, has 75 dark resist and is types nature & demon)
+-------------------------------------------------------------------------------------------------------------------------------
+Sight of Blood: Must target a damaged living unit. Target is stunned for 4 turns. All living units in LoS of target are berserked for 4 turns; 19 range; 3 charges; Nature & Enchantment; Level 4
+
+Upgrades:
+
+Duration: +3 duration; 3
+Demon frenzy: Also affects demons; 2
+Blindcasting: No longer requires LoS to cast; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Darkness: Blind all non-demon non-undead units each turn for 1 turn, 5 duration; 3 charges; Dark & Enchantment; Level 3
+
+Upgrades:
+
+Duration: +3 duration; 2
+Charges: +3 charges; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Lightning Storm: Create a thunderstorm with a 4 tile radius. 50% chance to deal 12 lightning damage each turn to units in affected tiles. Storm lasts 10 turns; 9 range; 4 charges; Lightning & Nature & Enchantment; Level 4
+
+Upgrades:
+
+Strikechance: +25% chance to damage; 2
+Blindcasting: No longer requires LoS; 3
+Radius: +2 radius; 2
+DamagE: +7 damage; 1
+-------------------------------------------------------------------------------------------------------------------------------
+Prison of Thorns: Surround a group of enemies in plants (nature) which have 7 hp, last for 15 turns and deal 3 physical damage; 10 range; 6 charges; Nature & Conjuration; Level 3
+
+Upgrades:
+
+Minion damage: +3 minion dmg; 2
+Minion health: +7 minion hp; 2
+Iron prison: Summon iron thorns instead, which deal 6 damage; have metallic resistances and are type metallic; 5
+Icy Prison: Summon icy thorns instead, which have a range 3 ice attack
+-------------------------------------------------------------------------------------------------------------------------------
+Pillar of Fire: Deal 50 fire damage in a 1 radius burst, double damage on target tile; 10 range; 2 charges; Fire & Holy & Sorcery; LEvel 5
+
+Upgrades:
+
+Radius: +1 radius; 3
+Damage: +30 damage; 2
+Charges: +2 charges; 2
+Channeling: Can be channeled infinitely; 3
+-------------------------------------------------------------------------------------------------------------------------------
+(Not ingame) Cloud Armor: Target standing in a lightning storm gains 100% lightning, 50% physical resistance and 5 regeneration for 8 turns; 7 range; 5 charges
+
+Upgrades:
+-------------------------------------------------------------------------------------------------------------------------------
+Boiling Blood: Allied units gain 6 damage to their fire and physical abilities for 7 turns; 9 charges; Nature & Enchantment & Fire; Level 2
+
+Upgrades:
+
+Extra damage: +6 damage; 3
+Duration: +7 duration; 2
+Holy Fury: Also affects holy abilities; 3
+Dark Fury: Also affects dark abilities; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Healing Light: Heall allies in LoS for 25; 10 charges; Holy & Sorcery; Level 2
+
+Upgrades: 
+
+Heal: +20 healing; 1
+Charges: +8 charges; 2
+Shielding Light: Grant +1 shields to affected units; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Regeneration Aura: Each turn for 8 turns, allied units in radius 10 are healed for 4; 4 charges; Enchantment & Nature; Level 2
+
+Upgrades:
+
+Heal: +4 healing; 2
+Duration: +8 duration; 1
+Global: Affects all allies on the level; 4
+-------------------------------------------------------------------------------------------------------------------------------
+Void Orb: Summon a 15 hp, 3 SH void orb next to the caster. The orb melts through walls along the way and deals 9 arcane damage each turn to all adjacent units. The orb has no will of its own, each turn it will float one tile towards the target. The orb can be destroyed by arcane damage; 9 range; 4 charges; Arcane & Orb & Conjuration; Level 3
+
+Upgrades:
+
+Red Dwarf: Deals fire damage around the arcane damage area; 5
+Range: +5 range; 2
+Minion damage: +9 minion dmg; 3
+Void walk: Targeting an existing void orb with another detonates it, teleporting you to its location; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Searing Orb: Summon an 8 hp searing orb next to the caster. The orb deals 3 fire damage each turn to all units in line of sight. The caster is immune to this damage. The orb has no will of its own, each turn it will float one tile towards the target. The orb can be destroyed by ice damage; 9 range; 3 charges; Fire & Orb & Conjuration; Level 6
+
+Upgrades:
+
+Range: +5 range; 2
+Matter Melting: Orb can melt and be cast through walls; 4
+-------------------------------------------------------------------------------------------------------------------------------
+Ball Lightning: Summon a 12 hp lighting orb next to the caster. Each turn the orb fires 3 beams of electricity at random enemy units in line of sight. The beams deal 6 lightning damage. The orb has no will of its own, each turn it will float one tile towards the target. The orb can be destroyed by lightning damage; 9 range; 4 charges; Orb & Lightning & Conjuration; Level 5
+
+Upgrades:
+
+Beams: +2 beams; 3
+Range: +5 range; 2
+Minion damage: +10 minion dmg; 5
+Magnetic Pulse: Targeting an existing lightning orb causes it to emit a magnetic pulse that pulls construct and lightning units in line of sight 3 tiles towards the orb; 1
+-------------------------------------------------------------------------------------------------------------------------------
+Glass Orb: Summon an 8 hp glass orb next to the caster. Each turn the orb inflicts glassify on enemy units in a 3 tile area for 2 turns. The orb has no will of its own, each turn it will float one tile towards the target. The orb can be destroyed by physical damage; 9 range; 4 charges; Arcane & Orb & Conjuration; Level 3
+
+Upgrades:
+
+Duration: +1 duration on glassify; 2
+Range: +4 range; 2
+Shielding: Affected minions gain +1 shield; max 3; 1
+Radius: +1 radius; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Ice Orb: Summon a 40 hp ice orb next to the caster. Each turn the orb deals 7 ice damage to enemy units in a 3 tile radius. The orb has no will of its own, each turn it will float one tile towards the target. The orb can be destroyed by fire damage; range 9; charges 5; Orb & Conjuration & Ice; Level 4
+
+Upgrades:
+
+Freeze chance: Damage has 50% chance to freeze for 1 turn; 3
+Radius: +2 radius; 2
+Minion damage: +5 minion dmg; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Orb Control: Retarget all allied orbs to target tile; 9 range; 11 charges; Sorcery & Orb; Level 4
+
+Upgrades: 
+-------------------------------------------------------------------------------------------------------------------------------
+Dominate: Target enemy with 40 max hp or less becomes your minion; 5 range; 4 charges; Arcane & Enchantment; Level 3
+
+Upgrades:
+
+Charges: +2 charges; 2
+Threshold: +40 max hp threshold; 3
+Brute Force: Threshold based on current hp instead of max; 4
+-------------------------------------------------------------------------------------------------------------------------------
+Eye of Fire: Every 3 turns for 30 turns, deal 15 fire damage to random enemy unit in LoS; 4 charges; Fire & Enchantment & Eye; Level 3
+
+Upgrades:
+
+Shot cooldown: Reduces time between shots by 1; 1
+Duration: +15 duration; 1
+Damage: +7 damage; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Eye of Lightning: Every 3 turns for 30 turns, deal 15 lightning damage to random enemy unit in LoS; 4 charges; Lightning & Enchantment & Eye; Level 3
+
+Upgrades:
+
+Shot cooldown: Reduces time between shots by 1; 1
+Duration: +15 duration; 1
+Damage: +7 damage; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Eye of Ice: Every 3 turns for 30 turns, deal 15 ice damage to random enemy unit in LoS; 4 charges; Ice & Enchantment & Eye; Level 3
+
+Upgrades:
+
+Shot cooldown: Reduces time between shots by 1; 1
+Duration: +15 duration; 1
+Damage: +7 damage; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Eye of Rage: Every 3 turns for 20 turns, inflict berserk for 2 turns on a random enemy unit in LoS; 4 charges; Nature & Enchantment & Eye; Level 3
+
+Upgrades:
+
+Shot cooldown: Reduces time between shots by 1; 1
+Duration: +15 duration; 1
+Berserk duration: +2 berserk duration; 1
+Lycanthropy: If Eye of Rage hits a living unit with 25 or less hp, that unit is instantly killed and resurrected as a werewolf that is berserked for 14 turns; 5
+-------------------------------------------------------------------------------------------------------------------------------
+Nightmare Aura: Each turn for 30 turns, deal 2 arcane or dark damage to enemies in radius 7. This damage cannot be increased; 2 charges; Enchantment & Dark & Arcane; Level 3
+
+Upgrades:
+
+Radius: +3 radius; 2
+Duration: +15 duration; 1
+Charges: +4 charges; 2
+Dark Dream: Upon ending, temporarily summon Ravens, Werewolves, and Old Witches based on the total damage dealt by the spell. The summons last random amount between 4-13 turns, 5
+Electric Dream: Upon ending, temporarily summon Spark Spirits, Thunderbirds, and Aelves based on the total damage dealt by the spell. The summons last random amount between 4-13 turns, 5
+Fever Dream: Upon ending, temporarily summon Fire Lizards, Fire Spirits, and Flame Rifts based on the total damage dealt by the spell. The summons last random amount between 4-13 turns, 5
+-------------------------------------------------------------------------------------------------------------------------------
+Basilisk Armor: For 5 turns, whenever an enemy targets you, that enemy is petrified for 2 turns; 4 charges; Enchantment & Nature & Arcane; Level 3
+
+Upgrades:
+
+Charges: +4 charges; 1
+Duration: +5 duration; 1
+-------------------------------------------------------------------------------------------------------------------------------
+Watcher Form: Each turn for 5 turns, fire a lightning bolt at the farthest enemy in LoS, dealing 40 lightning damage in a beam. Gain 100 physical, lightning, fire and poison resistance. You can't move or cast spells; 5 charges; Enchantment & Lightning & Arcane; Level 4
+
+Upgrades:
+
+Damage: +30 damage; 3
+Charges: +3 charges; 2
+Duration: +3 duration; 1
+-------------------------------------------------------------------------------------------------------------------------------
+Imp Swarm: Each turn for 5 turns, summon a total of 2 Spark, Iron or Fire imps near the caster. Imps last for 11 turns, have 5 hp and a ranged attack dealing 4 damage of their element with range of 3; 3 charges; Enchantment & Conjuration & Chaos; Level 6
+
+Upgrades:
+
+Minion range: +2 minion range; 3
+Num. summons: +1 imp per turn; 2
+Minion duration: +7 minion duration; 2
+Minion damage: +5 minion damage; 4
+Metal Swarm: Summon Copper, Furnace and Iron imps instead; 6
+Dark Swarm: Summon Rot, Void and Insanity imps instead; 5
+Mega swarm: Summon giant imps instead of normal sized ones; 7
+-------------------------------------------------------------------------------------------------------------------------------
+Lightning Halo: Each turn for 9 turns, deal 15 lightning damage to all units in a 3 tile radius ring; 5 charges; Enchantment & Lightning; Level 3
+
+Upgrades:
+
+Radius: +1 radius to the ring; 1
+Duration: +3 duration; 2
+Damage: +10 damage; 2
+Charges: +3 charges; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Mystic Vision: For 8 turns, all spells gain +5 range; 4 charges; Enchantment & Arcane; Level 3
+
+Upgrades:
+
+Charges: +3 charges; 2
+Duration: +8 duration; 2
+Bonus: +5 to bonus range; 4
+Aura: Affects all allied units; 5
+-------------------------------------------------------------------------------------------------------------------------------
+Mystic Power: For 8 turns, all spells gain +7 damage; 7 charges; Enchantment & Arcane; Level 3
+
+Upgrades:
+
+Duration: +8 duration; 2
+Bonus: +4 to bonus damage; 4
+Intensity: Stacks in effect; not duration; 4
+-------------------------------------------------------------------------------------------------------------------------------
+(Not ingame) Power of Pain: Your spells deal +7 damage, you take 4 dark damage per turn. Lasts until you move; 6 charges; Dark & Enchantment; Level 4
+
+Upgrades: 
+
+Charges: +6 charges; 1
+Bonus: +5 to bonus damage; 2
+Self damage: -2 self damage; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Flame Burst: Deal 35 fire damage in a 6 radius burst around the caster; 6 charges; Fire & Sorcery; Level 3
+
+Upgrades:
+
+Radius: +3 radius; 2
+Damage: +15 damage; 3
+Charges: +3 charges; 2
+Melting flame: Melts walls adjacent to the blast; 4
+Bright flame: Deals holy damage instead of fire, shielding allied units hit instead of damaging them; 5
+Spreading Flame: Consume all remaining charges on cast, increasing radius and damage by +1 per charge consumed. Enemies killed create another burst with half radius and damage; 7
+-------------------------------------------------------------------------------------------------------------------------------
+Fire Drake: Summon a flying Fire Drake with 45 hp, 100 fire resistance, 8 physical damage melee and 9 fire damage breath; 4 range; 2 charges; Fire & Conjuration & Dragon; Level 4
+
+Upgrades:
+
+Minion health: +25 minion hp; 3
+Breath damage: +10 breath damage; 2
+Dragon Mage: Casts your Fireball with 3 turn cd; 6
+-------------------------------------------------------------------------------------------------------------------------------
+Storm Drake: Summon a flying Storm Drake with 45 hp, 100 lightning resist, 8 physical damage melee and a breath attack which leaves storm clouds in its wake. The storm clouds have a 50% chance to deal 10 lightning damage to units inside each turn; 4 range; 2 charges; Lightning & Conjuration & Dragon; Level 4
+
+Upgrades:
+
+Minion health: +25 minion hp; 2
+Cloudform: +75 physical resist; 3
+Drake Swap: Target a summoned Storm drake with a lightning spell to swap places with it; 2
+Dragon Mage: Drake casts your Lightning bolt on 3 turn cooldown.
+-------------------------------------------------------------------------------------------------------------------------------
+Void Drake: Summon a flying Void Drake with 45 hp, 100 arcane resist, 8 physical damage melee and a breath attack which deals 9 arcane damage and melts walls; 4 range; 2 charges; Arcane & Conjuration & Dragon; Level 4
+
+Upgrades:
+
+Minion health: +25 minion hp; 2
+Shields: +3 SH; 3
+Dragon Mage: Drake casts your magic missile with 3 turn cd; 5
+Essence Drake: On killing an enemy, random temporary ally gains +4 duration; 4
+-------------------------------------------------------------------------------------------------------------------------------
+Ice Drake: Summon a flying Ice Drake wtih 45 hp, 100 ice resist, 8 physical damage melee and a breath attack which deals 9 uce damage and freezes for 2 turns, 4 range; 2 charges; Ice & Conjuration & Dragon; Level 4
+
+Upgrades:
+
+Minion health: +25 minion hp; 2
+Duration: +3 freeze duration; 2
+Dragon Mage: Drake casts your Death Chill with an 8 turn cd; 5
+-------------------------------------------------------------------------------------------------------------------------------
+(Not ingame) Spark: Deal 6 lightning damage, chain up to 3 times in range 3; 8 range; 26 charges; Lightning & Sorcery; Level 1
+
+Upgrades:
+
+Chains: +2 chains; 2
+Damage: +6 damage; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Chain Lightning: Deal 8 lightning damage in a beam. The beam chains repeatedly to random enemy targets in range 4 until no new targets in range; 9 range; 8 charges; Lightning & Sorcery; Level 2
+
+Upgrades:
+
+Cascade range: +4 to chain seek range; 4
+Damage: +8 damage; 3
+Cloud conductance: Can chain to blizzards and storm clouds; 3
+Lightning Shield: Can chain to friendly units, grants +1 SH instead of damaging friendly units; up to 3 SH; 6
+-------------------------------------------------------------------------------------------------------------------------------
+Death Bolt: Deal 9 dark damage to target. Slain living units are raised as skeletons, with hp equal to the max hp of slain unit and 5 physical damage melee attack. Skeletons of flying units can fly; 8 range; 18 charges; Dark & Sorcery & Conjuration; Level 1
+
+Upgrades:
+
+Damage: +12 damage; 3
+Charges: +10 charges; 2
+Minion damage: +9 minion dmg; 3
+Withering: Non-living units lose max hp equal to damage done; 2
+Soul Battery: Death Bolt permanent gains +1 damage when it kills a living unit; 7
+-------------------------------------------------------------------------------------------------------------------------------
+Wheel of Death: Deal 200 dark damage to a random enemy unit; 5 charges; Dark & Sorcery; Level 4
+
+Upgrades:
+
+Charges: +3 chargesm 4
+Death Roulette: On kill, gain a roulette stack for 10 turns. Wheel of Death hits an additional enemy for each stack of roulette on cast; 7
+-------------------------------------------------------------------------------------------------------------------------------
+Touch of Death: Deal 200 dark damage; 1(melee) range; 9 charges; Dark & Sorcery; Level 3
+
+Upgrades:
+
+Arcane damage: Also deals 150 arcane damage; 1
+Fire damage: Also deals 150 fire damage; 1
+Physical damage: Also deals 150 physical damage; 1
+Touch of the Raven: Living targets are raised on kill as a friendly flying Raven with 13 hp and a 3 physical damage melee attack which blinds for 3 turns, 2
+Touch of the Vampire: Living targets are raised on kill as a friendly flying Vampire with 32 hp, -100 fire resist and a 7 dark damage melee attack which drains hp, 4
+Touch of the Reaper: Living targets are raised on kill as a friendly temporary flying Reaper with 31 hp, 2 SH, 100 physical, dark and ice resists and a 200 dark damage melee attack. Reapers last 6 turns, 6
+-------------------------------------------------------------------------------------------------------------------------------
+Sealed Fate: After 4 turns, deal 160 damage to target; 8 range; 13 charges; Enchantment & Dark; Level 3
+
+Upgrades:
+
+Range: +7 range; 1
+Blindcasting: No longer requires LoS; 2
+Damage: +80 damage; 2
+Spreading Curse: When duration expires, jump to random enemy unit in LoS; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Volcanic Eruption: Create a 6 tile radius burst of lava in a chasm. The burst flows up to 3 tiles out of the chasm and deals 46 fire damage; 10 range; 5 charges; Fire & Sorcery; Level 4
+
+Upgrades:
+
+Flow range: +2 flow range; 3
+Blindcasting: No longer requires LoS; 2
+Damage: +24 damage; 3
+Wallcano: May target walls in addition to chasms, turns the targeted wall into a chasm; 4
+-------------------------------------------------------------------------------------------------------------------------------
+Soul Swap: Swap places with a friendly undead unit; global range; 9 charges; Dark & Sorcery & Translocation; Level 2
+
+Upgrades:
+
+Forced Transfer: May target enemy undead units; 2
+Charges: +9 charges; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Underworld Passage: Teleport to a tile adjacent to a chasm. Must stand adjacent to a chasm to cast; 99 range; no LoS; 3 charges; Dark & Sorcery & Translocation; Level 3
+
+Upgrades:
+
+Charges: +3 charges; 1
+-------------------------------------------------------------------------------------------------------------------------------
+(Not ingame) Void Spawning: Summon a void spawner for 10 turns. The void spawner cannot move and summons void bombers; 10 charges; Arcane & Conjuration; Level 2
+
+Upgrades:
+
+Minion duration: +10 minion duration; 1
+Blindcasting: No longer requires LoS; 1
+-------------------------------------------------------------------------------------------------------------------------------
+Earthen Sentinel: Summon a stationary earth elemental with 120 hp, 100 poison, 50 physical, fire and lightning resists, 15 duration and 20 physical damage melee attack on target; 5 range; 5 charges; Nature & Conjuration; Level 3
+
+Upgrades:
+
+Minion damage: +15 minion dmg; 3
+Minion health: +80 minion hp; 3
+Earthquaky Totem: Earth elemental gains your Earthquake spell on a 3 turn cd; 6
+Stinging Totem: Earth elemental gains your Poison Sting spell; 5
+Holy Totem: Earth elemental gainst your Heavenly Blast spell on a 2 turn cd; 7
+-------------------------------------------------------------------------------------------------------------------------------
+Ghostball: Deal 11 dark damage to enemy units in a 1 tile radius. Summon flying ghosts on each empty tile hit. Ghosts last for 14 turns, have 4 hp, 100 physical and 50 dark resists, a passive blink and a 1 dark damage melee attack; 5 range; 6 charges; Dark & Conjuration & Sorcery; Level 3
+
+Upgrades:
+
+Radius: +1 radius; 3
+Minion duration: +15 minion duration; 2
+Minion damage: +3 minion dmg; 3
+Ghost King: A ghost king is summoned at the center tile. Ghost king spawns temporary ghost spawners; 5
+Ghostly Mass: A ghostly mass is summoned at the center tile. Ghostly mass spawns 8 ghosts on death; 4
+-------------------------------------------------------------------------------------------------------------------------------
+Mystic Memory: Regain all charges of a random spell which has no charges; 1 charge; Arcane; Level 6
+
+Upgrades:
+
+Charges: +1 charge; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Conjure Memories: Regain a charge of each of your conjuration spells; 1 charge; Arcane & Conjuration; Level 4
+
+Upgrades:
+
+Charges gained: +1 charges gained on use; 2
+Charges: +1 charge; 2
+-------------------------------------------------------------------------------------------------------------------------------
+(Not ingame) Weave Sorcery: For 20 turns, your sorcery and enchantment spells gain +3 damage for each enchantment spell you know and +1 duration for each sorcery spell you know; 4 charges; Sorcery & Enchantment; Level 4
+
+Upgrades:
+
+Duration: +20 duration; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Permenance: For 20 turns, your spells and temporary summons last an extra 5 turns, 4 charges; Enchantment; Level 4
+
+Upgrades:
+
+Duration: +20 duration; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Death Gaze: Each allied unit deals 4 dark damage to a random enemy in its LoS; 10 charges; Dark & Sorcery; Level 4
+
+Upgrades:
+
+Damage: +4 damage; 3
+Charges: +6 charges; 2
+Vampiric gaze: Each allied unit is healed for the damage they dealt; 4
+-------------------------------------------------------------------------------------------------------------------------------
+Bone Barrage: Your summons in LoS of target take 50% of their current health as physical damage and deal an equal amount of physical damage to target; 14 range; 7 charges; Dark & Sorcery; Level 4
+
+Upgrades:
+
+Bone Spears: Bone barrage now shoots a beam; 6
+Cursed Bones: Also deals dark damage; 5
+-------------------------------------------------------------------------------------------------------------------------------
+Invoke Savagery: Each living ally attacks a random unit in their melee range for 14 physical damage and a 2 turn stun; 11 charges; Nature & Sorcery; Level 2
+
+Upgrades:
+
+DamagE: +9 damage; 2
+Duration: +1 stun duration; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Magic Missiles: Deal 11 arcane damage to target; 12 range; 20 charges; Arcane & Sorcery; Level 1
+
+Upgrades:
+
+Charges: +15 charges; 2
+Damage: +10 damage; 3
+Range: +5 range; 1
+Shield burn: Remove 3 SH from target before damaging them; 1
+Slaughter bolt: If target is a living unit, deal physical, dark and poison damage instead of arcane; 4
+Holy bolt: If target is undead, also deal holy damage; 4
+Disruption bolt: If target is an arcane unit, deal dark and holy damage instead of arcane; 6
+-------------------------------------------------------------------------------------------------------------------------------
+Devour Mind: Deal 25 arcane damage to target living unit, with additional 25 dark damage if target is below 50% hp after the initial hit; 4 range; 7 charges; Arcane & Dark & Sorcery; Level 3
+
+Upgrades:
+
+Damage: +18 damage; 3
+Spirit eater: Can target demon and arcane units; 4
+Gluttony: If target is killed, refund the charge; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Death Shock: Deal 17 lightning and dark damage to target. If target is killed, chain to another enemy in LoS within 4 tiles, up to 2 times; 9 range; 9 charges; Sorcery & Dark & Lightning; Level 4
+
+Upgrades:
+
+Damage: +7 damage; 3
+Cascade range: +5 chain seek range; 2
+Infinity cascades: Can chain unlimited times; 4
+-------------------------------------------------------------------------------------------------------------------------------
+Melt: deal 22 fire damage and reduce target's physical resist by 100; 6 range; 15 charges; Fire & Sorcery; Level 2
+
+Upgrades:
+
+Damage: +16 damage; 2
+Charges: +10 charges; 1
+Ice penetration: Also reduces ice resist; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Dragon Roar: For 25 turns, all allied dragons gain 25 max hp, 12 melee damage and -1 turn cooldown on their breath; 2 charges; Dragon & Nature & Enchantment; Level 6
+
+Upgrades:
+
+HP bonus: +20 max hp, 3
+Charges: +1 charge; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Protect Minions: For 10 turns, all allied units gain 50 physical, fire and lightning resists; 5 charges; Enchantment & Conjuration & Nature; Level 3
+
+Upgrades:
+
+Reists: +25 to resist bonus; 2
+Duration: +15 duration; 1
+Arcane: Also grants arcane resist; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Word of Undeath: All undead units double their current and maximum hp. All other units except caster halve their current and maximum hp, 1 charge; Dark & Word; Level 7
+
+Upgrades:
+
+Charges: +1 charge; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Word of Chaos: Stun each enemy for 6 turns and randomly teleport them. Deal 45 fire damage to lightning units and 45 lightning damage to fire units. All constructs lose their physical resist and take 45 physical damage; 1 charge; Chaos & Word; Level 7
+
+Upgrades:
+
+Charges: +1 charge; 2
+Damage: +20 damage; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Word of Beauty: Fully heal the caster and all living units. Deal 25 lightning damage to demon and undead units. Stun all arcane units for 7 turns, 1 charge; Holy & Lightning & Word; Level 7
+
+Upgrades:
+
+Charges: +1 charge; 2
+Damage: +17 damage; 1
+-------------------------------------------------------------------------------------------------------------------------------
+Word of Madness: Berserk all units except caster for 5 turns. Deal dark damage equal to half their current hp to all constructs. Fully heal all demons; 1 charge; Word & Dark & Chaos; Level 7
+
+Upgrades:
+
+Charges: +1 charge; 2
+Duration: +4 berserk duration; 5
+-------------------------------------------------------------------------------------------------------------------------------
+Floating Eye: Summon a stationary floating eye with 1 hp, 4 SH and a pasive blink. Floating eye immediately casts all other Eye spells you know upon summoning and lasts for 16 turns; 5 range; 6 charges; Eye & Arcane & Conjuration; Level 4
+
+Upgrades:
+
+Minion duration: +16 minion duration; 2
+Charges: +2 charges; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Chimera Familiar: Summon a chimera familiar with 20 hp and 6 damage 4 range fire and lightning attacks. The chimera mimics your fire, lightning and chaos spells if target is in range and in LoS; 5 range; 2 charges; Chaos & Conjuration; Level 4
+
+Upgrades:
+
+Minion resists: Gains 50 Fire & Lightning resists; 2
+ChargeS: +2 charges; 3
+Nature Mimicry: Also mimics nature spells; 1
+Dark Mimicry: Also mimics dark spells; 1
+Arcane Mimicry: Also mimics arcane spells; 1
+-------------------------------------------------------------------------------------------------------------------------------
+Arc Lightning: Lightning arcs to 3 enemies in LoS of target tile. Each arc deals 16 lightning damage in a beam; 8 range; 5 charges; Lightning & Sorcery; Level 4
+
+Upgrades:
+
+Num targets: +3 arcs; 4
+Damage: +9 damage; 4
+Echo Flash: Secondary flashes dealing half damage are triggered at each original arc target; 5
+-------------------------------------------------------------------------------------------------------------------------------
+Poison Sting: Deal 9 physical damage and poison for 30 turns; 12 range; 20 charges; Sorcery & Nature; LEvel 1
+
+Upgrades:
+
+Range: +2 range; 4
+Charges: +10 charges; 3
+Duration: +60 poison duration; 2
+Acidity: Damaged targets lose all poison resist; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Fan of Flames: Deal 9 fire damage to all units in a 5 range cone. Can be channeled for 10 turns; 18 charges; Sorcery & Fire; Level 2
+
+Upgrades:
+
+Damage: +7 damage; 3
+Range: +2 range; 3
+Charges: +10 charges; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Blue Lion: Summon a blue lion (nature, arcane, holy) that flies and has 28 hp, 50 arcane and physical resistance and a 7 physical damage melee attack. Blue Lion additionally has a 3 cooldown spell which grants itself and all allies in LoS 1 SH, up to max of 2; 5 range; 6 charges; Nature & Holy & Conjuration & Arcane; Level 5
+
+Upgrades:
+
+Max shield: +2 max shield; 4
+Shield cooldown: -1 turn cooldown on shield spell; 2
+Minion damage: +9 minion dmg; 1
+Holy bolt: Replace melee attack with a range 6 Holy damage attack; 4
+-------------------------------------------------------------------------------------------------------------------------------
+Death Cleave: For 2 turns, whenever a spell you cast kills its primary target, that spell is recast on a random enemy target within 4 tiles. This repeats until a target survives the spell; 4 charges; Enchantment & Arcane & Dark; Level 5
+
+Upgrades:
+
+Cascade range: +4 new target seek range; 3
+Duration: +3 duration; 3
+Charges: +4 charges; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Cantrip Cascade: Cast each of your level 1 sorcery spells on each enemy in a 7 range cone; 3 charges; Arcane & Sorcery; Level 5
+
+Upgrades:
+
+ChargeS: +3 charges; 2
+Range: +3 range; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Multicast: For 3 turns, whenever you cast a sorcery spell, copy it; 3 charges; Enchantment & Arcane; Level 7
+
+Upgrades:
+
+Copies: Copy the spell an additional time; 4
+Duration: +4 duration; 3
+Charges: +4 charges; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Fae Court: Summon 5 faeries near you. The faeries fly; have 9 hp, 1 SH, 75 arcane resist, a passive blink, a 4 range 4 arcane damage attack, a 4 range 7 heal and last for 15 turns, 2 charges; Nature & Arcane & Conjuration; Level 5
+
+Upgrades:
+
+Num Summons: +5 faeries summoned; 4
+Heal: +8 to heal amount; 3
+Shields: +1 SH; 2
+Summon Queen: Additionally summons a fae queen which has normal faery abilities and additionally can summon more temporary faeries and passively spawns thorns nearby each turn; 7
+Glass Faery: Summon glass faeries which glassify targets for 1 turn with their arcane ranged attack instead of normal faeries; 9
+-------------------------------------------------------------------------------------------------------------------------------
+Ring of Spiders: Summon a ring of giant spiders at the target, surrounded by a ring of webs. Units blocking the spider ring are poisoned for 10 turns while units blocking the web ring are stunned for 1 turn; 8 range; 2 charges; Nature & Conjuration; Level 5
+
+Upgrades:
+
+Damage: +32 poison damage to primary target; 3
+Minion health: +10 minion hp; 2
+Aether spiders: Summon Aether spiders instead of giant spiders; 6
+-------------------------------------------------------------------------------------------------------------------------------
+Heavenly Blast: Deal 7 holy damage to enemies and heal allies for 7 in a beam and 1 radius burst at the end of it; 7 range; 14 charges; Holy & Sorcery; Level 2
+
+Upgrades:
+
+Range: +3 range; 2
+Radius: +1 radius; 2
+Damage: +9 damage and healing; 3
+Charges: +7 charges; 2
+Spirit Bind: Slain enemies are resurrected as temporary spirits. Spirits are blinking holy undead with 4 hitpoints and a 2 damage ranged holy attack; 6
+Shield: Affected ally units gain 2 SH, to a max of 5; 3
+Echo Heal: Affected ally units are re-healed for half the initial amount each turn for 5 turns, 4
+-------------------------------------------------------------------------------------------------------------------------------
+Holy Fire: Deal 22 fire damage in a 5-high vertical line and 22 holy damage in a 5-wide horizontal line. Stun demon and undead units for 3 turns; 7 range; 7 charges; Fire & Holy & Sorcery; Level 3
+
+Upgrades:
+
+Duration: +3 stun duration; 3
+Damage: +14 damage; 3
+RAdius: +2 radius; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Choir of Angels: Summon 3 angelic singers, which fly, have 10 hp, 1 SH, 100% dark and 50% fire and holy resist and last for 10 turns. The angelic singers can sing, dealing 2 holy and fire damage to all undead, demon and dark units in a 5 tile radius. Living and holy units in range are healed for 1; 5 charges; Holy & Conjuration; Level 3
+
+Upgrades:
+
+Shields: +2 SH; 2
+Num summons: +3 angelic singers summoned; 4
+Minion duration: +10 duration; 2
+Heal: +2 heal amount; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Heaven's Wrath: Deal 22 lightning and holy damage to 3 enemy units with highest current hp. Cannot target gates; 4 charges; Holy & Lightning & Sorcery; Level 6
+
+Upgrades:
+
+Culling: Additionally hits 3 enemy units with lowest current hp; 3
+Damage: +11 damage; 3
+Stun: Damaged targets are stunned for 3 turns; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Suspend Mortality: For 40 turns, target allied unit gains +1 reincarnation; 8 range; no LoS; 8 charges; Dark & Holy & Enchantment; Level 3
+
+Upgrades:
+
+Lives: +3 reincarnations; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Soul Tax: Deal holy damage to target equal to 33% of its current hp, then again as dark damage. Restore caster's life equal to  damage dealt; 4 range; 4 charges; Sorcery & Dark & Holy; Level 5
+
+Upgrades:
+
+Charges: +3 charges; 4
+Range: +3 range; 2
+Arcane Taxation: Additionally, deal 33% of target's current life as arcane after the holy and dark instances; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Holy Armor: For 9 turns, gain 50 physical, fire, lightning and dark resist; 6 charges; Holy & Enchantment; Level 3
+
+Upgrades:
+
+Duration: +7 duration; 3
+Resist: +25 to resist bonus; 1
+-------------------------------------------------------------------------------------------------------------------------------
+Blinding Light: Blind all units in LoS for 4 turns. Deals 5 holy damage to demon and undead units; 4 charges; Holy & Sorcery; Level 3
+
+Upgrades:
+
+Damage: +9 damage; 4
+Duration: +4 blind duration; 2
+Dark Units: Also damage dark units; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Flock of Eagles: Summon 4 eagles (living, holy, nature) around the caster. The eagles have 18 hp and a 6 physical damage melee attack; 2 charges; Conjuration & Nature & Holy; Level 5
+
+Upgrades:
+
+Dive attack: Eagles gain a 4 range leap attack; 4
+Num summons: +2 summoned eagles; 3
+Shields: +2 SH; 4
+Thunderbirds: Summon thunderbirbs instead of eagles. Thunderbirbs deal and resist lightning damage; 4
+-------------------------------------------------------------------------------------------------------------------------------
+(Not ingame) Flaming Sword: For 15 turns, wield a flaming sword. The sword can be swung at adjacent enemies, dealing 14 fire and holy damage; 4 charges; Holy & Fire & Enchantment; Level 2
+
+Upgrades:
+
+Damage: +14 damage; 4
+Duration: +30 duration; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Heavenly Idol: Summon an Idol of Beauty. The idol has 35 hp, 2 SH and a passive aura which heals all allies in LoS for 1 hp, damages all enemies for 1 holy and damages undead and demon enemies for an additional 1 lightning. The idol is stationary and lasts 15 turns; 5 range; 4 charges; Holy & Lightning & Conjuration; Level 5
+
+Upgrades:
+
+Shields: +5 SH; 3
+Fire gaze: The idol gains a fire beam attack; 4
+Heal: +1 heal amount; 3
+Minion duration: +15 minion duration; 1
+-------------------------------------------------------------------------------------------------------------------------------
+Gold Drake: Summon a flying gold drake with 45 hp, 8 physical damage melee attack and 9 holy damage breath attack which heals allies instead of damaging them; 4 range; 2 charges; Holy & Conjuration & Dragon; Level 6
+
+Upgrades:
+
+Minion health: +25 minion hp; 2
+Breath damage: +12 breath damage and healing; 4
+Dragon Mage: Gold drake can cast Healing Light with a 15 turn cooldown; 6
+-------------------------------------------------------------------------------------------------------------------------------
+Call Seraph: Summon a flying seraph. The seraph hss 33 hp, 3 SH and a cleave attack which deals 14 holy and fire damage. Seraph lasts for 14 turns; 4 range; 4 charges; Holy & Fire & Conjuration; Level 4
+
+Upgrades:
+
+Minion damage: +10 minion damage; 4
+Minion duration: +14 minion duration; 2
+Moonblade: Cleave additionally deals arcane damage; 3
+Essence Aura: The seraph increases the duration of all other temporary summons in 5 tile radius by 1 each turn; 5
+Heal Aura: The seraph heals all other allies in 5 tile radius for 5 each turn; 2
+Holy Fire Aura: The seraph deals 2 holy or 2 fire damage to enemies within 5 tiles each turn; 5
+-------------------------------------------------------------------------------------------------------------------------------
+Call Archon: Summon a flying archon. The archon has 77 hp, 3 SH and an 8 range beam attack which deals 14 lightning damage to enemies and grants hit allies +1 SH; 5 range; 4 charges; Lightning & Holy & Conjuration; Level 4
+
+Upgrades:
+
+Minion range: +7 minion range; 3
+Minion damage: +10 minion dmg; 4
+Minion duration: +14 minion duration; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Pain Mirror: For 10 turns, whenever you take damage, deal that much dark damage to all enemies in LoS; 5 charges; Dark & Enchantment; Level 3
+
+Upgrades:
+
+Duration: +10 duration; 2
+ChargeS: +4 charges; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Pyrostatic Pulse: Deal 14 fire damage in a beam and 14 lightning damage to tiles adjacent to the beam; 8 range; 8 charges; Fire & Lightning & Sorcery; Level 4
+
+Upgrades:
+
+Range: +4 range; 2
+Damage: +9 damage; 3
+Charges: +8 charges; 2
+-------------------------------------------------------------------------------------------------------------------------------
+(Not ingame) Thunder Stones: Create 4 thunderstones nearby on the ground. When a unit steps on a stone, lightning arcs to the farthest enemy in LoS, dealing 14 lightning damage in a beam; 12 charges; Lightning & Sorcery; Level 2
+
+Upgrades:
+
+Damage: +9 damage; 3
+Num stones: +2 stones on cast; 3
+-------------------------------------------------------------------------------------------------------------------------------
+(Not ingame) Fire Stones: Create 4 firestones nearby on the ground. When a unit steps on a staone, it deals 16 fire damage in a 3 radius burst; 12 charges; Fire & Sorcery; Level 2
+
+Upgrades:
+
+Damage: +11 damage; 3
+Num stones: +2 stones on cast; 2
+Radius: +2 radius; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Aether Swap: Swap places with and deal 16 arcane damage to target unit, cannot target arcane immune units; 7 range; 8 charges; Arcane & Translocation & Sorcery; Level 3
+
+Upgrades:
+
+Blindcasting: No longer requires LoS; 2
+Range: +3 range; 1
+Charges: +10 charges; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Siphon Shields: Steal 1 SH from all units in LoS; 3 charges; Arcane & Enchantment; Level 4
+
+Upgrades:
+
+Shield burn: Deal 5 fire damage per shield stolen; 2
+Shield steal: Steal +4 SH; 1
+-------------------------------------------------------------------------------------------------------------------------------
+Hungry Maw: Summon a flying, stationary hungry maw. The maw has 8 hp, 1 SH, a 7 range 9 physical damage attack which pulls the target closer and lasts for 15 turns; 7 range; 6 charges; Arcane & Conjuration; Level 2
+
+Upgrades:
+
+Shields: +5 SH; 3
+Minion range: +7 minion range; 2
+Minion damage: +12 minion dmg; 5
+Range: +4 range; 1
+-------------------------------------------------------------------------------------------------------------------------------
+Hollow Flesh: Curse a group of living units. Cursed units become undead, are no longer living, lose 100 holy resist, gain 100 dark resist, lose 25% of their max health and can no longer be healed; 6 range; 9 charges; Dark & Enchantment; Level 2
+
+Upgrades:
+
+Max health loss: +25% to health loss; 2
+Charges: +7 charges; 2
+Fire Vulnerability: Affected units also lose 50 fire resist; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Conductance: For 10 turns, target enemy loses 50 lightning resist and whenever you cast a lightning spell targeting that enemy, copy it; 12 charges; Lightning & Enchantment; Level 4
+
+Upgrades:
+
+Multicopy: Copy a lightning spell an additional time; 2
+Resistance debuff: +50 lightning resist reduction; 2
+Charges: +6 charges; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Shrapnel Blast: Detonate a wall tile, causing adjacent enemies to take 12 fire damage. The explosion causes 16 shards to hit random tiles in 4 radius burst, each dealing 12 physical damage; 7 range; no LoS; 6 charges; Fire & Sorcery; Level 3
+
+Upgrades: 
+
+More Shrapnel: +12 shards fired; 3
+Puncturing Blast: The shards can fire through and destroy walls; 2
+Magnetized Shards: The shards always hit enemies if possible; 7
+-------------------------------------------------------------------------------------------------------------------------------
+Plague of Filth: Summon a group of 2 toads and fly swarm. Toads have 12 hp and a 4 range 2 physical damage tongue attack which pulls targets closer and they can hop up to 4 tiles away. Fly swarms fly, have 6 hp, 75 physical and dark, -50 ice resist and a 1 physical damage melee attack. Summons last for 7 turns and the spell can be channeled up to 15 turns; 5 range; 5 charges; Nature & Dark & Conjuration; Level 3
+
+Upgrades:
+
+Num Summons: +2 summons per cast; 4
+Minion duration: +4 minion duration; 3
+Minion damage: +3 minion damage; 3
+Max channel: +25 max channel duration; 1
+Serpent Plague: 50% chance to summon a snake instead of a toad or fly; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Fiery Tormentor: Summon a fiere tormentor, which has 34 hp, a burst attack which deals 7 fire damage in 4 radius burst and a 2 range lifedrain attack which deals 2 dark damage and leeches it as life. Tormentor lasts for 50 turns; 7 range; 7 charges; Dark & Fire & Conjuration; Level 4
+
+Upgrades:
+
+Minion damage: +3 minion dmg; 2
+Minion health: +10 minion health; 2
+Radius: +2 radius; 3
+Frostfire Tormentor: Summon a frostfire tormentor instead, which additionally has an ice damage burst which freezes for 2 turns; 3
+Ghostfire Tormentor: Summon a ghostfire tormentor instead, which additionally has a dark damage burst that ignores LoS; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Dispersion Field: Each turn for 7 turns, teleport 3 enemies in a 6 tile radius to random locations; 3 charges; Enchantment & Arcane & Translocation; Level 4
+
+Upgrades:
+
+Num targets: +2 targets teleported; 2
+Duration: +5 duration; 1
+Charges: +5 charges; 4
+-------------------------------------------------------------------------------------------------------------------------------
+Knightly Oath: Summon a void, a chaos and a storm knight. Each knight has 90 hp and the caster takes 40 holy damage when a knight dies; 2 charges; Conjuration & Holy; Level 7
+
+Add: 
+
+Void Knight has 100 arcane, 50 physical and dark resist, a 7 physical damage melee attack which teleports target randomly within 5 tiles and a 6 range leap attack which ignores LoS and can pass through obstacles.
+Chaos Knight has 75 physical, fire and lightning resist, a 7 physical damage melee attack which deals an additional 7 damage as either physical, fire or lightning and a radius 2 chaosball which deals either fire; lightning or physical damage.
+Storm Knight has 100 ice, 75 lightning and 50 physical resist, a 7 physical damage melee attack which creates stormclouds or blizzards on hit, a 7 range leap attack which deals lightning damage and a radius 2 burst of ice damage which freezes for 2 turns.
+
+Upgrades: 
+
+Charges: +1 charges; 3
+Void Court: Summon only void knights. Additionally summon a void champion; 5
+Storm Court: Summon only storm knights. Additionally summon a storm champion; 5
+Chaos Court: Summon only chaos knights. Additionally summon a chaos champion; 5
+-------------------------------------------------------------------------------------------------------------------------------
+Toxin Burst: Deal 1 poison damage and inflict 20 turn poison on all units in a 4 radius; 12 range; no LoS; 10 charges; Sorcery & Nature & Dark; Level 2
+
+Upgrades:
+
+Duration: +20 poison duration; 1
+Radius: +2 radius; 2
+Damage: +15 damage; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Tocic Spores: Summon 2 mushbooms. Mushbooms have 11 hp and a 2 range 1 poison damage attack which poisons for 4 turns. Mushbooms apply 12 turns of poison to targets in melee range on death; 8 range; 16 charges; Conjuration & Nature; Level 2
+
+Upgrades:
+
+Num summons: +2 mushbooms summoned; 3
+Grey mushboom: Summon grey mushbooms instead, which apply stun instead of poison; 2
+Red mushboom: Summon red mushbooms instead, which do not apply poison but deal fire damage; 5
+Glass mushboom: Summon glass mushbooms instead, which apply glassify instead of poison; 4
+-------------------------------------------------------------------------------------------------------------------------------
+Amplify Venom: For 10 turns, all poisoned enemies lose 100 poison resist; 8 charges; Enchantment & Nature; Level 3
+
+Upgrades:
+
+Resistance debuff: +100 poison resist reduction; 3
+Duration: +10 duration; 1
+Charges: +12 charges; 2
+Spread poison: Now spreads poison to enemies in radius 2; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Combust Poison: Consume all poison on enemy units to deal fire damage in a 2 radius burst around each affected enemy for 1x poison amount consumed; 9 charges; Sorcery & Fire & Nature; Level 3
+
+Upgrades:
+
+Radius: +1 radius; 3
+ChargeS: +9 charges; 2
+Multiplier: Deal 2x poison consumed instead; 4
+-------------------------------------------------------------------------------------------------------------------------------
+Spider Queen: Summon a spider queen which has 96 hp. The queen hatches 4 baby spiders every 12 turns. The baby spiders have 3 hp and mature into giant spiders after 8 turns; 5 range; 2 charges; Nature & Conjuration; Level 5
+
+Upgrades:
+
+Aether queen: Summon Aether spiders instead, +2 minion damage; 3
+Steel queen: Summon Steel spiders instead, +4 minion damage; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Freeze: Freeze the target unit for 5 turns; 8 range; 20 charges; Enchantment & Ice; Level 2
+
+Upgrades:
+
+Duration: +4 freeze duration; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Iceball: Deal 14 ice damage in a 2 radius burst. Damaged units are frozen for 3 turns; 7 range; 11 charges; Sorcery & Ice; Level 3
+
+Upgrades:
+
+Radius: +1 radius; 2
+Duration: +2 freeze duration; 2
+Damage: +10 damage; 2
+Ice crush: Frozen units hit take physical damage before freezing again; 6
+-------------------------------------------------------------------------------------------------------------------------------
+Blizzard: Create a blizzard with a 4 tile radius. Each turn units in the blizzard take 5 damage and have a 50% chance to freeze. The blizzard lasts 5 turns; 9 range; 4 charges; Enchantment & Ice & Nature; Level 4
+
+Upgrades:
+
+Damage: +5 damage; 2
+Radius: +2 radius; 3
+Duration: +5 duration; 2
+Blindcasting: No longer requires LoS; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Frostfire Hydra: Summon a stationary frostfire hydra, which has 16 hp, a 9 range 7 fire damage beam attack and a 9 range 7 ice damage beam attack. The hydra lasts 15 turns; 5 range; 7 charges; Ice & Fire & Dragon & Conjuration; Level 3
+
+Upgrades:
+
+Minion range: +6 minion range; 3
+Minion duration: +10 minion duration; 2
+Minion damage: +7 minion dmg; 4
+-------------------------------------------------------------------------------------------------------------------------------
+Storm Burst: Deal either ice or lightning damage in a 5 radius burst. Units dealt ice damage are frozen for 3 turns and units dealt lightning damage are stunned for 3 turns; 4 charges; Ice & Lightning & Sorcery; Level 4
+
+Upgrades:
+
+Duration: +2 debuff duration; 3
+Cloud nova: The nova leaves stormclouds and blizzards behind; 2
+Radius: +2 radius; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Death Chill: Deal 11 dark damage to target each turn for 5 turns. If the target dies during this, deal 11 ice damage to all enemy units in 3 tile radius and freeze them for 5 turns; 9 range; 12 charges; Enchantment & Dark & Ice; Level 3
+
+Upgrades:
+
+Radius: +1 radius; 2
+Damage: +6 damage; 2
+Duration: +4 duration; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Ice Phoenix: Summon a flying ice phoenix with 74 hp, 1 reincarnation and a 4 range 9 ice damage attack. On death the phoenix explodes, dealing 25 ice damage to enemies and granting 2 SH to allies in a 6 tile radius burst; 5 range; 1 charge; Conjuration & Ice & Holy; Level 5
+
+Upgrades:
+
+Reincarnations: +2 reincarnations; 3
+Minion damage: +9 minion dmg; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Word of Ice: All enemies under 50 hp are frozen for 5 turns. Deals 50 ice damage to fire units; 1 charge; Ice & Word; Level 7
+
+Upgrades:
+
+Duration: +4 freeze duration; 3
+Charges: +1 charge; 2
+-------------------------------------------------------------------------------------------------------------------------------
+(Not ingame) Ice Weave: Extend all existing freezes by 4 turns; 4 charges; Enchantment & ice; Level 3
+
+Upgrades:
+-------------------------------------------------------------------------------------------------------------------------------
+Icicle: Deal 6 physical damage to the target and 6 ice damage in 1 tile radius of the target; 9 range; 22 charges; Ice & Sorcery; Level 1
+
+Upgrades:
+
+Freezing: Freeze the main target for 2 turns, 2
+Radius: +1 radius; 2
+Damage: +9 damage; 3
+Harvest: Whenever a frozen enemy dies to ice damage, regain a charge of Icicle; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Chill Wind: Deal 21 ice damage and inflict freeze for 6 turns on units in a 3 wide line perpendicular to the caster; global range; no LoS; 2 charges; Ice & Sorcery; Level 5
+
+Upgrades:
+
+Charges: +2 charges; 3
+Damage: +14 damage; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Wall of Ice: Summon a line of ice elementals with a length of 3 tiles which last for 15 turns. Ice elementals have 36 hp, 100 ice, 50 physical and -50 fire resist and a 3 range 5 ice damage attack; 7 range; 6 charges; Conjuration & Ice; Level 4
+
+Upgrades:
+
+Radius: +2 length of line; 2
+Minion range: +3 minion range; 3
+Minion damage: +5 minion dmg; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Earthquake: Each tile in 7 radius area has a 50% chance to be affected. Units on affected tiles take 21 physical damage and walls on affected tiles are destroyed; 4 charges; Sorcery & Nature; Level 3
+
+Upgrades:
+
+Radius: +2 radius; 3
+Damage: +17 damage; 3
+Safety: Will not damage friendly units; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Searing Seal: Gain Seal of Searing for 6 turns. Whenever an enemy takes fire damage, the seal gains that many charges. When the seal expires, it deals charges/4 fire damage to all enemies in LoS. Recasting the seal will activate this effect; 6 charges; Fire & Enchantment; Level 4
+
+Upgrades:
+
+Charges: +6 charges; 2
+Duration: +6 duration; 1
+-------------------------------------------------------------------------------------------------------------------------------
+Purity: Cleanse all debuffs on yourself. You cannot be affected by debuffs for 6 turns; 4 charges; Holy & Enchantment; Level 4
+
+Upgrades:
+
+Duration: +6 duration; 3
+Charges: +4 charges; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Twilight Gaze: All enemies in LoS lose 50 dark and holy resist. Lasts 10 turns; 4 charges; Holy & Dark & Enchantment; Level 6
+
+Upgrades:
+
+Resistance debuff: +50 to resistance reduction; 3
+Duration: +10 duration; 2
+Arcane gaze: Also reduces arcane resist; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Slime form: Become a slime for 8 turns, gaining 100 poison and 50 physical resist. Summon a friendly slime each turn; 2 charges; Arcane & Enchantment & Conjuration; Level 5
+
+Upgrades:
+
+Fire Slime: Equal chance to summon a fire slime instead; 1
+Ice Slime: Equal chance to summon an ice slime instead; 2
+Void Slime: Equal chance to summon a void slime instead; 3
+Duration: +10 duration; 4
+-------------------------------------------------------------------------------------------------------------------------------
+Blazerip: Deal 12 arcane and fire damage in a 7 wide line perpendicular to the caster; 6 range; no LoS; 8 charges; Arcane & Fire & Sorcery; Level 2
+
+Upgrades:
+
+Damage: +5 damage; 2
+Radius: +4 width of beam; 2
+-------------------------------------------------------------------------------------------------------------------------------
+Ice Vortex: All enemy units in 5 tile radius are dealt 11 arcane and ice damage, pulled towards the target and frozen for 2 turns. May only be cast on a frozen target; 10 range; no LoS; 6 charges; Ice & Arcane & Sorcery; Level 4
+
+Upgrade:
+
+Damage: +11 damage; 3
+Duration: +2 freeze duration; 2
+Radius: +3 radius; 2
+-------------------------------------------------------------------------------------------------------------------------------
+The Restless Dead: For 15 turns, whenever a living enemy dies, resurrect it as a skeleton with hp equal to max hp of slain unit and 5 physical damage melee attack; 3 charges; Dark & Enchantment & Conjuration; Level 4
+
+Upgrades:
+
+Minion damage: +4 minion damage; 3
+Duration: +15 duration; 2
+Charges: +2 charges; 2
+Junk Golems: Raise enemy constructs as junk golem; 3
+Elemental Spirits: Whenever an enemy fire, ice or lightning unit dies, random summoned ally gains 100 resistance to that element and a ranged attack of that type. Each ally can gain only 1 such buff; 5
+-------------------------------------------------------------------------------------------------------------------------------
+(Not ingame) Gust of Wind: Push back units 7 tiles in a cone. If a unit collides with a wall, chasm, or another unit, it is stunned for 3 turns and takes 14 physical damage. Stationary units are not affected. Clears spider webs and weather effects; 10 charges; Nature & Sorcery; Level 2
+
+Upgrades:
+
+Duration: +2 stun duration; 2
+Range: +4 range; 4
+Damage: +10 damage; 3
+Force: +3 knockback distance; 3
+-------------------------------------------------------------------------------------------------------------------------------
+Pyrostatic Curse: Curses targets in 4 tile radius for 4 turns. Whenever a cursed target takes fire damage, 2 random enemy units in line of sight of that unit are dealt half that much lightning damage; 9 range; 7 charges; Fire & Lightning & Enchantment; Level 5
+
+Upgrades:
+
+Radius: +3 radius; 2
+Duration: +6 duration; 3
+Linear conductance: Redealt lightning damage is dealt as a beam instead; 5
+-------------------------------------------------------------------------------------------------------------------------------

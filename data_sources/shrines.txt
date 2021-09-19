@@ -1,0 +1,168 @@
+Calling Shrine: +50% Num summons, +3 minion duration; conjuration-only
+
+Otherworldly Shrine: Redeal 50% of Arcane as Holy and 50% as Dark; Arcane; no-conjuration
+
+Red Flame Shrine: +50% damage, +1 radius, +15% max charges; Fire
+
+Storm Cloud Shrine: If enemy in thunderstorm of blizzard, redeal 75% of damage as Lightning and Ice; Lightning & Ice
+
+Oaken Shrine: +25% minion hp, +10% minion damage, +50% physical and holy resist for minion; Holy & Nature; conjuration-only
+
+Afterlife Shrine: +1 Reincarnation for minion; conjuration-only
+
+Stillness Shrine: +100% duration; Ice & Arcane; no-conjuration
+
+Frozen Skull Shrine: +20% damage, freeze 4 enemies in LoS of target on kill for 2 turns; Dark & Ice; no-conjuration
+
+Nightmare Shrine: Redeal 50% of Arcane as Dark and 50% of Dark as Arcane; Dark & Arcane; no-conjuration
+
+Thunder Shrine: +20% damage, Stuns damaged enemies and enemies adjacent to them; Lightning; no-conjuration
+
+Burning Shrine: Enemy that takes damage re-takes that damage at the end of its next turn; Fire; no-conjuration
+
+Cruel Shrine: Whenever spell or minion deals damage, apply that many Poison; Dark
+
+Torment Shrine: +50% damage, +2 max charges; Dark
+
+Mystic Shrine: +3 Range, +50% max charges; Arcane
+
+Icy Shrine: +40% damage, +3 duration; Ice
+
+White Candle Shrine: Minion gains a range 4 holy or fire bolt attack with damage equal to minion damage (minimum 1) and cooldown of 2 turns; Fire & Holy; conjuration-only
+
+Frostfire Shrine: Redeal 50% of Ice as Fire and 50% of Fire as Ice; Fire & Ice; no-conjuration
+
+Fae Shrine: Minions gain passive random short range teleport and a range 4 healing bolt which heals for 2 + spell's level and has cooldown of 3 turns; Nature & Arcane; conjuration-only
+
+Enveloping Shrine: Radius +2
+
+Memory Shrine: Max charges +100%
+
+Life Shrine: Minions gain 4 regen; Nature & Holy; conjuration-only
+
+Tundra Shrine: Minion gains +50% ice resist and a ranged attack which deals ice damage equal to minion's damage, has range of spell's level + 1 and a cooldown of 4; Ice & Nature; conjuration-only
+
+Swamp Shrine: Minions gain +100% poison resist and a passive poison aura which deals 2 poison damage in spell's level + 1 radius; Nature & Dark; conjuration-only
+
+Black Sky Shrine: +60% damage, +30% max charges, +2 range; Lightning & Dark
+
+Frozen Shrine: Damage from spell or minions freezes for 2 turns; Ice
+
+Angelic Shrine: +7 minion duration, +7 minion damage, +7 minion health, +1 max charges; Holy; conjuration-only
+
+Demonbane Shrine: Gain +1 charge whenever used to kill a demon; Holy & Fire & Lightning; no-conjuration
+
+Crackling Shrine: Redeal 50% of Lightning as Fire and 50% of Fire as Lightning; Fire & Lightning; no-conjuration
+
+Sandstone Shrine: +75% minion hp, minions gain +50% physical and fire resist; Nature & Fire; conjuration-only
+
+Charred Bone Shrine: Minion deals 50% of its hp as fire on death to 4 random enemies in 4 radius; Fire & Dark; conjuration-only
+
+Red Star Shrine: Spell or minion damage dealt to arcane, dark or fire units is redealt as Holy damage; Fire & Arcane
+
+Blue Sky Shrine: Minion gains 100 lightning resist, 2 regeneration and flying; Nature & Lightning; conjuration-only
+
+Energy Shrine: Gani 1 SH on kill; Arcane & Lightning; no-conjuration
+
+Soulpower Shrine: Killing a living or demon unit grants a stacking +4 damage to all of your spells for 10 turns; Dark & Holy; no-conjuration
+
+Grove Shrine: +50% duration, +50% minion duration, +2 range, +50% max charges; Nature
+
+Bright Shrine: Blinds damaged targets for 3 turns; Holy & Lightning; no-conjuration
+
+Protection Shrine: Minions from spells gain 1 shield if multiple minions or equal to spell lvl if single minion; Arcane & Holy & Nature; conjuration-only
+
+Grey Bone Shrine: Minions split into 4 bone shamblers on death. Bone shamblers have 1/4 of the hp of the minion; conjuration-only
+
+Stoning Shrine: On kill or on minion kill, petrify 2 random enemies in LoS for 3 turns; Arcane & Holy & Dark
+
+Berserk Shrine: Damaged enemies go berserk for 1 turn; Fire & Lightning & Nature; no-conjuration
+
+Farsight Shrine: +75% range; Sorcery
+
+Dragon Heart Shrine: +2 minion range, +10 breath damage, +50% minion hp; Dragon
+
+Entropy Shrine: Damaging enemies gives them -25% dark & arcane resist for 10 turns, not stacking; Lightning; no-conjuration
+
+Enervation Shrine: Damaging enemies gives them -25% fire, lightning and ice resist for 10 turns, not stacking; Arcane; no-conjuration
+
+Imp Shrine: Spawn chaos imps equal to spell's level around target on cast; Chaos
+
+Wyrmbrood Shrine: Casting the last charge of spell spawns either a fire or ice wyrm egg; Nature & Fire & Dragon
+
+Boon Shrine: Random minion replicates a self-targeted enchantment spell on cast; Enchantment
+
+Sniper Shrine: +100% minion range
+
+Toxic Agony Shrine: Upon dealing spell or minion damage to a poisoned target, deal that much damage to 4 random enemies in radius 5 as lightning; Nature & Lightning
+
+Bone Spliter Shrine: Killing a living or undead unit deals physical damage equal to 50% of killed unit's max hp in a 3 radius burst; Dark & Fire
+
+Haunting Shrine: For each 15 damage dealt, summon a ghost near target for 8 turns; Holy & Dark
+
+Sword Shrine: +75% damage
+
+Dagger Shrine: +7 damage
+
+Claw Shrine: +75% minion damage
+
+Vigor Shrine: +80% minion hp
+
+Shell Shrine: +10 minion hp
+
+Propagation Shrine: +50% cascade range, +50% number of targets
+
+Butterfly Wing Shrine: For each 50 spell or minion damage, summon a butterfly demon near the target for 5 turns; Dark & Nature & Arcane & Lightning
+
+Gold Skull Shrine: Casting last charge of the spell summons a Gold skull near the target; Holy & Dark
+
+Furnace Shrine: For each 100 spell or minion damage, summon a furnace hound near target; Fire & Dark
+
+Heavenstrike Shrine: On kill, deal 18 holy damage to closest enemy in los of the killed unit; Lightning & Holy; no-conjuration
+
+Stormcharge Shrine: For each 15 spell or minion damage, deal 9 ice or lightning damage to a random enemy; Ice & Lightning
+
+Disintegration Shrine: For each 30 spell damage, deal 1 arcane or physical damage to every enemy; Arcane & Lightning & Dark
+
+Alchemist Shrine: Gain 1 charge on using a consumable
+
+Warped Shrine: Deal 11 Arcane damage to targets in 4 radius on jump and arrival of teleports; Translocation
+
+Troubler Shrine: Summon troublers equal to spell's level in the initial location on casting a teleport; Translocation
+
+Sphere Shrine: +2 max charges, +4 range, +9 minion health; Orb
+
+Fire Claw Shrine: Redeal physical minion damage as fire damage; Nature & Dragon; conjuration-only
+
+Ice Claw Shrine: Redeal physical minion damage as ice damage; Nature & Dragon; conjuration-only
+
+Faewitch Shrine: On killing a unit with at least 1 debuff, summon a Faewitch for 7 turns; Arcane & Dark; no-conjuration
+
+Bomber Shrine: On kill, summon a fire or void bomber at the killed unit's location; Fire & Arcane; no-conjuration
+
+Sorcery Shield Shrine: On damage, gain +100% resistance to that damage type for 3 turns; Sorcery
+
+Frost Faery Shrine: For each 33 spell or minion damage, summon an Ice Faery for 11 turns near the target; Arcane & Ice
+
+Essence Shrine: On kill, all temporary allies gain +1 duration; Dark & Arcane & Lightning; no-conjuration
+
+Chaos Relay Shrine: Whenever this spell or a minion it summoned deals damage to an allied unit, redeal that damage to all enemy units in a 4 radius; Fire & Lightning & Chaos
+
+Elemental Harvest Shrine: 10% chance to gain 1 charge when a fire, lightning or ice unit dies. 30% if the killing damage type was fire, lightning or ice; Fire & Lightning & Ice
+
+Icy Spriggan Shrine: On cast, summon an Ice spriggan at target; Nature & Ice
+
+Sunlight Shrine: Damaging an enemy heal all allied units in LoS of that enemy for half the damage; Nature & Fire & Holy; no-conjuration
+
+Searing Shrine: Redeal half of spell damage to random enemy in LoS of original target; Fire & Holy
+
+Chaos Quill Shrine: On killing a lightning or fire unit, summon a living scroll of lightning or fire at that location. On casting last charge, summon a Chaos Quill for 36 turns; Chaos & Fire & Lightning
+
+Firefly Shrine: On kill, summon 2 Firefly swarms that last 20 turns near yourself; Nature & Fire & Dark
+
+Cauterizing Shrine: Damage causes enemy to lose equal max hp; Dark & Fire
+
+Deathchill Chimera Shrine: For each 70 spell or minion damage, summon a Deathchill chimera near target; Ice & Dark
+
+Bloodrage Shrine: On kill, all allies in LoS of killed unit gain +3 damage for 5 turns; Nature & Chaos & Dark
+

@@ -1,0 +1,3856 @@
+﻿[{
+"title" : "Fireball",
+"description" : "Deal 9 fire damage in a 2 radius burst",
+"range" : "8",
+"los_required" : "1",
+"charges" : "18",
+"schools" : ["Fire","Sorcery"],
+"level" : "1",
+"upgrades" : [
+	{
+		"title" : "Radius",
+		"description" : "+1 radius",
+		"cost" : "3"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+8 damage",
+		"cost" : "2"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+8 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Range",
+		"description" : "+3 range",
+		"cost" : "1"
+	},
+	{
+		"title" : "Chaos Ball",
+		"description" : "Fireball deals physical, lightning or fire at random. Lowest resist element chosen",
+		"cost" : "3"
+	},
+	{
+		"title" : "Energy Ball",
+		"description" : "Fireball deals arcane  holy or fire at random. Lowest resist element chosen",
+		"cost" : "4"
+	},
+	{
+		"title" : "Ash Ball",
+		"description" : "Fireball deals poison  dark or fire at random. Lowest resist element chosen. Blinds for 1 turn",
+		"cost" : "5"
+	}]
+}
+,{
+"title" : "Meteor Shower",
+"description" : "Rains 7 meteors down on random tiles in a 7 tile radius each turn. Meteors deal 23 physical damage, destroy walls, and inflict stun for 2 turns. Meteors also deal 23 fire damage in a 2 radius. This spell can be channeled for up to 5 turns.  The effect is repeated each turn the spell is channeled",
+"range" : "none",
+"los_required" : "1",
+"charges" : "1",
+"schools" : ["Fire","Sorcery"],
+"level" : "7",
+"upgrades" : [
+	{
+		"title" : "Num targets",
+		"description" : "+3 meteors",
+		"cost" : "4"
+	},
+	{
+		"title" : "Stun duration",
+		"description" : "+3 turns",
+		"cost" : "2"
+	},
+	{
+		"title" : "Meteor size",
+		"description" : "+1 radius to physical damage and stun",
+		"cost" : "2"
+	},
+	{
+		"title" : "Max channel",
+		"description" : "+5 turns",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Lightning Bolt",
+"description" : "Deal 12 lightning damage in a beam",
+"range" : "10",
+"los_required" : "1",
+"charges" : "18",
+"schools" : ["Lightning","Sorcery"],
+"level" : "1",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+9 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Range",
+		"description" : "+5 range",
+		"cost" : "2"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+12 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Channel",
+		"description" : "Can channel for 10 turns",
+		"cost" : "3"
+	},
+	{
+		"title" : "Judgement bolt",
+		"description" : "Lightning Bolt also deals holy and dark damage",
+		"cost" : "6"
+	},
+	{
+		"title" : "Energy bolt",
+		"description" : "Lightning Bolt also deals fire and arcane damage",
+		"cost" : "6"
+	}]
+}
+,{
+"title" : "Annihilate",
+"description" : "Deal 16 fire, lightning and physical damage to target",
+"range" : "6",
+"los_required" : "1",
+"charges" : "8",
+"schools" : ["Chaos","Sorcery"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Cascade",
+		"description" : "Remaining hits of Annihilate will jump to another target in range 4 if original is killed",
+		"cost" : "3"
+	},
+	{
+		"title" : "Dark",
+		"description" : "Annihilate also deals dark damage",
+		"cost" : "1"
+	},
+	{
+		"title" : "Arcane",
+		"description" : "Annihilate also deals arcane damage",
+		"cost" : "1"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+4 charges",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Mega Annihilate",
+"description" : "Deal 99 fire, lightning and physical damage to target",
+"range" : "6",
+"los_required" : "1",
+"charges" : "3",
+"schools" : ["Chaos","Sorcery"],
+"level" : "5",
+"upgrades" : [
+	{
+		"title" : "Cascade",
+		"description" : "Remaining hits of Mega Annihilate will jump to another target in range 4 if original is killed",
+		"cost" : "3"
+	},
+	{
+		"title" : "Dark",
+		"description" : "Mega Annihilate also deals dark damage",
+		"cost" : "2"
+	},
+	{
+		"title" : "Arcane",
+		"description" : "Mega Annihilate also deals arcane damage",
+		"cost" : "2"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+99 damage",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Teleport",
+"description" : "Teleport to the target tile",
+"range" : "15",
+"los_required" : "1",
+"charges" : "1",
+"schools" : ["Sorcery","Arcane","Translocation"],
+"level" : "5",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+2 charges",
+		"cost" : "3"
+	},
+	{
+		"title" : "Range",
+		"description" : "+8 range",
+		"cost" : "2"
+	},
+	{
+		"title" : "Void Teleport",
+		"description" : "Teleport deals arcane damage equal to its max charges to all enemy units in LoS of target tile",
+		"cost" : "5"
+	}]
+}
+,{
+"title" : "Blink",
+"description" : "Teleport to the target tile in LoS",
+"range" : "5",
+"los_required" : "1",
+"charges" : "6",
+"schools" : ["Arcane","Sorcery","Translocation"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Blindcasting",
+		"description" : "Blink no longer requires LoS",
+		"cost" : "2"
+	},
+	{
+		"title" : "Range",
+		"description" : "+3 range",
+		"cost" : "3"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+5 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Lightning Blink",
+		"description" : "Blink deals lightning damage equal to twice the tiles traveled, rounded up, in a 3 tile burst on arrival",
+		"cost" : "4"
+	},
+	{
+		"title" : "Dark Blink",
+		"description" : "Blink deals dark damage equal to twice the tiles traveled, rounded up, in a 3 tile burst on arrival",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Flame Gate",
+"description" : "Whenever you cast a fire spell, summon a fire elemental near the target. Fire elementals last for 9 turns, have 22 hp, 100 fire, 50 physical and -50 ice resist and a 4 range 7 damage fire attack. Flame Gate lasts until you fail to cast a fire spell",
+"range" : "none",
+"los_required" : "1",
+"charges" : "none",
+"schools" : ["Fire","Enchantment","Conjuration"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Minion range",
+		"description" : "+2 minion range",
+		"cost" : "2"
+	},
+	{
+		"title" : "Minion duration",
+		"description" : "+7 minion duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Minion damage",
+		"description" : "+7 minion damage",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Lightning Form",
+"description" : "On casting a lightning spell, teleport to target location. Gain 100 physical and lightning resistance. Lasts until you fail to cast a lightning spell",
+"range" : "none",
+"los_required" : "1",
+"charges" : "none",
+"schools" : ["Lightning","Enchantment"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+3 charges",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Void Beam",
+"description" : "Deal 25 arcane damage and destroy walls in a beam",
+"range" : "15",
+"los_required" : "0",
+"charges" : "7",
+"schools" : ["Arcane","Sorcery"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+21 damage",
+		"cost" : "5"
+	},
+	{
+		"title" : "Range",
+		"description" : "+5 range",
+		"cost" : "2"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+3 charges",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Thunder Strike",
+"description" : "Deal 24 lightning damage to target. Stun all enemies in 2 radius burst around the target for 3 turns",
+"range" : "10",
+"los_required" : "1",
+"charges" : "9",
+"schools" : ["Lightning","Sorcery"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Duration",
+		"description" : "+3 stun duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Blindcasting",
+		"description" : "No longer requires LoS",
+		"cost" : "3"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+36 damage",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "(Not ingame) Stone Giant Form",
+"description" : "Gain physical resistance and the ability to hurl boulders",
+"range" : "none",
+"los_required" : "1",
+"charges" : "9",
+"schools" : ["Nature","Enchantment"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+15 damage",
+		"cost" : "2"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+15 duration",
+		"cost" : "1"
+	}]
+}
+,{
+"title" : "Chaos Barrage",
+"description" : "Fire 8 bolts of 9 physical, fire or lightning damage at random units in a cone",
+"range" : "7",
+"los_required" : "1",
+"charges" : "8",
+"schools" : ["Chaos","Sorcery"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+4 charges",
+		"cost" : "1"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+4 damage",
+		"cost" : "5"
+	},
+	{
+		"title" : "Bolts",
+		"description" : "+5 bolts",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "(Not ingame) Inferno",
+"description" : "Create a spreading inferno that deals 10 fire damage to units inside",
+"range" : "none",
+"los_required" : "0",
+"charges" : "none",
+"schools" : ["3 range"],
+"level" : "none",
+"upgrades" : [
+	{
+		"title" : "Range",
+		"description" : "+5 range",
+		"cost" : "1"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+2 charges",
+		"cost" : "1"
+	}]
+}
+,{
+"title" : "Disperse",
+"description" : "Teleport all units in 3 tile radius to random locations, caster not affected",
+"range" : "6",
+"los_required" : "1",
+"charges" : "15",
+"schools" : ["Arcane","Sorcery","Translocation"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Radius",
+		"description" : "+2 radius",
+		"cost" : "2"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+10 charges",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Petrify",
+"description" : "Petrify target for 10 turns",
+"range" : "8",
+"los_required" : "1",
+"charges" : "10",
+"schools" : ["Arcane","Enchantment"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+5 charges",
+		"cost" : "1"
+	},
+	{
+		"title" : "Glassify",
+		"description" : "Glassify instead of petrify",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Petrification Aura",
+"description" : "For 7 turns, inflict a 2-turn petrify each turn to 3 unpetrified enemies in 7 radius",
+"range" : "none",
+"los_required" : "1",
+"charges" : "3",
+"schools" : ["Arcane","Enchantment"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Petrify duration",
+		"description" : "+2 petrify duration",
+		"cost" : "3"
+	},
+	{
+		"title" : "Target",
+		"description" : "+2 targets",
+		"cost" : "2"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+15 duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Glassify",
+		"description" : "Glassify instead of petrify",
+		"cost" : "6"
+	}]
+}
+,{
+"title" : "Wolf",
+"description" : "Summon a wolf (Living, Nature) which has 11 hp and a melee attack which deals 5 physical damage",
+"range" : "5",
+"los_required" : "1",
+"charges" : "12",
+"schools" : ["Nature","Conjuration"],
+"level" : "1",
+"upgrades" : [
+	{
+		"title" : "Pounce",
+		"description" : "Wolves gain a range 4 leap attack",
+		"cost" : "3"
+	},
+	{
+		"title" : "Minion damage",
+		"description" : "+4 minion damage",
+		"cost" : "1"
+	},
+	{
+		"title" : "Minion hp",
+		"description" : "+12 minion hp",
+		"cost" : "3"
+	},
+	{
+		"title" : "Blood hound",
+		"description" : "Summon Blood hound instead of wolf (Blood hounds gain +2 damage for 10 turns with each attack, have 75 dark resist and are types demon & nature)",
+		"cost" : "3"
+	},
+	{
+		"title" : "Ice hound",
+		"description" : "Summon Ice hound instead of wolf (Ice hounds deal ice damage, have 100 ice, 50 dark and -50 fire resists, are types demon & ice and deal 4 ice damage to melee attackers)",
+		"cost" : "3"
+	},
+	{
+		"title" : "Clay hound",
+		"description" : "Summon Clay hound instead of wolf (Clay hound has 50 physical, fire and lightning resist and 3 permanent regen)",
+		"cost" : "6"
+	},
+	{
+		"title" : "Wolf pack",
+		"description" : "Casting wolf consumes 2 charges and summons 4 wolves",
+		"cost" : "8"
+	}]
+}
+,{
+"title" : "(Not ingame) Dire Wolf",
+"description" : "Summon a dire wolf with 20 hp and 16 physical damage melee attack",
+"range" : "none",
+"los_required" : "1",
+"charges" : "6",
+"schools" : ["Nature","Conjuration"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Pounce",
+		"description" : "Dire wolves gain a 3 range leap attack",
+		"cost" : "4"
+	},
+	{
+		"title" : "Minion hp",
+		"description" : "+15 minion hp",
+		"cost" : "3"
+	},
+	{
+		"title" : "Minion damage",
+		"description" : "+8 minion damage",
+		"cost" : "1"
+	}]
+}
+,{
+"title" : "Giant Bear",
+"description" : "Summon a giant bear (Living, Nature) which has 65 hp and a melee attack which deals 10 physical damage",
+"range" : "5",
+"los_required" : "1",
+"charges" : "3",
+"schools" : ["Nature","Conjuration"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Minion hp",
+		"description" : "+30 minion hp",
+		"cost" : "2"
+	},
+	{
+		"title" : "Minion damage",
+		"description" : "+15 minion dmg",
+		"cost" : "4"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+2 charges",
+		"cost" : "3"
+	},
+	{
+		"title" : "Minion attacks",
+		"description" : "Causes bear to attack twice per turn",
+		"cost" : "3"
+	},
+	{
+		"title" : "Armored Bear",
+		"description" : "Summon Armored bear instead of giant bear (Armored bear has 79 hp, 50 physical and -50 lightning resistance)",
+		"cost" : "3"
+	},
+	{
+		"title" : "Venom bear",
+		"description" : "Summon Venom bear instead of giant bear (Venom bear attack poisons for 5 turns, it heals whenever an enemy takes poison damage, gains 100 poison resistance and is types living & poison & nature)",
+		"cost" : "4"
+	},
+	{
+		"title" : "Blood bear",
+		"description" : "Summon Blood bear instead of giant bear (Blood bear gains +3 damage for 10 turns on attack, has 75 dark resist and is types nature & demon)",
+		"cost" : "5"
+	}]
+}
+,{
+"title" : "Sight of Blood",
+"description" : "Must target a damaged living unit. Target is stunned for 4 turns. All living units in LoS of target are berserked for 4 turns",
+"range" : "19",
+"los_required" : "1",
+"charges" : "3",
+"schools" : ["Nature","Enchantment"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Duration",
+		"description" : "+3 duration",
+		"cost" : "3"
+	},
+	{
+		"title" : "Demon frenzy",
+		"description" : "Also affects demons",
+		"cost" : "2"
+	},
+	{
+		"title" : "Blindcasting",
+		"description" : "No longer requires LoS to cast",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Darkness",
+"description" : "Blind all non-demon non-undead units each turn for 1 turn, 5 duration",
+"range" : "none",
+"los_required" : "1",
+"charges" : "3",
+"schools" : ["Dark","Enchantment"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Duration",
+		"description" : "+3 duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+3 charges",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Lightning Storm",
+"description" : "Create a thunderstorm with a 4 tile radius. 50% chance to deal 12 lightning damage each turn to units in affected tiles. Storm lasts 10 turns",
+"range" : "9",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Lightning","Nature","Enchantment"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Strikechance",
+		"description" : "+25% chance to damage",
+		"cost" : "2"
+	},
+	{
+		"title" : "Blindcasting",
+		"description" : "No longer requires LoS",
+		"cost" : "3"
+	},
+	{
+		"title" : "Radius",
+		"description" : "+2 radius",
+		"cost" : "2"
+	},
+	{
+		"title" : "DamagE",
+		"description" : "+7 damage",
+		"cost" : "1"
+	}]
+}
+,{
+"title" : "Prison of Thorns",
+"description" : "Surround a group of enemies in plants (nature) which have 7 hp, last for 15 turns and deal 3 physical damage",
+"range" : "10",
+"los_required" : "1",
+"charges" : "6",
+"schools" : ["Nature","Conjuration"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Minion damage",
+		"description" : "+3 minion dmg",
+		"cost" : "2"
+	},
+	{
+		"title" : "Minion health",
+		"description" : "+7 minion hp",
+		"cost" : "2"
+	},
+	{
+		"title" : "Iron prison",
+		"description" : "Summon iron thorns instead, which deal 6 damage  have metallic resistances and are type metallic",
+		"cost" : "5"
+	},
+	{
+		"title" : "Icy Prison",
+		"description" : "Summon icy thorns instead ice attack",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Pillar of Fire",
+"description" : "Deal 50 fire damage in a 1 radius burst, double damage on target tile",
+"range" : "10",
+"los_required" : "1",
+"charges" : "2",
+"schools" : ["Fire","Holy","Sorcery"],
+"level" : "5",
+"upgrades" : [
+	{
+		"title" : "Radius",
+		"description" : "+1 radius",
+		"cost" : "3"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+30 damage",
+		"cost" : "2"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+2 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Channeling",
+		"description" : "Can be channeled infinitely",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "(Not ingame) Cloud Armor",
+"description" : "Target standing in a lightning storm gains 100% lightning, 50% physical resistance and 5 regeneration for 8 turns",
+"range" : "7",
+"los_required" : "1",
+"charges" : "5",
+"schools" : [""],
+"level" : "none",
+"upgrades" : []
+}
+,{
+"title" : "Boiling Blood",
+"description" : "Allied units gain 6 damage to their fire and physical abilities for 7 turns",
+"range" : "none",
+"los_required" : "1",
+"charges" : "9",
+"schools" : ["Nature","Enchantment","Fire"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Extra damage",
+		"description" : "+6 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+7 duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Holy Fury",
+		"description" : "Also affects holy abilities",
+		"cost" : "3"
+	},
+	{
+		"title" : "Dark Fury",
+		"description" : "Also affects dark abilities",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Healing Light",
+"description" : "Heall allies in LoS for 25",
+"range" : "none",
+"los_required" : "1",
+"charges" : "10",
+"schools" : ["Holy","Sorcery"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Heal",
+		"description" : "+20 healing",
+		"cost" : "1"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+8 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Shielding Light",
+		"description" : "Grant +1 shields to affected units",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Regeneration Aura",
+"description" : "Each turn for 8 turns, allied units in radius 10 are healed for 4",
+"range" : "none",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Enchantment","Nature"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Heal",
+		"description" : "+4 healing",
+		"cost" : "2"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+8 duration",
+		"cost" : "1"
+	},
+	{
+		"title" : "Global",
+		"description" : "Affects all allies on the level",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Void Orb",
+"description" : "Summon a 15 hp, 3 SH void orb next to the caster. The orb melts through walls along the way and deals 9 arcane damage each turn to all adjacent units. The orb has no will of its own, each turn it will float one tile towards the target. The orb can be destroyed by arcane damage",
+"range" : "9",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Arcane","Orb","Conjuration"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Red Dwarf",
+		"description" : "Deals fire damage around the arcane damage area",
+		"cost" : "5"
+	},
+	{
+		"title" : "Range",
+		"description" : "+5 range",
+		"cost" : "2"
+	},
+	{
+		"title" : "Minion damage",
+		"description" : "+9 minion dmg",
+		"cost" : "3"
+	},
+	{
+		"title" : "Void walk",
+		"description" : "Targeting an existing void orb with another detonates it, teleporting you to its location",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Searing Orb",
+"description" : "Summon an 8 hp searing orb next to the caster. The orb deals 3 fire damage each turn to all units in line of sight. The caster is immune to this damage. The orb has no will of its own, each turn it will float one tile towards the target. The orb can be destroyed by ice damage",
+"range" : "9",
+"los_required" : "1",
+"charges" : "3",
+"schools" : ["Fire","Orb","Conjuration"],
+"level" : "6",
+"upgrades" : [
+	{
+		"title" : "Range",
+		"description" : "+5 range",
+		"cost" : "2"
+	},
+	{
+		"title" : "Matter Melting",
+		"description" : "Orb can melt and be cast through walls",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Ball Lightning",
+"description" : "Summon a 12 hp lighting orb next to the caster. Each turn the orb fires 3 beams of electricity at random enemy units in line of sight. The beams deal 6 lightning damage. The orb has no will of its own, each turn it will float one tile towards the target. The orb can be destroyed by lightning damage",
+"range" : "9",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Orb","Lightning","Conjuration"],
+"level" : "5",
+"upgrades" : [
+	{
+		"title" : "Beams",
+		"description" : "+2 beams",
+		"cost" : "3"
+	},
+	{
+		"title" : "Range",
+		"description" : "+5 range",
+		"cost" : "2"
+	},
+	{
+		"title" : "Minion damage",
+		"description" : "+10 minion dmg",
+		"cost" : "5"
+	},
+	{
+		"title" : "Magnetic Pulse",
+		"description" : "Targeting an existing lightning orb causes it to emit a magnetic pulse that pulls construct and lightning units in line of sight 3 tiles towards the orb",
+		"cost" : "1"
+	}]
+}
+,{
+"title" : "Glass Orb",
+"description" : "Summon an 8 hp glass orb next to the caster. Each turn the orb inflicts glassify on enemy units in a 3 tile area for 2 turns. The orb has no will of its own, each turn it will float one tile towards the target. The orb can be destroyed by physical damage",
+"range" : "9",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Arcane","Orb","Conjuration"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Duration",
+		"description" : "+1 duration on glassify",
+		"cost" : "2"
+	},
+	{
+		"title" : "Range",
+		"description" : "+4 range",
+		"cost" : "2"
+	},
+	{
+		"title" : "Shielding",
+		"description" : "Affected minions gain +1 shield  max 3",
+		"cost" : "1"
+	},
+	{
+		"title" : "Radius",
+		"description" : "+1 radius",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Ice Orb",
+"description" : "Summon a 40 hp ice orb next to the caster. Each turn the orb deals 7 ice damage to enemy units in a 3 tile radius. The orb has no will of its own, each turn it will float one tile towards the target. The orb can be destroyed by fire damage",
+"range" : "9",
+"los_required" : "1",
+"charges" : "5",
+"schools" : ["Orb","Conjuration","Ice"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Freeze chance",
+		"description" : "Damage has 50% chance to freeze for 1 turn",
+		"cost" : "3"
+	},
+	{
+		"title" : "Radius",
+		"description" : "+2 radius",
+		"cost" : "2"
+	},
+	{
+		"title" : "Minion damage",
+		"description" : "+5 minion dmg",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Orb Control",
+"description" : "Retarget all allied orbs to target tile",
+"range" : "9",
+"los_required" : "1",
+"charges" : "11",
+"schools" : ["Sorcery","Orb"],
+"level" : "4",
+"upgrades" : []
+}
+,{
+"title" : "Dominate",
+"description" : "Target enemy with 40 max hp or less becomes your minion",
+"range" : "5",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Arcane","Enchantment"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+2 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Threshold",
+		"description" : "+40 max hp threshold",
+		"cost" : "3"
+	},
+	{
+		"title" : "Brute Force",
+		"description" : "Threshold based on current hp instead of max",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Eye of Fire",
+"description" : "Every 3 turns for 30 turns, deal 15 fire damage to random enemy unit in LoS",
+"range" : "none",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Fire","Enchantment","Eye"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Shot cooldown",
+		"description" : "Reduces time between shots by 1",
+		"cost" : "1"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+15 duration",
+		"cost" : "1"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+7 damage",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Eye of Lightning",
+"description" : "Every 3 turns for 30 turns, deal 15 lightning damage to random enemy unit in LoS",
+"range" : "none",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Lightning","Enchantment","Eye"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Shot cooldown",
+		"description" : "Reduces time between shots by 1",
+		"cost" : "1"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+15 duration",
+		"cost" : "1"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+7 damage",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Eye of Ice",
+"description" : "Every 3 turns for 30 turns, deal 15 ice damage to random enemy unit in LoS",
+"range" : "none",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Ice","Enchantment","Eye"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Shot cooldown",
+		"description" : "Reduces time between shots by 1",
+		"cost" : "1"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+15 duration",
+		"cost" : "1"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+7 damage",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Eye of Rage",
+"description" : "Every 3 turns for 20 turns, inflict berserk for 2 turns on a random enemy unit in LoS",
+"range" : "none",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Nature","Enchantment","Eye"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Shot cooldown",
+		"description" : "Reduces time between shots by 1",
+		"cost" : "1"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+15 duration",
+		"cost" : "1"
+	},
+	{
+		"title" : "Berserk duration",
+		"description" : "+2 berserk duration",
+		"cost" : "1"
+	},
+	{
+		"title" : "Lycanthropy",
+		"description" : "If Eye of Rage hits a living unit with 25 or less hp, that unit is instantly killed and resurrected as a werewolf that is berserked for 14 turns",
+		"cost" : "5"
+	}]
+}
+,{
+"title" : "Nightmare Aura",
+"description" : "Each turn for 30 turns, deal 2 arcane or dark damage to enemies in radius 7. This damage cannot be increased",
+"range" : "none",
+"los_required" : "1",
+"charges" : "2",
+"schools" : ["Enchantment","Dark","Arcane"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Radius",
+		"description" : "+3 radius",
+		"cost" : "2"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+15 duration",
+		"cost" : "1"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+4 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Dark Dream",
+		"description" : "Upon ending  temporarily summon Ravens  Werewolves  and Old Witches based on the total damage dealt by the spell. The summons last random amount between 4-13 turns",
+		"cost" : "5"
+	},
+	{
+		"title" : "Electric Dream",
+		"description" : "Upon ending  temporarily summon Spark Spirits  Thunderbirds  and Aelves based on the total damage dealt by the spell. The summons last random amount between 4-13 turns",
+		"cost" : "5"
+	},
+	{
+		"title" : "Fever Dream",
+		"description" : "Upon ending  temporarily summon Fire Lizards  Fire Spirits  and Flame Rifts based on the total damage dealt by the spell. The summons last random amount between 4-13 turns",
+		"cost" : "5"
+	}]
+}
+,{
+"title" : "Basilisk Armor",
+"description" : "For 5 turns, whenever an enemy targets you, that enemy is petrified for 2 turns",
+"range" : "none",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Enchantment","Nature","Arcane"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+4 charges",
+		"cost" : "1"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+5 duration",
+		"cost" : "1"
+	}]
+}
+,{
+"title" : "Watcher Form",
+"description" : "Each turn for 5 turns, fire a lightning bolt at the farthest enemy in LoS, dealing 40 lightning damage in a beam. Gain 100 physical, lightning, fire and poison resistance. You can't move or cast spells",
+"range" : "none",
+"los_required" : "1",
+"charges" : "5",
+"schools" : ["Enchantment","Lightning","Arcane"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+30 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+3 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+3 duration",
+		"cost" : "1"
+	}]
+}
+,{
+"title" : "Imp Swarm",
+"description" : "Each turn for 5 turns, summon a total of 2 Spark, Iron or Fire imps near the caster. Imps last for 11 turns, have 5 hp and a ranged attack dealing 4 damage of their element with range of 3",
+"range" : "none",
+"los_required" : "1",
+"charges" : "3",
+"schools" : ["Enchantment","Conjuration","Chaos"],
+"level" : "6",
+"upgrades" : [
+	{
+		"title" : "Minion range",
+		"description" : "+2 minion range",
+		"cost" : "3"
+	},
+	{
+		"title" : "Num. summons",
+		"description" : "+1 imp per turn",
+		"cost" : "2"
+	},
+	{
+		"title" : "Minion duration",
+		"description" : "+7 minion duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Minion damage",
+		"description" : "+5 minion damage",
+		"cost" : "4"
+	},
+	{
+		"title" : "Metal Swarm",
+		"description" : "Summon Copper, Furnace and Iron imps instead",
+		"cost" : "6"
+	},
+	{
+		"title" : "Dark Swarm",
+		"description" : "Summon Rot, Void and Insanity imps instead",
+		"cost" : "5"
+	},
+	{
+		"title" : "Mega swarm",
+		"description" : "Summon giant imps instead of normal sized ones",
+		"cost" : "7"
+	}]
+}
+,{
+"title" : "Lightning Halo",
+"description" : "Each turn for 9 turns, deal 15 lightning damage to all units in a 3 tile radius ring",
+"range" : "none",
+"los_required" : "1",
+"charges" : "5",
+"schools" : ["Enchantment","Lightning"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Radius",
+		"description" : "+1 radius to the ring",
+		"cost" : "1"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+3 duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+10 damage",
+		"cost" : "2"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+3 charges",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Mystic Vision",
+"description" : "For 8 turns, all spells gain +5 range",
+"range" : "none",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Enchantment","Arcane"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+3 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+8 duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Bonus",
+		"description" : "+5 to bonus range",
+		"cost" : "4"
+	},
+	{
+		"title" : "Aura",
+		"description" : "Affects all allied units",
+		"cost" : "5"
+	}]
+}
+,{
+"title" : "Mystic Power",
+"description" : "For 8 turns, all spells gain +7 damage",
+"range" : "none",
+"los_required" : "1",
+"charges" : "7",
+"schools" : ["Enchantment","Arcane"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Duration",
+		"description" : "+8 duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Bonus",
+		"description" : "+4 to bonus damage",
+		"cost" : "4"
+	},
+	{
+		"title" : "Intensity",
+		"description" : "Stacks in effect  not duration",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "(Not ingame) Power of Pain",
+"description" : "Your spells deal +7 damage, you take 4 dark damage per turn. Lasts until you move",
+"range" : "none",
+"los_required" : "1",
+"charges" : "6",
+"schools" : ["Dark","Enchantment"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+6 charges",
+		"cost" : "1"
+	},
+	{
+		"title" : "Bonus",
+		"description" : "+5 to bonus damage",
+		"cost" : "2"
+	},
+	{
+		"title" : "Self damage",
+		"description" : "-2 self damage",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Flame Burst",
+"description" : "Deal 35 fire damage in a 6 radius burst around the caster",
+"range" : "none",
+"los_required" : "1",
+"charges" : "6",
+"schools" : ["Fire","Sorcery"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Radius",
+		"description" : "+3 radius",
+		"cost" : "2"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+15 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+3 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Melting flame",
+		"description" : "Melts walls adjacent to the blast",
+		"cost" : "4"
+	},
+	{
+		"title" : "Bright flame",
+		"description" : "Deals holy damage instead of fire, shielding allied units hit instead of damaging them",
+		"cost" : "5"
+	},
+	{
+		"title" : "Spreading Flame",
+		"description" : "Consume all remaining charges on cast, increasing radius and damage by +1 per charge consumed. Enemies killed create another burst with half radius and damage",
+		"cost" : "7"
+	}]
+}
+,{
+"title" : "Fire Drake",
+"description" : "Summon a flying Fire Drake with 45 hp, 100 fire resistance, 8 physical damage melee and 9 fire damage breath",
+"range" : "4",
+"los_required" : "1",
+"charges" : "2",
+"schools" : ["Fire","Conjuration","Dragon"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Minion health",
+		"description" : "+25 minion hp",
+		"cost" : "3"
+	},
+	{
+		"title" : "Breath damage",
+		"description" : "+10 breath damage",
+		"cost" : "2"
+	},
+	{
+		"title" : "Dragon Mage",
+		"description" : "Casts your Fireball with 3 turn cd",
+		"cost" : "6"
+	}]
+}
+,{
+"title" : "Storm Drake",
+"description" : "Summon a flying Storm Drake with 45 hp, 100 lightning resist, 8 physical damage melee and a breath attack which leaves storm clouds in its wake. The storm clouds have a 50% chance to deal 10 lightning damage to units inside each turn",
+"range" : "4",
+"los_required" : "1",
+"charges" : "2",
+"schools" : ["Lightning","Conjuration","Dragon"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Minion health",
+		"description" : "+25 minion hp",
+		"cost" : "2"
+	},
+	{
+		"title" : "Cloudform",
+		"description" : "+75 physical resist",
+		"cost" : "3"
+	},
+	{
+		"title" : "Drake Swap",
+		"description" : "Target a summoned Storm drake with a lightning spell to swap places with it",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Void Drake",
+"description" : "Summon a flying Void Drake with 45 hp, 100 arcane resist, 8 physical damage melee and a breath attack which deals 9 arcane damage and melts walls",
+"range" : "4",
+"los_required" : "1",
+"charges" : "2",
+"schools" : ["Arcane","Conjuration","Dragon"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Minion health",
+		"description" : "+25 minion hp",
+		"cost" : "2"
+	},
+	{
+		"title" : "Shields",
+		"description" : "+3 SH",
+		"cost" : "3"
+	},
+	{
+		"title" : "Dragon Mage",
+		"description" : "Drake casts your magic missile with 3 turn cd",
+		"cost" : "5"
+	},
+	{
+		"title" : "Essence Drake",
+		"description" : "On killing an enemy, random temporary ally gains +4 duration",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Ice Drake",
+"description" : "Summon a flying Ice Drake wtih 45 hp, 100 ice resist, 8 physical damage melee and a breath attack which deals 9 uce damage and freezes for 2 turns, 4 range",
+"range" : "none",
+"los_required" : "1",
+"charges" : "2",
+"schools" : ["Ice","Conjuration","Dragon"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Minion health",
+		"description" : "+25 minion hp",
+		"cost" : "2"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+3 freeze duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Dragon Mage",
+		"description" : "Drake casts your Death Chill with an 8 turn cd",
+		"cost" : "5"
+	}]
+}
+,{
+"title" : "(Not ingame) Spark",
+"description" : "Deal 6 lightning damage, chain up to 3 times in range 3",
+"range" : "8",
+"los_required" : "1",
+"charges" : "26",
+"schools" : ["Lightning","Sorcery"],
+"level" : "1",
+"upgrades" : [
+	{
+		"title" : "Chains",
+		"description" : "+2 chains",
+		"cost" : "2"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+6 damage",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Chain Lightning",
+"description" : "Deal 8 lightning damage in a beam. The beam chains repeatedly to random enemy targets in range 4 until no new targets in range",
+"range" : "9",
+"los_required" : "1",
+"charges" : "8",
+"schools" : ["Lightning","Sorcery"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Cascade range",
+		"description" : "+4 to chain seek range",
+		"cost" : "4"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+8 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Cloud conductance",
+		"description" : "Can chain to blizzards and storm clouds",
+		"cost" : "3"
+	},
+	{
+		"title" : "Lightning Shield",
+		"description" : "Can chain to friendly units, grants +1 SH instead of damaging friendly units  up to 3 SH",
+		"cost" : "6"
+	}]
+}
+,{
+"title" : "Death Bolt",
+"description" : "Deal 9 dark damage to target. Slain living units are raised as skeletons, with hp equal to the max hp of slain unit and 5 physical damage melee attack. Skeletons of flying units can fly",
+"range" : "8",
+"los_required" : "1",
+"charges" : "18",
+"schools" : ["Dark","Sorcery","Conjuration"],
+"level" : "1",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+12 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+10 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Minion damage",
+		"description" : "+9 minion dmg",
+		"cost" : "3"
+	},
+	{
+		"title" : "Withering",
+		"description" : "Non-living units lose max hp equal to damage done",
+		"cost" : "2"
+	},
+	{
+		"title" : "Soul Battery",
+		"description" : "Death Bolt permanent gains +1 damage when it kills a living unit",
+		"cost" : "7"
+	}]
+}
+,{
+"title" : "Wheel of Death",
+"description" : "Deal 200 dark damage to a random enemy unit",
+"range" : "none",
+"los_required" : "1",
+"charges" : "5",
+"schools" : ["Dark","Sorcery"],
+"level" : "4",
+"upgrades" : [,
+	{
+		"title" : "Death Roulette",
+		"description" : "On kill, gain a roulette stack for 10 turns. Wheel of Death hits an additional enemy for each stack of roulette on cast",
+		"cost" : "7"
+	}]
+}
+,{
+"title" : "Touch of Death",
+"description" : "Deal 200 dark damage",
+"range" : "1",
+"los_required" : "1",
+"charges" : "9",
+"schools" : ["Dark","Sorcery"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Arcane damage",
+		"description" : "Also deals 150 arcane damage",
+		"cost" : "1"
+	},
+	{
+		"title" : "Fire damage",
+		"description" : "Also deals 150 fire damage",
+		"cost" : "1"
+	},
+	{
+		"title" : "Physical damage",
+		"description" : "Also deals 150 physical damage",
+		"cost" : "1"
+	},
+	{
+		"title" : "Touch of the Raven",
+		"description" : "Living targets are raised on kill as a friendly flying Raven with 13 hp and a 3 physical damage melee attack which blinds for 3 turns",
+		"cost" : "2"
+	},
+	{
+		"title" : "Touch of the Vampire",
+		"description" : "Living targets are raised on kill as a friendly flying Vampire with 32 hp  -100 fire resist and a 7 dark damage melee attack which drains hp",
+		"cost" : "4"
+	},
+	{
+		"title" : "Touch of the Reaper",
+		"description" : "Living targets are raised on kill as a friendly temporary flying Reaper with 31 hp  2 SH  100 physical  dark and ice resists and a 200 dark damage melee attack. Reapers last 6 turns",
+		"cost" : "6"
+	}]
+}
+,{
+"title" : "Sealed Fate",
+"description" : "After 4 turns, deal 160 damage to target",
+"range" : "8",
+"los_required" : "1",
+"charges" : "13",
+"schools" : ["Enchantment","Dark"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Range",
+		"description" : "+7 range",
+		"cost" : "1"
+	},
+	{
+		"title" : "Blindcasting",
+		"description" : "No longer requires LoS",
+		"cost" : "2"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+80 damage",
+		"cost" : "2"
+	},
+	{
+		"title" : "Spreading Curse",
+		"description" : "When duration expires, jump to random enemy unit in LoS",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Volcanic Eruption",
+"description" : "Create a 6 tile radius burst of lava in a chasm. The burst flows up to 3 tiles out of the chasm and deals 46 fire damage",
+"range" : "10",
+"los_required" : "1",
+"charges" : "5",
+"schools" : ["Fire","Sorcery"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Flow range",
+		"description" : "+2 flow range",
+		"cost" : "3"
+	},
+	{
+		"title" : "Blindcasting",
+		"description" : "No longer requires LoS",
+		"cost" : "2"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+24 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Wallcano",
+		"description" : "May target walls in addition to chasms, turns the targeted wall into a chasm",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Soul Swap",
+"description" : "Swap places with a friendly undead unit",
+"range" : "0",
+"los_required" : "1",
+"charges" : "9",
+"schools" : ["Dark","Sorcery","Translocation"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Forced Transfer",
+		"description" : "May target enemy undead units",
+		"cost" : "2"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+9 charges",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Underworld Passage",
+"description" : "Teleport to a tile adjacent to a chasm. Must stand adjacent to a chasm to cast",
+"range" : "99",
+"los_required" : "0",
+"charges" : "3",
+"schools" : ["Dark","Sorcery","Translocation"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+3 charges",
+		"cost" : "1"
+	}]
+}
+,{
+"title" : "(Not ingame) Void Spawning",
+"description" : "Summon a void spawner for 10 turns. The void spawner cannot move and summons void bombers",
+"range" : "none",
+"los_required" : "1",
+"charges" : "10",
+"schools" : ["Arcane","Conjuration"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Minion duration",
+		"description" : "+10 minion duration",
+		"cost" : "1"
+	},
+	{
+		"title" : "Blindcasting",
+		"description" : "No longer requires LoS",
+		"cost" : "1"
+	}]
+}
+,{
+"title" : "Earthen Sentinel",
+"description" : "Summon a stationary earth elemental with 120 hp, 100 poison, 50 physical, fire and lightning resists, 15 duration and 20 physical damage melee attack on target",
+"range" : "5",
+"los_required" : "1",
+"charges" : "5",
+"schools" : ["Nature","Conjuration"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Minion damage",
+		"description" : "+15 minion dmg",
+		"cost" : "3"
+	},
+	{
+		"title" : "Minion health",
+		"description" : "+80 minion hp",
+		"cost" : "3"
+	},
+	{
+		"title" : "Earthquaky Totem",
+		"description" : "Earth elemental gains your Earthquake spell on a 3 turn cd",
+		"cost" : "6"
+	},
+	{
+		"title" : "Stinging Totem",
+		"description" : "Earth elemental gains your Poison Sting spell",
+		"cost" : "5"
+	},
+	{
+		"title" : "Holy Totem",
+		"description" : "Earth elemental gainst your Heavenly Blast spell on a 2 turn cd",
+		"cost" : "7"
+	}]
+}
+,{
+"title" : "Ghostball",
+"description" : "Deal 11 dark damage to enemy units in a 1 tile radius. Summon flying ghosts on each empty tile hit. Ghosts last for 14 turns, have 4 hp, 100 physical and 50 dark resists, a passive blink and a 1 dark damage melee attack",
+"range" : "5",
+"los_required" : "1",
+"charges" : "6",
+"schools" : ["Dark","Conjuration","Sorcery"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Radius",
+		"description" : "+1 radius",
+		"cost" : "3"
+	},
+	{
+		"title" : "Minion duration",
+		"description" : "+15 minion duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Minion damage",
+		"description" : "+3 minion dmg",
+		"cost" : "3"
+	},
+	{
+		"title" : "Ghost King",
+		"description" : "A ghost king is summoned at the center tile. Ghost king spawns temporary ghost spawners",
+		"cost" : "5"
+	},
+	{
+		"title" : "Ghostly Mass",
+		"description" : "A ghostly mass is summoned at the center tile. Ghostly mass spawns 8 ghosts on death",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Mystic Memory",
+"description" : "Regain all charges of a random spell which has no charges",
+"range" : "none",
+"los_required" : "1",
+"charges" : "1",
+"schools" : ["Arcane"],
+"level" : "6",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+1 charge",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Conjure Memories",
+"description" : "Regain a charge of each of your conjuration spells",
+"range" : "none",
+"los_required" : "1",
+"charges" : "1",
+"schools" : ["Arcane","Conjuration"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Charges gained",
+		"description" : "+1 charges gained on use",
+		"cost" : "2"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+1 charge",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "(Not ingame) Weave Sorcery",
+"description" : "For 20 turns, your sorcery and enchantment spells gain +3 damage for each enchantment spell you know and +1 duration for each sorcery spell you know",
+"range" : "none",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Sorcery","Enchantment"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Duration",
+		"description" : "+20 duration",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Permenance",
+"description" : "For 20 turns, your spells and temporary summons last an extra 5 turns, 4 charges",
+"range" : "none",
+"los_required" : "1",
+"charges" : "none",
+"schools" : ["Enchantment"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Duration",
+		"description" : "+20 duration",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Death Gaze",
+"description" : "Each allied unit deals 4 dark damage to a random enemy in its LoS",
+"range" : "none",
+"los_required" : "1",
+"charges" : "10",
+"schools" : ["Dark","Sorcery"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+4 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+6 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Vampiric gaze",
+		"description" : "Each allied unit is healed for the damage they dealt",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Bone Barrage",
+"description" : "Your summons in LoS of target take 50% of their current health as physical damage and deal an equal amount of physical damage to target",
+"range" : "14",
+"los_required" : "1",
+"charges" : "7",
+"schools" : ["Dark","Sorcery"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Bone Spears",
+		"description" : "Bone barrage now shoots a beam",
+		"cost" : "6"
+	},
+	{
+		"title" : "Cursed Bones",
+		"description" : "Also deals dark damage",
+		"cost" : "5"
+	}]
+}
+,{
+"title" : "Invoke Savagery",
+"description" : "Each living ally attacks a random unit in their melee range for 14 physical damage and a 2 turn stun",
+"range" : "none",
+"los_required" : "1",
+"charges" : "11",
+"schools" : ["Nature","Sorcery"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "DamagE",
+		"description" : "+9 damage",
+		"cost" : "2"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+1 stun duration",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Magic Missiles",
+"description" : "Deal 11 arcane damage to target",
+"range" : "12",
+"los_required" : "1",
+"charges" : "20",
+"schools" : ["Arcane","Sorcery"],
+"level" : "1",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+15 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+10 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Range",
+		"description" : "+5 range",
+		"cost" : "1"
+	},
+	{
+		"title" : "Shield burn",
+		"description" : "Remove 3 SH from target before damaging them",
+		"cost" : "1"
+	},
+	{
+		"title" : "Slaughter bolt",
+		"description" : "If target is a living unit, deal physical, dark and poison damage instead of arcane",
+		"cost" : "4"
+	},
+	{
+		"title" : "Holy bolt",
+		"description" : "If target is undead, also deal holy damage",
+		"cost" : "4"
+	},
+	{
+		"title" : "Disruption bolt",
+		"description" : "If target is an arcane unit, deal dark and holy damage instead of arcane",
+		"cost" : "6"
+	}]
+}
+,{
+"title" : "Devour Mind",
+"description" : "Deal 25 arcane damage to target living unit, with additional 25 dark damage if target is below 50% hp after the initial hit",
+"range" : "4",
+"los_required" : "1",
+"charges" : "7",
+"schools" : ["Arcane","Dark","Sorcery"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+18 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Spirit eater",
+		"description" : "Can target demon and arcane units",
+		"cost" : "4"
+	},
+	{
+		"title" : "Gluttony",
+		"description" : "If target is killed, refund the charge",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Death Shock",
+"description" : "Deal 17 lightning and dark damage to target. If target is killed, chain to another enemy in LoS within 4 tiles, up to 2 times",
+"range" : "9",
+"los_required" : "1",
+"charges" : "9",
+"schools" : ["Sorcery","Dark","Lightning"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+7 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Cascade range",
+		"description" : "+5 chain seek range",
+		"cost" : "2"
+	},
+	{
+		"title" : "Infinity cascades",
+		"description" : "Can chain unlimited times",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Melt",
+"description" : "deal 22 fire damage and reduce target's physical resist by 100",
+"range" : "6",
+"los_required" : "1",
+"charges" : "15",
+"schools" : ["Fire","Sorcery"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+16 damage",
+		"cost" : "2"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+10 charges",
+		"cost" : "1"
+	},
+	{
+		"title" : "Ice penetration",
+		"description" : "Also reduces ice resist",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Dragon Roar",
+"description" : "For 25 turns, all allied dragons gain 25 max hp, 12 melee damage and -1 turn cooldown on their breath",
+"range" : "none",
+"los_required" : "1",
+"charges" : "2",
+"schools" : ["Dragon","Nature","Enchantment"],
+"level" : "6",
+"upgrades" : [
+	{
+		"title" : "HP bonus",
+		"description" : "+20 max hp",
+		"cost" : "3"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+1 charge",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Protect Minions",
+"description" : "For 10 turns, all allied units gain 50 physical, fire and lightning resists",
+"range" : "none",
+"los_required" : "1",
+"charges" : "5",
+"schools" : ["Enchantment","Conjuration","Nature"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Reists",
+		"description" : "+25 to resist bonus",
+		"cost" : "2"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+15 duration",
+		"cost" : "1"
+	},
+	{
+		"title" : "Arcane",
+		"description" : "Also grants arcane resist",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Word of Undeath",
+"description" : "All undead units double their current and maximum hp. All other units except caster halve their current and maximum hp, 1 charge",
+"range" : "none",
+"los_required" : "1",
+"charges" : "none",
+"schools" : ["Dark","Word"],
+"level" : "7",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+1 charge",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Word of Chaos",
+"description" : "Stun each enemy for 6 turns and randomly teleport them. Deal 45 fire damage to lightning units and 45 lightning damage to fire units. All constructs lose their physical resist and take 45 physical damage",
+"range" : "none",
+"los_required" : "1",
+"charges" : "1",
+"schools" : ["Chaos","Word"],
+"level" : "7",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+1 charge",
+		"cost" : "2"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+20 damage",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Word of Beauty",
+"description" : "Fully heal the caster and all living units. Deal 25 lightning damage to demon and undead units. Stun all arcane units for 7 turns, 1 charge",
+"range" : "none",
+"los_required" : "1",
+"charges" : "none",
+"schools" : ["Holy","Lightning","Word"],
+"level" : "7",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+1 charge",
+		"cost" : "2"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+17 damage",
+		"cost" : "1"
+	}]
+}
+,{
+"title" : "Word of Madness",
+"description" : "Berserk all units except caster for 5 turns. Deal dark damage equal to half their current hp to all constructs. Fully heal all demons",
+"range" : "none",
+"los_required" : "1",
+"charges" : "1",
+"schools" : ["Word","Dark","Chaos"],
+"level" : "7",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+1 charge",
+		"cost" : "2"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+4 berserk duration",
+		"cost" : "5"
+	}]
+}
+,{
+"title" : "Floating Eye",
+"description" : "Summon a stationary floating eye with 1 hp, 4 SH and a pasive blink. Floating eye immediately casts all other Eye spells you know upon summoning and lasts for 16 turns",
+"range" : "5",
+"los_required" : "1",
+"charges" : "6",
+"schools" : ["Eye","Arcane","Conjuration"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Minion duration",
+		"description" : "+16 minion duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+2 charges",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Chimera Familiar",
+"description" : "Summon a chimera familiar with 20 hp and 6 damage 4 range fire and lightning attacks. The chimera mimics your fire, lightning and chaos spells if target is in range and in LoS",
+"range" : "5",
+"los_required" : "1",
+"charges" : "2",
+"schools" : ["Chaos","Conjuration"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Minion resists",
+		"description" : "Gains 50 Fire & Lightning resists",
+		"cost" : "2"
+	},
+	{
+		"title" : "ChargeS",
+		"description" : "+2 charges",
+		"cost" : "3"
+	},
+	{
+		"title" : "Nature Mimicry",
+		"description" : "Also mimics nature spells",
+		"cost" : "1"
+	},
+	{
+		"title" : "Dark Mimicry",
+		"description" : "Also mimics dark spells",
+		"cost" : "1"
+	},
+	{
+		"title" : "Arcane Mimicry",
+		"description" : "Also mimics arcane spells",
+		"cost" : "1"
+	}]
+}
+,{
+"title" : "Arc Lightning",
+"description" : "Lightning arcs to 3 enemies in LoS of target tile. Each arc deals 16 lightning damage in a beam",
+"range" : "8",
+"los_required" : "1",
+"charges" : "5",
+"schools" : ["Lightning","Sorcery"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Num targets",
+		"description" : "+3 arcs",
+		"cost" : "4"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+9 damage",
+		"cost" : "4"
+	},
+	{
+		"title" : "Echo Flash",
+		"description" : "Secondary flashes dealing half damage are triggered at each original arc target",
+		"cost" : "5"
+	}]
+}
+,{
+"title" : "Poison Sting",
+"description" : "Deal 9 physical damage and poison for 30 turns",
+"range" : "12",
+"los_required" : "1",
+"charges" : "20",
+"schools" : ["Sorcery","Nature"],
+"level" : "1",
+"upgrades" : [
+	{
+		"title" : "Range",
+		"description" : "+2 range",
+		"cost" : "4"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+10 charges",
+		"cost" : "3"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+60 poison duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Acidity",
+		"description" : "Damaged targets lose all poison resist",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Fan of Flames",
+"description" : "Deal 9 fire damage to all units in a 5 range cone. Can be channeled for 10 turns",
+"range" : "none",
+"los_required" : "1",
+"charges" : "18",
+"schools" : ["Sorcery","Fire"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+7 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Range",
+		"description" : "+2 range",
+		"cost" : "3"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+10 charges",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Blue Lion",
+"description" : "Summon a blue lion (nature, arcane, holy) that flies and has 28 hp, 50 arcane and physical resistance and a 7 physical damage melee attack. Blue Lion additionally has a 3 cooldown spell which grants itself and all allies in LoS 1 SH, up to max of 2",
+"range" : "5",
+"los_required" : "1",
+"charges" : "6",
+"schools" : ["Nature","Holy","Conjuration","Arcane"],
+"level" : "5",
+"upgrades" : [
+	{
+		"title" : "Max shield",
+		"description" : "+2 max shield",
+		"cost" : "4"
+	},
+	{
+		"title" : "Shield cooldown",
+		"description" : "-1 turn cooldown on shield spell",
+		"cost" : "2"
+	},
+	{
+		"title" : "Minion damage",
+		"description" : "+9 minion dmg",
+		"cost" : "1"
+	},
+	{
+		"title" : "Holy bolt",
+		"description" : "Replace melee attack with a range 6 Holy damage attack",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Death Cleave",
+"description" : "For 2 turns, whenever a spell you cast kills its primary target, that spell is recast on a random enemy target within 4 tiles. This repeats until a target survives the spell",
+"range" : "none",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Enchantment","Arcane","Dark"],
+"level" : "5",
+"upgrades" : [
+	{
+		"title" : "Cascade range",
+		"description" : "+4 new target seek range",
+		"cost" : "3"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+3 duration",
+		"cost" : "3"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+4 charges",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Cantrip Cascade",
+"description" : "Cast each of your level 1 sorcery spells on each enemy in a 7 range cone",
+"range" : "none",
+"los_required" : "1",
+"charges" : "3",
+"schools" : ["Arcane","Sorcery"],
+"level" : "5",
+"upgrades" : [
+	{
+		"title" : "ChargeS",
+		"description" : "+3 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Range",
+		"description" : "+3 range",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Multicast",
+"description" : "For 3 turns, whenever you cast a sorcery spell, copy it",
+"range" : "none",
+"los_required" : "1",
+"charges" : "3",
+"schools" : ["Enchantment","Arcane"],
+"level" : "7",
+"upgrades" : [
+	{
+		"title" : "Copies",
+		"description" : "Copy the spell an additional time",
+		"cost" : "4"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+4 duration",
+		"cost" : "3"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+4 charges",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Fae Court",
+"description" : "Summon 5 faeries near you. The faeries fly",
+"range" : "9",
+"los_required" : "1",
+"charges" : "none",
+"schools" : ["Nature","Arcane","Conjuration"],
+"level" : "5",
+"upgrades" : [
+	{
+		"title" : "Num Summons",
+		"description" : "+5 faeries summoned",
+		"cost" : "4"
+	},
+	{
+		"title" : "Heal",
+		"description" : "+8 to heal amount",
+		"cost" : "3"
+	},
+	{
+		"title" : "Shields",
+		"description" : "+1 SH",
+		"cost" : "2"
+	},
+	{
+		"title" : "Summon Queen",
+		"description" : "Additionally summons a fae queen which has normal faery abilities and additionally can summon more temporary faeries and passively spawns thorns nearby each turn",
+		"cost" : "7"
+	},
+	{
+		"title" : "Glass Faery",
+		"description" : "Summon glass faeries which glassify targets for 1 turn with their arcane ranged attack instead of normal faeries",
+		"cost" : "9"
+	}]
+}
+,{
+"title" : "Ring of Spiders",
+"description" : "Summon a ring of giant spiders at the target, surrounded by a ring of webs. Units blocking the spider ring are poisoned for 10 turns while units blocking the web ring are stunned for 1 turn",
+"range" : "8",
+"los_required" : "1",
+"charges" : "2",
+"schools" : ["Nature","Conjuration"],
+"level" : "5",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+32 poison damage to primary target",
+		"cost" : "3"
+	},
+	{
+		"title" : "Minion health",
+		"description" : "+10 minion hp",
+		"cost" : "2"
+	},
+	{
+		"title" : "Aether spiders",
+		"description" : "Summon Aether spiders instead of giant spiders",
+		"cost" : "6"
+	}]
+}
+,{
+"title" : "Heavenly Blast",
+"description" : "Deal 7 holy damage to enemies and heal allies for 7 in a beam and 1 radius burst at the end of it",
+"range" : "7",
+"los_required" : "1",
+"charges" : "14",
+"schools" : ["Holy","Sorcery"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Range",
+		"description" : "+3 range",
+		"cost" : "2"
+	},
+	{
+		"title" : "Radius",
+		"description" : "+1 radius",
+		"cost" : "2"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+9 damage and healing",
+		"cost" : "3"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+7 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Spirit Bind",
+		"description" : "Slain enemies are resurrected as temporary spirits. Spirits are blinking holy undead with 4 hitpoints and a 2 damage ranged holy attack",
+		"cost" : "6"
+	},
+	{
+		"title" : "Shield",
+		"description" : "Affected ally units gain 2 SH, to a max of 5",
+		"cost" : "3"
+	},
+	{
+		"title" : "Echo Heal",
+		"description" : "Affected ally units are re-healed for half the initial amount each turn for 5 turns",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Holy Fire",
+"description" : "Deal 22 fire damage in a 5-high vertical line and 22 holy damage in a 5-wide horizontal line. Stun demon and undead units for 3 turns",
+"range" : "7",
+"los_required" : "1",
+"charges" : "7",
+"schools" : ["Fire","Holy","Sorcery"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Duration",
+		"description" : "+3 stun duration",
+		"cost" : "3"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+14 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "RAdius",
+		"description" : "+2 radius",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Choir of Angels",
+"description" : "Summon 3 angelic singers, which fly, have 10 hp, 1 SH, 100% dark and 50% fire and holy resist and last for 10 turns. The angelic singers can sing, dealing 2 holy and fire damage to all undead, demon and dark units in a 5 tile radius. Living and holy units in range are healed for 1",
+"range" : "none",
+"los_required" : "1",
+"charges" : "5",
+"schools" : ["Holy","Conjuration"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Shields",
+		"description" : "+2 SH",
+		"cost" : "2"
+	},
+	{
+		"title" : "Num summons",
+		"description" : "+3 angelic singers summoned",
+		"cost" : "4"
+	},
+	{
+		"title" : "Minion duration",
+		"description" : "+10 duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Heal",
+		"description" : "+2 heal amount",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Heaven's Wrath",
+"description" : "Deal 22 lightning and holy damage to 3 enemy units with highest current hp. Cannot target gates",
+"range" : "none",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Holy","Lightning","Sorcery"],
+"level" : "6",
+"upgrades" : [
+	{
+		"title" : "Culling",
+		"description" : "Additionally hits 3 enemy units with lowest current hp",
+		"cost" : "3"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+11 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Stun",
+		"description" : "Damaged targets are stunned for 3 turns",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Suspend Mortality",
+"description" : "For 40 turns, target allied unit gains +1 reincarnation",
+"range" : "8",
+"los_required" : "0",
+"charges" : "8",
+"schools" : ["Dark","Holy","Enchantment"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Lives",
+		"description" : "+3 reincarnations",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Soul Tax",
+"description" : "Deal holy damage to target equal to 33% of its current hp, then again as dark damage. Restore caster's life equal to  damage dealt",
+"range" : "4",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Sorcery","Dark","Holy"],
+"level" : "5",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+3 charges",
+		"cost" : "4"
+	},
+	{
+		"title" : "Range",
+		"description" : "+3 range",
+		"cost" : "2"
+	},
+	{
+		"title" : "Arcane Taxation",
+		"description" : "Additionally, deal 33% of target's current life as arcane after the holy and dark instances",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Holy Armor",
+"description" : "For 9 turns, gain 50 physical, fire, lightning and dark resist",
+"range" : "none",
+"los_required" : "1",
+"charges" : "6",
+"schools" : ["Holy","Enchantment"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Duration",
+		"description" : "+7 duration",
+		"cost" : "3"
+	},
+	{
+		"title" : "Resist",
+		"description" : "+25 to resist bonus",
+		"cost" : "1"
+	}]
+}
+,{
+"title" : "Blinding Light",
+"description" : "Blind all units in LoS for 4 turns. Deals 5 holy damage to demon and undead units",
+"range" : "none",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Holy","Sorcery"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+9 damage",
+		"cost" : "4"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+4 blind duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Dark Units",
+		"description" : "Also damage dark units",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Flock of Eagles",
+"description" : "Summon 4 eagles (living, holy, nature) around the caster. The eagles have 18 hp and a 6 physical damage melee attack",
+"range" : "none",
+"los_required" : "1",
+"charges" : "2",
+"schools" : ["Conjuration","Nature","Holy"],
+"level" : "5",
+"upgrades" : [
+	{
+		"title" : "Dive attack",
+		"description" : "Eagles gain a 4 range leap attack",
+		"cost" : "4"
+	},
+	{
+		"title" : "Num summons",
+		"description" : "+2 summoned eagles",
+		"cost" : "3"
+	},
+	{
+		"title" : "Shields",
+		"description" : "+2 SH",
+		"cost" : "4"
+	},
+	{
+		"title" : "Thunderbirds",
+		"description" : "Summon thunderbirbs instead of eagles. Thunderbirbs deal and resist lightning damage",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "(Not ingame) Flaming Sword",
+"description" : "For 15 turns, wield a flaming sword. The sword can be swung at adjacent enemies, dealing 14 fire and holy damage",
+"range" : "none",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Holy","Fire","Enchantment"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+14 damage",
+		"cost" : "4"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+30 duration",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Heavenly Idol",
+"description" : "Summon an Idol of Beauty. The idol has 35 hp, 2 SH and a passive aura which heals all allies in LoS for 1 hp, damages all enemies for 1 holy and damages undead and demon enemies for an additional 1 lightning. The idol is stationary and lasts 15 turns",
+"range" : "5",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Holy","Lightning","Conjuration"],
+"level" : "5",
+"upgrades" : [
+	{
+		"title" : "Shields",
+		"description" : "+5 SH",
+		"cost" : "3"
+	},
+	{
+		"title" : "Fire gaze",
+		"description" : "The idol gains a fire beam attack",
+		"cost" : "4"
+	},
+	{
+		"title" : "Heal",
+		"description" : "+1 heal amount",
+		"cost" : "3"
+	},
+	{
+		"title" : "Minion duration",
+		"description" : "+15 minion duration",
+		"cost" : "1"
+	}]
+}
+,{
+"title" : "Gold Drake",
+"description" : "Summon a flying gold drake with 45 hp, 8 physical damage melee attack and 9 holy damage breath attack which heals allies instead of damaging them",
+"range" : "4",
+"los_required" : "1",
+"charges" : "2",
+"schools" : ["Holy","Conjuration","Dragon"],
+"level" : "6",
+"upgrades" : [
+	{
+		"title" : "Minion health",
+		"description" : "+25 minion hp",
+		"cost" : "2"
+	},
+	{
+		"title" : "Breath damage",
+		"description" : "+12 breath damage and healing",
+		"cost" : "4"
+	},
+	{
+		"title" : "Dragon Mage",
+		"description" : "Gold drake can cast Healing Light with a 15 turn cooldown",
+		"cost" : "6"
+	}]
+}
+,{
+"title" : "Call Seraph",
+"description" : "Summon a flying seraph. The seraph hss 33 hp, 3 SH and a cleave attack which deals 14 holy and fire damage. Seraph lasts for 14 turns",
+"range" : "4",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Holy","Fire","Conjuration"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Minion damage",
+		"description" : "+10 minion damage",
+		"cost" : "4"
+	},
+	{
+		"title" : "Minion duration",
+		"description" : "+14 minion duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Moonblade",
+		"description" : "Cleave additionally deals arcane damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Essence Aura",
+		"description" : "The seraph increases the duration of all other temporary summons in 5 tile radius by 1 each turn",
+		"cost" : "5"
+	},
+	{
+		"title" : "Heal Aura",
+		"description" : "The seraph heals all other allies in 5 tile radius for 5 each turn",
+		"cost" : "2"
+	},
+	{
+		"title" : "Holy Fire Aura",
+		"description" : "The seraph deals 2 holy or 2 fire damage to enemies within 5 tiles each turn",
+		"cost" : "5"
+	}]
+}
+,{
+"title" : "Call Archon",
+"description" : "Summon a flying archon. The archon has 77 hp, 3 SH and an 8 range beam attack which deals 14 lightning damage to enemies and grants hit allies +1 SH",
+"range" : "5",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Lightning","Holy","Conjuration"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Minion range",
+		"description" : "+7 minion range",
+		"cost" : "3"
+	},
+	{
+		"title" : "Minion damage",
+		"description" : "+10 minion dmg",
+		"cost" : "4"
+	},
+	{
+		"title" : "Minion duration",
+		"description" : "+14 minion duration",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Pain Mirror",
+"description" : "For 10 turns, whenever you take damage, deal that much dark damage to all enemies in LoS",
+"range" : "none",
+"los_required" : "1",
+"charges" : "5",
+"schools" : ["Dark","Enchantment"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Duration",
+		"description" : "+10 duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "ChargeS",
+		"description" : "+4 charges",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Pyrostatic Pulse",
+"description" : "Deal 14 fire damage in a beam and 14 lightning damage to tiles adjacent to the beam",
+"range" : "8",
+"los_required" : "1",
+"charges" : "8",
+"schools" : ["Fire","Lightning","Sorcery"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Range",
+		"description" : "+4 range",
+		"cost" : "2"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+9 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+8 charges",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "(Not ingame) Thunder Stones",
+"description" : "Create 4 thunderstones nearby on the ground. When a unit steps on a stone, lightning arcs to the farthest enemy in LoS, dealing 14 lightning damage in a beam",
+"range" : "none",
+"los_required" : "1",
+"charges" : "12",
+"schools" : ["Lightning","Sorcery"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+9 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Num stones",
+		"description" : "+2 stones on cast",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "(Not ingame) Fire Stones",
+"description" : "Create 4 firestones nearby on the ground. When a unit steps on a staone, it deals 16 fire damage in a 3 radius burst",
+"range" : "none",
+"los_required" : "1",
+"charges" : "12",
+"schools" : ["Fire","Sorcery"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+11 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Num stones",
+		"description" : "+2 stones on cast",
+		"cost" : "2"
+	},
+	{
+		"title" : "Radius",
+		"description" : "+2 radius",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Aether Swap",
+"description" : "Swap places with and deal 16 arcane damage to target unit, cannot target arcane immune units",
+"range" : "7",
+"los_required" : "1",
+"charges" : "8",
+"schools" : ["Arcane","Translocation","Sorcery"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Blindcasting",
+		"description" : "No longer requires LoS",
+		"cost" : "2"
+	},
+	{
+		"title" : "Range",
+		"description" : "+3 range",
+		"cost" : "1"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+10 charges",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Siphon Shields",
+"description" : "Steal 1 SH from all units in LoS",
+"range" : "none",
+"los_required" : "1",
+"charges" : "3",
+"schools" : ["Arcane","Enchantment"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Shield burn",
+		"description" : "Deal 5 fire damage per shield stolen",
+		"cost" : "2"
+	},
+	{
+		"title" : "Shield steal",
+		"description" : "Steal +4 SH",
+		"cost" : "1"
+	}]
+}
+,{
+"title" : "Hungry Maw",
+"description" : "Summon a flying, stationary hungry maw. The maw has 8 hp, 1 SH, a 7 range 9 physical damage attack which pulls the target closer and lasts for 15 turns",
+"range" : "7",
+"los_required" : "1",
+"charges" : "6",
+"schools" : ["Arcane","Conjuration"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Shields",
+		"description" : "+5 SH",
+		"cost" : "3"
+	},
+	{
+		"title" : "Minion range",
+		"description" : "+7 minion range",
+		"cost" : "2"
+	},
+	{
+		"title" : "Minion damage",
+		"description" : "+12 minion dmg",
+		"cost" : "5"
+	},
+	{
+		"title" : "Range",
+		"description" : "+4 range",
+		"cost" : "1"
+	}]
+}
+,{
+"title" : "Hollow Flesh",
+"description" : "Curse a group of living units. Cursed units become undead, are no longer living, lose 100 holy resist, gain 100 dark resist, lose 25% of their max health and can no longer be healed",
+"range" : "6",
+"los_required" : "1",
+"charges" : "9",
+"schools" : ["Dark","Enchantment"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Max health loss",
+		"description" : "+25% to health loss",
+		"cost" : "2"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+7 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Fire Vulnerability",
+		"description" : "Affected units also lose 50 fire resist",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Conductance",
+"description" : "For 10 turns, target enemy loses 50 lightning resist and whenever you cast a lightning spell targeting that enemy, copy it",
+"range" : "none",
+"los_required" : "1",
+"charges" : "12",
+"schools" : ["Lightning","Enchantment"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Multicopy",
+		"description" : "Copy a lightning spell an additional time",
+		"cost" : "2"
+	},
+	{
+		"title" : "Resistance debuff",
+		"description" : "+50 lightning resist reduction",
+		"cost" : "2"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+6 charges",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Shrapnel Blast",
+"description" : "Detonate a wall tile, causing adjacent enemies to take 12 fire damage. The explosion causes 16 shards to hit random tiles in 4 radius burst, each dealing 12 physical damage",
+"range" : "7",
+"los_required" : "0",
+"charges" : "6",
+"schools" : ["Fire","Sorcery"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "More Shrapnel",
+		"description" : "+12 shards fired",
+		"cost" : "3"
+	},
+	{
+		"title" : "Puncturing Blast",
+		"description" : "The shards can fire through and destroy walls",
+		"cost" : "2"
+	},
+	{
+		"title" : "Magnetized Shards",
+		"description" : "The shards always hit enemies if possible",
+		"cost" : "7"
+	}]
+}
+,{
+"title" : "Plague of Filth",
+"description" : "Summon a group of 2 toads and fly swarm. Toads have 12 hp and a 4 range 2 physical damage tongue attack which pulls targets closer and they can hop up to 4 tiles away. Fly swarms fly, have 6 hp, 75 physical and dark, -50 ice resist and a 1 physical damage melee attack. Summons last for 7 turns and the spell can be channeled up to 15 turns",
+"range" : "5",
+"los_required" : "1",
+"charges" : "5",
+"schools" : ["Nature","Dark","Conjuration"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Num Summons",
+		"description" : "+2 summons per cast",
+		"cost" : "4"
+	},
+	{
+		"title" : "Minion duration",
+		"description" : "+4 minion duration",
+		"cost" : "3"
+	},
+	{
+		"title" : "Minion damage",
+		"description" : "+3 minion damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Max channel",
+		"description" : "+25 max channel duration",
+		"cost" : "1"
+	},
+	{
+		"title" : "Serpent Plague",
+		"description" : "50% chance to summon a snake instead of a toad or fly",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Fiery Tormentor",
+"description" : "Summon a fiere tormentor, which has 34 hp, a burst attack which deals 7 fire damage in 4 radius burst and a 2 range lifedrain attack which deals 2 dark damage and leeches it as life. Tormentor lasts for 50 turns",
+"range" : "7",
+"los_required" : "1",
+"charges" : "7",
+"schools" : ["Dark","Fire","Conjuration"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Minion damage",
+		"description" : "+3 minion dmg",
+		"cost" : "2"
+	},
+	{
+		"title" : "Minion health",
+		"description" : "+10 minion health",
+		"cost" : "2"
+	},
+	{
+		"title" : "Radius",
+		"description" : "+2 radius",
+		"cost" : "3"
+	},
+	{
+		"title" : "Frostfire Tormentor",
+		"description" : "Summon a frostfire tormentor instead, which additionally has an ice damage burst which freezes for 2 turns",
+		"cost" : "3"
+	},
+	{
+		"title" : "Ghostfire Tormentor",
+		"description" : "Summon a ghostfire tormentor instead, which additionally has a dark damage burst that ignores LoS",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Dispersion Field",
+"description" : "Each turn for 7 turns, teleport 3 enemies in a 6 tile radius to random locations",
+"range" : "none",
+"los_required" : "1",
+"charges" : "3",
+"schools" : ["Enchantment","Arcane","Translocation"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Num targets",
+		"description" : "+2 targets teleported",
+		"cost" : "2"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+5 duration",
+		"cost" : "1"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+5 charges",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Knightly Oath",
+"description" : "Summon a void, a chaos and a storm knight. Each knight has 90 hp and the caster takes 40 holy damage when a knight dies",
+"range" : "none",
+"los_required" : "1",
+"charges" : "2",
+"schools" : ["Conjuration","Holy"],
+"level" : "7",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+1 charges",
+		"cost" : "3"
+	},
+	{
+		"title" : "Void Court",
+		"description" : "Summon only void knights. Additionally summon a void champion",
+		"cost" : "5"
+	},
+	{
+		"title" : "Storm Court",
+		"description" : "Summon only storm knights. Additionally summon a storm champion",
+		"cost" : "5"
+	},
+	{
+		"title" : "Chaos Court",
+		"description" : "Summon only chaos knights. Additionally summon a chaos champion",
+		"cost" : "5"
+	}]
+}
+,{
+"title" : "Toxin Burst",
+"description" : "Deal 1 poison damage and inflict 20 turn poison on all units in a 4 radius",
+"range" : "12",
+"los_required" : "0",
+"charges" : "10",
+"schools" : ["Sorcery","Nature","Dark"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Duration",
+		"description" : "+20 poison duration",
+		"cost" : "1"
+	},
+	{
+		"title" : "Radius",
+		"description" : "+2 radius",
+		"cost" : "2"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+15 damage",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Tocic Spores",
+"description" : "Summon 2 mushbooms. Mushbooms have 11 hp and a 2 range 1 poison damage attack which poisons for 4 turns. Mushbooms apply 12 turns of poison to targets in melee range on death",
+"range" : "8",
+"los_required" : "1",
+"charges" : "16",
+"schools" : ["Conjuration","Nature"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Num summons",
+		"description" : "+2 mushbooms summoned",
+		"cost" : "3"
+	},
+	{
+		"title" : "Grey mushboom",
+		"description" : "Summon grey mushbooms instead, which apply stun instead of poison",
+		"cost" : "2"
+	},
+	{
+		"title" : "Red mushboom",
+		"description" : "Summon red mushbooms instead, which do not apply poison but deal fire damage",
+		"cost" : "5"
+	},
+	{
+		"title" : "Glass mushboom",
+		"description" : "Summon glass mushbooms instead, which apply glassify instead of poison",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Amplify Venom",
+"description" : "For 10 turns, all poisoned enemies lose 100 poison resist",
+"range" : "none",
+"los_required" : "1",
+"charges" : "8",
+"schools" : ["Enchantment","Nature"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Resistance debuff",
+		"description" : "+100 poison resist reduction",
+		"cost" : "3"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+10 duration",
+		"cost" : "1"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+12 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Spread poison",
+		"description" : "Now spreads poison to enemies in radius 2",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Combust Poison",
+"description" : "Consume all poison on enemy units to deal fire damage in a 2 radius burst around each affected enemy for 1x poison amount consumed",
+"range" : "none",
+"los_required" : "1",
+"charges" : "9",
+"schools" : ["Sorcery","Fire","Nature"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Radius",
+		"description" : "+1 radius",
+		"cost" : "3"
+	},
+	{
+		"title" : "ChargeS",
+		"description" : "+9 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Multiplier",
+		"description" : "Deal 2x poison consumed instead",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Spider Queen",
+"description" : "Summon a spider queen which has 96 hp. The queen hatches 4 baby spiders every 12 turns. The baby spiders have 3 hp and mature into giant spiders after 8 turns",
+"range" : "5",
+"los_required" : "1",
+"charges" : "2",
+"schools" : ["Nature","Conjuration"],
+"level" : "5",
+"upgrades" : [
+	{
+		"title" : "Aether queen",
+		"description" : "Summon Aether spiders instead, +2 minion damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Steel queen",
+		"description" : "Summon Steel spiders instead, +4 minion damage",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Freeze",
+"description" : "Freeze the target unit for 5 turns",
+"range" : "8",
+"los_required" : "1",
+"charges" : "20",
+"schools" : ["Enchantment","Ice"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Duration",
+		"description" : "+4 freeze duration",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Iceball",
+"description" : "Deal 14 ice damage in a 2 radius burst. Damaged units are frozen for 3 turns",
+"range" : "7",
+"los_required" : "1",
+"charges" : "11",
+"schools" : ["Sorcery","Ice"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Radius",
+		"description" : "+1 radius",
+		"cost" : "2"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+2 freeze duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+10 damage",
+		"cost" : "2"
+	},
+	{
+		"title" : "Ice crush",
+		"description" : "Frozen units hit take physical damage before freezing again",
+		"cost" : "6"
+	}]
+}
+,{
+"title" : "Blizzard",
+"description" : "Create a blizzard with a 4 tile radius. Each turn units in the blizzard take 5 damage and have a 50% chance to freeze. The blizzard lasts 5 turns",
+"range" : "9",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Enchantment","Ice","Nature"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+5 damage",
+		"cost" : "2"
+	},
+	{
+		"title" : "Radius",
+		"description" : "+2 radius",
+		"cost" : "3"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+5 duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Blindcasting",
+		"description" : "No longer requires LoS",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Frostfire Hydra",
+"description" : "Summon a stationary frostfire hydra, which has 16 hp, a 9 range 7 fire damage beam attack and a 9 range 7 ice damage beam attack. The hydra lasts 15 turns",
+"range" : "5",
+"los_required" : "1",
+"charges" : "7",
+"schools" : ["Ice","Fire","Dragon","Conjuration"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Minion range",
+		"description" : "+6 minion range",
+		"cost" : "3"
+	},
+	{
+		"title" : "Minion duration",
+		"description" : "+10 minion duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Minion damage",
+		"description" : "+7 minion dmg",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Storm Burst",
+"description" : "Deal either ice or lightning damage in a 5 radius burst. Units dealt ice damage are frozen for 3 turns and units dealt lightning damage are stunned for 3 turns",
+"range" : "none",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Ice","Lightning","Sorcery"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Duration",
+		"description" : "+2 debuff duration",
+		"cost" : "3"
+	},
+	{
+		"title" : "Cloud nova",
+		"description" : "The nova leaves stormclouds and blizzards behind",
+		"cost" : "2"
+	},
+	{
+		"title" : "Radius",
+		"description" : "+2 radius",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Death Chill",
+"description" : "Deal 11 dark damage to target each turn for 5 turns. If the target dies during this, deal 11 ice damage to all enemy units in 3 tile radius and freeze them for 5 turns",
+"range" : "9",
+"los_required" : "1",
+"charges" : "12",
+"schools" : ["Enchantment","Dark","Ice"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Radius",
+		"description" : "+1 radius",
+		"cost" : "2"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+6 damage",
+		"cost" : "2"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+4 duration",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Ice Phoenix",
+"description" : "Summon a flying ice phoenix with 74 hp, 1 reincarnation and a 4 range 9 ice damage attack. On death the phoenix explodes, dealing 25 ice damage to enemies and granting 2 SH to allies in a 6 tile radius burst",
+"range" : "5",
+"los_required" : "1",
+"charges" : "1",
+"schools" : ["Conjuration","Ice","Holy"],
+"level" : "5",
+"upgrades" : [
+	{
+		"title" : "Reincarnations",
+		"description" : "+2 reincarnations",
+		"cost" : "3"
+	},
+	{
+		"title" : "Minion damage",
+		"description" : "+9 minion dmg",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Word of Ice",
+"description" : "All enemies under 50 hp are frozen for 5 turns. Deals 50 ice damage to fire units",
+"range" : "none",
+"los_required" : "1",
+"charges" : "1",
+"schools" : ["Ice","Word"],
+"level" : "7",
+"upgrades" : [
+	{
+		"title" : "Duration",
+		"description" : "+4 freeze duration",
+		"cost" : "3"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+1 charge",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "(Not ingame) Ice Weave",
+"description" : "Extend all existing freezes by 4 turns",
+"range" : "none",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Enchantment","ice"],
+"level" : "3",
+"upgrades" : []
+}
+,{
+"title" : "Icicle",
+"description" : "Deal 6 physical damage to the target and 6 ice damage in 1 tile radius of the target",
+"range" : "9",
+"los_required" : "1",
+"charges" : "22",
+"schools" : ["Ice","Sorcery"],
+"level" : "1",
+"upgrades" : [
+	{
+		"title" : "Freezing",
+		"description" : "Freeze the main target for 2 turns",
+		"cost" : "2"
+	},
+	{
+		"title" : "Radius",
+		"description" : "+1 radius",
+		"cost" : "2"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+9 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Harvest",
+		"description" : "Whenever a frozen enemy dies to ice damage, regain a charge of Icicle",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Chill Wind",
+"description" : "Deal 21 ice damage and inflict freeze for 6 turns on units in a 3 wide line perpendicular to the caster",
+"range" : "0",
+"los_required" : "0",
+"charges" : "2",
+"schools" : ["Ice","Sorcery"],
+"level" : "5",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+2 charges",
+		"cost" : "3"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+14 damage",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Wall of Ice",
+"description" : "Summon a line of ice elementals with a length of 3 tiles which last for 15 turns. Ice elementals have 36 hp, 100 ice, 50 physical and -50 fire resist and a 3 range 5 ice damage attack",
+"range" : "7",
+"los_required" : "1",
+"charges" : "6",
+"schools" : ["Conjuration","Ice"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Radius",
+		"description" : "+2 length of line",
+		"cost" : "2"
+	},
+	{
+		"title" : "Minion range",
+		"description" : "+3 minion range",
+		"cost" : "3"
+	},
+	{
+		"title" : "Minion damage",
+		"description" : "+5 minion dmg",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Earthquake",
+"description" : "Each tile in 7 radius area has a 50% chance to be affected. Units on affected tiles take 21 physical damage and walls on affected tiles are destroyed",
+"range" : "none",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Sorcery","Nature"],
+"level" : "3",
+"upgrades" : [
+	{
+		"title" : "Radius",
+		"description" : "+2 radius",
+		"cost" : "3"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+17 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Safety",
+		"description" : "Will not damage friendly units",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Searing Seal",
+"description" : "Gain Seal of Searing for 6 turns. Whenever an enemy takes fire damage, the seal gains that many charges. When the seal expires, it deals charges/4 fire damage to all enemies in LoS. Recasting the seal will activate this effect",
+"range" : "none",
+"los_required" : "1",
+"charges" : "6",
+"schools" : ["Fire","Enchantment"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Charges",
+		"description" : "+6 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+6 duration",
+		"cost" : "1"
+	}]
+}
+,{
+"title" : "Purity",
+"description" : "Cleanse all debuffs on yourself. You cannot be affected by debuffs for 6 turns",
+"range" : "none",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Holy","Enchantment"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Duration",
+		"description" : "+6 duration",
+		"cost" : "3"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+4 charges",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Twilight Gaze",
+"description" : "All enemies in LoS lose 50 dark and holy resist. Lasts 10 turns",
+"range" : "none",
+"los_required" : "1",
+"charges" : "4",
+"schools" : ["Holy","Dark","Enchantment"],
+"level" : "6",
+"upgrades" : [
+	{
+		"title" : "Resistance debuff",
+		"description" : "+50 to resistance reduction",
+		"cost" : "3"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+10 duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Arcane gaze",
+		"description" : "Also reduces arcane resist",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Slime form",
+"description" : "Become a slime for 8 turns, gaining 100 poison and 50 physical resist. Summon a friendly slime each turn",
+"range" : "none",
+"los_required" : "1",
+"charges" : "2",
+"schools" : ["Arcane","Enchantment","Conjuration"],
+"level" : "5",
+"upgrades" : [
+	{
+		"title" : "Fire Slime",
+		"description" : "Equal chance to summon a fire slime instead",
+		"cost" : "1"
+	},
+	{
+		"title" : "Ice Slime",
+		"description" : "Equal chance to summon an ice slime instead",
+		"cost" : "2"
+	},
+	{
+		"title" : "Void Slime",
+		"description" : "Equal chance to summon a void slime instead",
+		"cost" : "3"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+10 duration",
+		"cost" : "4"
+	}]
+}
+,{
+"title" : "Blazerip",
+"description" : "Deal 12 arcane and fire damage in a 7 wide line perpendicular to the caster",
+"range" : "6",
+"los_required" : "0",
+"charges" : "8",
+"schools" : ["Arcane","Fire","Sorcery"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+5 damage",
+		"cost" : "2"
+	},
+	{
+		"title" : "Radius",
+		"description" : "+4 width of beam",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "Ice Vortex",
+"description" : "All enemy units in 5 tile radius are dealt 11 arcane and ice damage, pulled towards the target and frozen for 2 turns. May only be cast on a frozen target",
+"range" : "10",
+"los_required" : "0",
+"charges" : "6",
+"schools" : ["Ice","Arcane","Sorcery"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Damage",
+		"description" : "+11 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+2 freeze duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Radius",
+		"description" : "+3 radius",
+		"cost" : "2"
+	}]
+}
+,{
+"title" : "The Restless Dead",
+"description" : "For 15 turns, whenever a living enemy dies, resurrect it as a skeleton with hp equal to max hp of slain unit and 5 physical damage melee attack",
+"range" : "none",
+"los_required" : "1",
+"charges" : "3",
+"schools" : ["Dark","Enchantment","Conjuration"],
+"level" : "4",
+"upgrades" : [
+	{
+		"title" : "Minion damage",
+		"description" : "+4 minion damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+15 duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Charges",
+		"description" : "+2 charges",
+		"cost" : "2"
+	},
+	{
+		"title" : "Junk Golems",
+		"description" : "Raise enemy constructs as junk golem",
+		"cost" : "3"
+	},
+	{
+		"title" : "Elemental Spirits",
+		"description" : "Whenever an enemy fire, ice or lightning unit dies, random summoned ally gains 100 resistance to that element and a ranged attack of that type. Each ally can gain only 1 such buff",
+		"cost" : "5"
+	}]
+}
+,{
+"title" : "(Not ingame) Gust of Wind",
+"description" : "Push back units 7 tiles in a cone. If a unit collides with a wall, chasm, or another unit, it is stunned for 3 turns and takes 14 physical damage. Stationary units are not affected. Clears spider webs and weather effects",
+"range" : "none",
+"los_required" : "1",
+"charges" : "10",
+"schools" : ["Nature","Sorcery"],
+"level" : "2",
+"upgrades" : [
+	{
+		"title" : "Duration",
+		"description" : "+2 stun duration",
+		"cost" : "2"
+	},
+	{
+		"title" : "Range",
+		"description" : "+4 range",
+		"cost" : "4"
+	},
+	{
+		"title" : "Damage",
+		"description" : "+10 damage",
+		"cost" : "3"
+	},
+	{
+		"title" : "Force",
+		"description" : "+3 knockback distance",
+		"cost" : "3"
+	}]
+}
+,{
+"title" : "Pyrostatic Curse",
+"description" : "Curses targets in 4 tile radius for 4 turns. Whenever a cursed target takes fire damage, 2 random enemy units in line of sight of that unit are dealt half that much lightning damage",
+"range" : "9",
+"los_required" : "1",
+"charges" : "7",
+"schools" : ["Fire","Lightning","Enchantment"],
+"level" : "5",
+"upgrades" : [
+	{
+		"title" : "Radius",
+		"description" : "+3 radius",
+		"cost" : "2"
+	},
+	{
+		"title" : "Duration",
+		"description" : "+6 duration",
+		"cost" : "3"
+	},
+	{
+		"title" : "Linear conductance",
+		"description" : "Redealt lightning damage is dealt as a beam instead",
+		"cost" : "5"
+	}]
+}
+]

@@ -1,0 +1,337 @@
+﻿[{
+"title": "Calling Shrine",
+"desc":"+50% Num summons, +3 minion duration",
+"conditions":["conjuration-only"]
+},{
+"title": "Otherworldly Shrine",
+"desc":"Redeal 50% of Arcane as Holy and 50% as Dark",
+"conditions":["Arcane","no-conjuration"]
+},{
+"title": "Red Flame Shrine",
+"desc":"+50% damage, +1 radius, +15% max charges",
+"conditions":["Fire"]
+},{
+"title": "Storm Cloud Shrine",
+"desc":"If enemy in thunderstorm of blizzard, redeal 75% of damage as Lightning and Ice",
+"conditions":["Lightning","Ice"]
+},{
+"title": "Oaken Shrine",
+"desc":"+25% minion hp, +10% minion damage, +50% physical and holy resist for minion",
+"conditions":["Holy","Nature","conjuration-only"]
+},{
+"title": "Afterlife Shrine",
+"desc":"+1 Reincarnation for minion",
+"conditions":["conjuration-only"]
+},{
+"title": "Stillness Shrine",
+"desc":"+100% duration",
+"conditions":["Ice","Arcane","no-conjuration"]
+},{
+"title": "Frozen Skull Shrine",
+"desc":"+20% damage, freeze 4 enemies in LoS of target on kill for 2 turns",
+"conditions":["Dark","Ice","no-conjuration"]
+},{
+"title": "Nightmare Shrine",
+"desc":"Redeal 50% of Arcane as Dark and 50% of Dark as Arcane",
+"conditions":["Dark","Arcane","no-conjuration"]
+},{
+"title": "Thunder Shrine",
+"desc":"+20% damage, Stuns damaged enemies and enemies adjacent to them",
+"conditions":["Lightning","no-conjuration"]
+},{
+"title": "Burning Shrine",
+"desc":"Enemy that takes damage re-takes that damage at the end of its next turn",
+"conditions":["Fire","no-conjuration"]
+},{
+"title": "Cruel Shrine",
+"desc":"Whenever spell or minion deals damage, apply that many Poison",
+"conditions":["Dark"]
+},{
+"title": "Torment Shrine",
+"desc":"+50% damage, +2 max charges",
+"conditions":["Dark"]
+},{
+"title": "Mystic Shrine",
+"desc":"+3 Range, +50% max charges",
+"conditions":["Arcane"]
+},{
+"title": "Icy Shrine",
+"desc":"+40% damage, +3 duration",
+"conditions":["Ice"]
+},{
+"title": "White Candle Shrine",
+"desc":"Minion gains a range 4 holy or fire bolt attack with damage equal to minion damage (minimum 1) and cooldown of 2 turns",
+"conditions":["Fire","Holy","conjuration-only"]
+},{
+"title": "Frostfire Shrine",
+"desc":"Redeal 50% of Ice as Fire and 50% of Fire as Ice",
+"conditions":["Fire","Ice","no-conjuration"]
+},{
+"title": "Fae Shrine",
+"desc":"Minions gain passive random short range teleport and a range 4 healing bolt which heals for 2 + spell's level and has cooldown of 3 turns",
+"conditions":["Nature","Arcane","conjuration-only"]
+},{
+"title": "Enveloping Shrine",
+"desc":"Radius +2",
+"conditions":[]
+},{
+"title": "Memory Shrine",
+"desc":"Max charges +100%",
+"conditions":[]
+},{
+"title": "Life Shrine",
+"desc":"Minions gain 4 regen",
+"conditions":["Nature","Holy","conjuration-only"]
+},{
+"title": "Tundra Shrine",
+"desc":"Minion gains +50% ice resist and a ranged attack which deals ice damage equal to minion's damage, has range of spell's level + 1 and a cooldown of 4",
+"conditions":["Ice","Nature","conjuration-only"]
+},{
+"title": "Swamp Shrine",
+"desc":"Minions gain +100% poison resist and a passive poison aura which deals 2 poison damage in spell's level + 1 radius",
+"conditions":["Nature","Dark","conjuration-only"]
+},{
+"title": "Black Sky Shrine",
+"desc":"+60% damage, +30% max charges, +2 range",
+"conditions":["Lightning","Dark"]
+},{
+"title": "Frozen Shrine",
+"desc":"Damage from spell or minions freezes for 2 turns",
+"conditions":["Ice"]
+},{
+"title": "Angelic Shrine",
+"desc":"+7 minion duration, +7 minion damage, +7 minion health, +1 max charges",
+"conditions":["Holy","conjuration-only"]
+},{
+"title": "Demonbane Shrine",
+"desc":"Gain +1 charge whenever used to kill a demon",
+"conditions":["Holy","Fire","Lightning","no-conjuration"]
+},{
+"title": "Crackling Shrine",
+"desc":"Redeal 50% of Lightning as Fire and 50% of Fire as Lightning",
+"conditions":["Fire","Lightning","no-conjuration"]
+},{
+"title": "Sandstone Shrine",
+"desc":"+75% minion hp, minions gain +50% physical and fire resist",
+"conditions":["Nature","Fire","conjuration-only"]
+},{
+"title": "Charred Bone Shrine",
+"desc":"Minion deals 50% of its hp as fire on death to 4 random enemies in 4 radius",
+"conditions":["Fire","Dark","conjuration-only"]
+},{
+"title": "Red Star Shrine",
+"desc":"Spell or minion damage dealt to arcane, dark or fire units is redealt as Holy damage",
+"conditions":["Fire","Arcane"]
+},{
+"title": "Blue Sky Shrine",
+"desc":"Minion gains 100 lightning resist, 2 regeneration and flying",
+"conditions":["Nature","Lightning","conjuration-only"]
+},{
+"title": "Energy Shrine",
+"desc":"Gani 1 SH on kill",
+"conditions":["Arcane","Lightning","no-conjuration"]
+},{
+"title": "Soulpower Shrine",
+"desc":"Killing a living or demon unit grants a stacking +4 damage to all of your spells for 10 turns",
+"conditions":["Dark","Holy","no-conjuration"]
+},{
+"title": "Grove Shrine",
+"desc":"+50% duration, +50% minion duration, +2 range, +50% max charges",
+"conditions":["Nature"]
+},{
+"title": "Bright Shrine",
+"desc":"Blinds damaged targets for 3 turns",
+"conditions":["Holy","Lightning","no-conjuration"]
+},{
+"title": "Protection Shrine",
+"desc":"Minions from spells gain 1 shield if multiple minions or equal to spell lvl if single minion",
+"conditions":["Arcane","Holy","Nature","conjuration-only"]
+},{
+"title": "Grey Bone Shrine",
+"desc":"Minions split into 4 bone shamblers on death. Bone shamblers have 1/4 of the hp of the minion",
+"conditions":["conjuration-only"]
+},{
+"title": "Stoning Shrine",
+"desc":"On kill or on minion kill, petrify 2 random enemies in LoS for 3 turns",
+"conditions":["Arcane","Holy","Dark"]
+},{
+"title": "Berserk Shrine",
+"desc":"Damaged enemies go berserk for 1 turn",
+"conditions":["Fire","Lightning","Nature","no-conjuration"]
+},{
+"title": "Farsight Shrine",
+"desc":"+75% range",
+"conditions":["Sorcery"]
+},{
+"title": "Dragon Heart Shrine",
+"desc":"+2 minion range, +10 breath damage, +50% minion hp",
+"conditions":["Dragon"]
+},{
+"title": "Entropy Shrine",
+"desc":"Damaging enemies gives them -25% dark & arcane resist for 10 turns, not stacking",
+"conditions":["Lightning","no-conjuration"]
+},{
+"title": "Enervation Shrine",
+"desc":"Damaging enemies gives them -25% fire, lightning and ice resist for 10 turns, not stacking",
+"conditions":["Arcane","no-conjuration"]
+},{
+"title": "Imp Shrine",
+"desc":"Spawn chaos imps equal to spell's level around target on cast",
+"conditions":["Chaos"]
+},{
+"title": "Wyrmbrood Shrine",
+"desc":"Casting the last charge of spell spawns either a fire or ice wyrm egg",
+"conditions":["Nature","Fire","Dragon"]
+},{
+"title": "Boon Shrine",
+"desc":"Random minion replicates a self-targeted enchantment spell on cast",
+"conditions":["Enchantment"]
+},{
+"title": "Sniper Shrine",
+"desc":"+100% minion range",
+"conditions":[]
+},{
+"title": "Toxic Agony Shrine",
+"desc":"Upon dealing spell or minion damage to a poisoned target, deal that much damage to 4 random enemies in radius 5 as lightning",
+"conditions":["Nature","Lightning"]
+},{
+"title": "Bone Spliter Shrine",
+"desc":"Killing a living or undead unit deals physical damage equal to 50% of killed unit's max hp in a 3 radius burst",
+"conditions":["Dark","Fire"]
+},{
+"title": "Haunting Shrine",
+"desc":"For each 15 damage dealt, summon a ghost near target for 8 turns",
+"conditions":["Holy","Dark"]
+},{
+"title": "Sword Shrine",
+"desc":"+75% damage",
+"conditions":[]
+},{
+"title": "Dagger Shrine",
+"desc":"+7 damage",
+"conditions":[]
+},{
+"title": "Claw Shrine",
+"desc":"+75% minion damage",
+"conditions":[]
+},{
+"title": "Vigor Shrine",
+"desc":"+80% minion hp",
+"conditions":[]
+},{
+"title": "Shell Shrine",
+"desc":"+10 minion hp",
+"conditions":[]
+},{
+"title": "Propagation Shrine",
+"desc":"+50% cascade range, +50% number of targets",
+"conditions":[]
+},{
+"title": "Butterfly Wing Shrine",
+"desc":"For each 50 spell or minion damage, summon a butterfly demon near the target for 5 turns",
+"conditions":["Dark","Nature","Arcane","Lightning"]
+},{
+"title": "Gold Skull Shrine",
+"desc":"Casting last charge of the spell summons a Gold skull near the target",
+"conditions":["Holy","Dark"]
+},{
+"title": "Furnace Shrine",
+"desc":"For each 100 spell or minion damage, summon a furnace hound near target",
+"conditions":["Fire","Dark"]
+},{
+"title": "Heavenstrike Shrine",
+"desc":"On kill, deal 18 holy damage to closest enemy in los of the killed unit",
+"conditions":["Lightning","Holy","no-conjuration"]
+},{
+"title": "Stormcharge Shrine",
+"desc":"For each 15 spell or minion damage, deal 9 ice or lightning damage to a random enemy",
+"conditions":["Ice","Lightning"]
+},{
+"title": "Disintegration Shrine",
+"desc":"For each 30 spell damage, deal 1 arcane or physical damage to every enemy",
+"conditions":["Arcane","Lightning","Dark"]
+},{
+"title": "Alchemist Shrine",
+"desc":"Gain 1 charge on using a consumable",
+"conditions":[]
+},{
+"title": "Warped Shrine",
+"desc":"Deal 11 Arcane damage to targets in 4 radius on jump and arrival of teleports",
+"conditions":["Translocation"]
+},{
+"title": "Troubler Shrine",
+"desc":"Summon troublers equal to spell's level in the initial location on casting a teleport",
+"conditions":["Translocation"]
+},{
+"title": "Sphere Shrine",
+"desc":"+2 max charges, +4 range, +9 minion health",
+"conditions":["Orb"]
+},{
+"title": "Fire Claw Shrine",
+"desc":"Redeal physical minion damage as fire damage",
+"conditions":["Nature","Dragon","conjuration-only"]
+},{
+"title": "Ice Claw Shrine",
+"desc":"Redeal physical minion damage as ice damage",
+"conditions":["Nature","Dragon","conjuration-only"]
+},{
+"title": "Faewitch Shrine",
+"desc":"On killing a unit with at least 1 debuff, summon a Faewitch for 7 turns",
+"conditions":["Arcane","Dark","no-conjuration"]
+},{
+"title": "Bomber Shrine",
+"desc":"On kill, summon a fire or void bomber at the killed unit's location",
+"conditions":["Fire","Arcane","no-conjuration"]
+},{
+"title": "Sorcery Shield Shrine",
+"desc":"On damage, gain +100% resistance to that damage type for 3 turns",
+"conditions":["Sorcery"]
+},{
+"title": "Frost Faery Shrine",
+"desc":"For each 33 spell or minion damage, summon an Ice Faery for 11 turns near the target",
+"conditions":["Arcane","Ice"]
+},{
+"title": "Essence Shrine",
+"desc":"On kill, all temporary allies gain +1 duration",
+"conditions":["Dark","Arcane","Lightning","no-conjuration"]
+},{
+"title": "Chaos Relay Shrine",
+"desc":"Whenever this spell or a minion it summoned deals damage to an allied unit, redeal that damage to all enemy units in a 4 radius",
+"conditions":["Fire","Lightning","Chaos"]
+},{
+"title": "Elemental Harvest Shrine",
+"desc":"10% chance to gain 1 charge when a fire, lightning or ice unit dies. 30% if the killing damage type was fire, lightning or ice",
+"conditions":["Fire","Lightning","Ice"]
+},{
+"title": "Icy Spriggan Shrine",
+"desc":"On cast, summon an Ice spriggan at target",
+"conditions":["Nature","Ice"]
+},{
+"title": "Sunlight Shrine",
+"desc":"Damaging an enemy heal all allied units in LoS of that enemy for half the damage",
+"conditions":["Nature","Fire","Holy","no-conjuration"]
+},{
+"title": "Searing Shrine",
+"desc":"Redeal half of spell damage to random enemy in LoS of original target",
+"conditions":["Fire","Holy"]
+},{
+"title": "Chaos Quill Shrine",
+"desc":"On killing a lightning or fire unit, summon a living scroll of lightning or fire at that location. On casting last charge, summon a Chaos Quill for 36 turns",
+"conditions":["Chaos","Fire","Lightning"]
+},{
+"title": "Firefly Shrine",
+"desc":"On kill, summon 2 Firefly swarms that last 20 turns near yourself",
+"conditions":["Nature","Fire","Dark"]
+},{
+"title": "Cauterizing Shrine",
+"desc":"Damage causes enemy to lose equal max hp",
+"conditions":["Dark","Fire"]
+},{
+"title": "Deathchill Chimera Shrine",
+"desc":"For each 70 spell or minion damage, summon a Deathchill chimera near target",
+"conditions":["Ice","Dark"]
+},{
+"title": "Bloodrage Shrine",
+"desc":"On kill, all allies in LoS of killed unit gain +3 damage for 5 turns",
+"conditions":["Nature","Chaos","Dark"]
+}]

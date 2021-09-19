@@ -1,0 +1,445 @@
+﻿[{
+"title": "Unblinking Eye",
+"schools":["Eye"],
+"level":"7",
+"applies_to":"To Eye spells and skills:",
+"applies_what":["-1 shot cooldown","+10 duration","+10 minion duration","+1 charge"]
+},{
+"title": "(Not ingame) Rock Collection",
+"schools":["Sorcery"],
+"level":"3",
+"applies_to":"To Sorcery spells and skills:",
+"applies_what":["+3 stones"]
+},{
+"title": "Dragon Lord",
+"schools":["Dragon"],
+"level":"7",
+"applies_to":"To Dragon spells and skills:",
+"applies_what":["+3 charges","+25 minion health","+10 breath damage"]
+},{
+"title": "Translocation Master",
+"schools":["Translocation"],
+"level":"7",
+"applies_to":"To Translocation spells and skills:",
+"applies_what":["+5 charges","+3 range"]
+},{
+"title": "Arch Enchanter",
+"schools":["Enchantment"],
+"level":"7",
+"applies_to":"To Enchantment spells and skills:",
+"applies_what":["+2 charges to Enchantment","+3 duration to Enchantment","+5 damage to Enchantment"]
+},{
+"title": "Arch Sorcerer",
+"schools":["Sorcery"],
+"level":"7",
+"applies_to":"To Sorcery spells and skills:",
+"applies_what":["+2 charges","+7 damage","+2 range"]
+},{
+"title": "Arch Conjurer",
+"schools":["Conjuration"],
+"level":"7",
+"applies_to":"To Conjuration spells and skills:",
+"applies_what":["+2 charges","+3 minion damage","+7 minion health","+1 minion range","+1 minion duration"]
+},{
+"title": "Fire Lord",
+"schools":["Fire"],
+"level":"7",
+"applies_to":"To Fire spells and skills:",
+"applies_what":["+1 charge","+12 damage","+1 radius"]
+},{
+"title": "Ice Lord",
+"schools":["Ice"],
+"level":"7",
+"applies_to":"To Ice spells and skills:",
+"applies_what":["+1 charge","+6 damage","+2 duration"]
+},{
+"title": "Thunder Lord",
+"schools":["Lightning"],
+"level":"7",
+"applies_to":"",
+"applies_what":["+1 charge","+6 damage","+2 duration"]
+},{
+"title": "Nature Lord",
+"schools":["Nature"],
+"level":"7",
+"applies_to":"To Nature spells and skills:",
+"applies_what":["+3 charges","+2 duration","+7 minion damage","+10 minion health"]
+},{
+"title": "Dark Lord (von Karma)",
+"schools":["Dark"],
+"level":"7",
+"applies_to":"To Dark spells and skills:",
+"applies_what":["+3 charges","+6 minion damage","+6 damage"]
+},{
+"title": "Void Lord",
+"schools":["Arcane"],
+"level":"7",
+"applies_to":"To Arcane spells and skills:",
+"applies_what":["+2 charges","+8 damage","+2 range"]
+},{
+"title": "Light Lord",
+"schools":["Holy"],
+"level":"7",
+"applies_to":"To Holy spells and skills:",
+"applies_what":["+2 charges","+12 damage","+15 minion health","+7 minion duration"]
+},{
+"title": "Orb Lord",
+"schools":["Orb"],
+"level":"7",
+"applies_to":"To Orb spells and skills:",
+"applies_what":["+3 charges","+4 range","+35 minion health"]
+},{
+"title": "Pyrophilia",
+"schools":["Fire","Nature"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Whenever an enemy takes fire damage, all your summons in LoS of the enemy are healed for half as much"]
+},{
+"title": "Pyrostatics",
+"schools":["Fire","Lightning"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Whenever you deal damage with a lightning spell, gain that many stacks of pyrostatic charge for 10 turns. Whenever an enemy takes fire damage, consume that many pyrostatic charges and deal that much lightning damage to up that many units in line of sight of the damaged enemy."]
+},{
+"title": "Soul Harvest",
+"schools":["Dark"],
+"level":"7",
+"applies_to":"",
+"applies_what":["Whenever an enemy unit dies, each of your dark spells has a 10% chance to gain a charge. 30% chance if enemy died to dark damage."]
+},{
+"title": "Arcane Combustion",
+"schools":["Arcane"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Whenever a unit dies to arcane damage, it explodes in a 3x3, dealing 12 arcane damage to units and destroying walls."]
+},{
+"title": "Searing Heat",
+"schools":["Fire"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Whenever you cast a fire spell, deal 3 fire damage to all enemies in LoS."]
+},{
+"title": "(Not ingame) Devourer of Nations",
+"schools":["Dark"],
+"level":"3",
+"applies_to":"",
+"applies_what":["Gain 25 health whenever you destroy a lair"]
+},{
+"title": "(Not ingame) Devourer of Champions",
+"schools":["Dark"],
+"level":"3",
+"applies_to":"",
+"applies_what":["Gain a charge of a random level 4 spell whenever you killa  boss"]
+},{
+"title": "Minion Regeneration",
+"schools":["Nature","Holy"],
+"level":"4",
+"applies_to":"",
+"applies_what":["All your minions gain 2 regen"]
+},{
+"title": "Glittering Dance",
+"schools":["ARcane","Translocation"],
+"level":"5",
+"applies_to":"",
+"applies_what":["When you cast 3 arcane spells in a row, gain a charge of a random translocation spell and summon 2 faeries."]
+},{
+"title": "Arcane Acounting",
+"schools":["Arcane"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Whenever you cast the last charge of an arcane spell, your next non-arcane spell is free for 1 turn."]
+},{
+"title": "(Not ingame) Natural Healing",
+"schools":["Nature"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Whenever you cast a nature spell, regain 5 hp"]
+},{
+"title": "Lightning Frenzy",
+"schools":["Lightning"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Whenever you cast a lightning spell, your lightning spells and skills gain 4 damage for 10 turns."]
+},{
+"title": "Melting Armor",
+"schools":["Fire"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Whenever an enemy takes fire damage, it loses 10 physical and fire resist permanently."]
+},{
+"title": "Natural Vigour",
+"schools":["Nature"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Your minions gain 25 physical, fire, ice and lightning resist"]
+},{
+"title": "Hungry Dead",
+"schools":["Dark"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Your undead minions learn Hunger. Hunter is a 2 range 5 dark damage sГҐpell that heals the caster (minion) for damage dealt and has cooldown of 3 turns."]
+},{
+"title": "Lightning Warp",
+"schools":["Lightning","Translocation"],
+"level":"6",
+"applies_to":"",
+"applies_what":["Whenever you cast a lightning spell, all enemy units within 3 tile radius of the target are teleported 4-8 tiles away and take 12 lightning damage."]
+},{
+"title": "Starfire",
+"schools":["Fire","Arcane"],
+"level":"6",
+"applies_to":"",
+"applies_what":["Redeal 50% of all fire damage as arcane."]
+},{
+"title": "Shock Value",
+"schools":["Lightning"],
+"level":"7",
+"applies_to":"",
+"applies_what":["Whenever an enemy dies to lightning damage, another non-berserk random enemy in LoS of that enemy goes berserk for 5 turns"]
+},{
+"title": "Horror",
+"schools":["Dark"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Whenever an enemy dies to dark damage, 3 random enemies in LoS of that enemy are stunned for 5 turns."]
+},{
+"title": "White Flame",
+"schools":["Fire"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Deal 18 fire damage to the primary target of a non-0 range fire spell."]
+},{
+"title": "Chaos Buddies",
+"schools":["Chaos"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Whenever an enemy takes fire, lightning and physical damage in the same turn, summon an iron imp, a spark imp and a fire imp near that enemy"]
+},{
+"title": "Arcane Shield",
+"schools":["Arcane"],
+"level":"4",
+"applies_to":"",
+"applies_what":["If you have no SH, gain 1 SH on casting an arcane spell"]
+},{
+"title": "Shielded Minions",
+"schools":["Arcane"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Minions you summon gain 1 SH. Arcane minions gain 3 SH instead"]
+},{
+"title": "Ghostfire",
+"schools":["Fire","Dark"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Whenever an enemy takes dark and fire damage in the same turn, summon a burning ghost near that enemy for 10 turns. The ghost flies, blinks, has 100 fire and dark resist, 4 hp and a 5 range 7 fire damage attack."]
+},{
+"title": "Last Word",
+"schools":["Word"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Whenever you finish a level, gain a charge of each word spell."]
+},{
+"title": "Prince of Ruin",
+"schools":["Chaos"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Whenever an enemy dies to fire, lightning or physical damage, deal 13 damage of that type to a random enemy in LoS within 5 tiles."]
+},{
+"title": "Righteous March",
+"schools":["Holy"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Whenever an enemy dies to holy damage, allies in LoS of it gain 1 SH if they have none."]
+},{
+"title": "Fiery Judgement",
+"schools":["Fire","Holy"],
+"level":"6",
+"applies_to":"",
+"applies_what":["Redeal 50% of all fire damage as holy."]
+},{
+"title": "Holy Thunder",
+"schools":["Lightning","Holy"],
+"level":"6",
+"applies_to":"",
+"applies_what":["Redeal 50% of all lightning damage as holy."]
+},{
+"title": "Chastisement",
+"schools":["Holy"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Whenever an enemy takes holy damage, it has a 50% chance to be stunned for 1 turn."]
+},{
+"title": "Chaos Casting",
+"schools":["Chaos"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Whenever you cast a chaos spell, you have a 25% chance of gaining a charge of another random chaos spell."]
+},{
+"title": "Unholy Alliance",
+"schools":["Holy","Dark"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Whenever you summon an undead or demon unit, if you control a holy unit, the newly summoned unit gains +7 damage and vice versa."]
+},{
+"title": "Thorn Garden",
+"schools":["Arcane","Nature"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Whenever you cast an arcane or nature spell, summon 2 fae thorns near the target."]
+},{
+"title": "Hypocrisy",
+"schools":["Dark","Holy"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Whenever you cast a dark spell, if your next spell is a holy of a lower level, that spell's cost is refunded and vice versa"]
+},{
+"title": "Faestone",
+"schools":["Arcane","Nature","Conjuration"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Whenever you enter a new level, summon a fae stone nearby. The stone is stationary, has 120 hp and 20 physical damage melee attack. Whenever you cast an arcane spell, the stone teleports near the target and gains 1 SH. Whenever you cast a nature spell, the stone heals for 10 hp."]
+},{
+"title": "Houndlord",
+"schools":["Fire","Conjuration"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Begin each level surrounded by friendly hell hounds."]
+},{
+"title": "Bone Guard",
+"schools":["DArk","Conjuration"],
+"level":"6",
+"applies_to":"",
+"applies_what":["Begin each level accompanied by 4 bone knights."]
+},{
+"title": "Cracklevoid",
+"schools":["Lightning","Arcane"],
+"level":"6",
+"applies_to":"",
+"applies_what":["Whenever an enemy takes arcane damage, deal that much lightning damage to 2 random enemies in a 6 tile burst."]
+},{
+"title": "Spider Spawning",
+"schools":["Nature"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Whenever an enemy dies to poison damage, summon a giant spider nearby."]
+},{
+"title": "Paralyzing Venom",
+"schools":["Nature"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Whenever an enemy takes poison damage, it has a 25% chance to be stunned for 1 turn."]
+},{
+"title": "Venom Spit",
+"schools":["Nature"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Summoned nature units learn Venom Spit. Spit is a 6 range 4 poison damage attack which poisons for 10 turns and has a cooldown of 4 turns."]
+},{
+"title": "Icy Vengeance",
+"schools":["Ice","Dark"],
+"level":"6",
+"applies_to":"",
+"applies_what":["Whenever your minion dies, deal ice damage equal to half its max hp to 3 enemies in a 5 tile radius."]
+},{
+"title": "Ice Tap",
+"schools":["Ice","Arcane"],
+"level":"6",
+"applies_to":"",
+"applies_what":["Whenever you cast an arcane spell on a frozen enemy, cast a copy of that spell on each frozen unit in LoS. Remove freeze from each affected target."]
+},{
+"title": "Frostbite",
+"schools":["Ice","Dark"],
+"level":"6",
+"applies_to":"",
+"applies_what":["Each turn, every frozen enemy takes 7 dark damage."]
+},{
+"title": "Steam Anima",
+"schools":["Ice","Fire"],
+"level":"6",
+"applies_to":"",
+"applies_what":["Whenever a unit is unfrozen by fire damage, summon 3 steam elementals nearby for 5 turns. The elementals have 100 physical, fire and ice resist, 16 hp and a 6 range 9 fire damage attack."]
+},{
+"title": "Storm Caller",
+"schools":["Lightning","Ice","Nature"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Whenever ice or lightning damage is dealt to an enemy unit, create a blizzard or a thunderstorm near them. The weather lasts for 5 turns"]
+},{
+"title": "Holy Water",
+"schools":["Ice","Holy"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Whenever a frozen enemy takes holy damage, you and all allies in LoS gain 1 SH, up to a max of 3 SH"]
+},{
+"title": "Hibernation",
+"schools":["Ice","Nature"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Your living minions gain 75 ice resist. Whenever your living minions take ice damage, they freeze for 3 turns and heal for 16 hp each turn while frozen."]
+},{
+"title": "Crystal Power",
+"schools":["Ice","Arcane","Sorcery"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Your sorcery spells gain 2 damage for each frozen or glassified enemy"]
+},{
+"title": "Radiant Chill",
+"schools":["Ice"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Whenever you cast an ice spell, freeze the nearest unfrozen enemy to that spell's target for 3 turns"]
+},{
+"title": "Shatter Shards",
+"schools":["Ice"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Whenever a unit is unfrozen or a frozen unit dies, deal 9 physical and ice damage to 3 targets in a 6 tile burst."]
+},{
+"title": "Frozen Fragility",
+"schools":["Ice"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Frozen enemies lose 100 physical and ice resist."]
+},{
+"title": "Scalespinner",
+"schools":["Dragon"],
+"level":"6",
+"applies_to":"",
+"applies_what":["Whenever an allied dragon uses a breath, all your summoned units gain 100 resist to that breath's element for 5 turns"]
+},{
+"title": "Collected Agony",
+"schools":["Dark","Nature"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Each turn, deal 2x the sum total of all poison damage dealt to all units to the nearest enemy as dark damage."]
+},{
+"title": "Moonspeaker",
+"schools":["Arcane","Holy"],
+"level":"6",
+"applies_to":"",
+"applies_what":["Whenever an enemy takes arcane damage, all holy minions in LoS of that enemy redeal 50% of that damage as holy."]
+},{
+"title": "Void Spikes",
+"schools":["Arcane","Dark"],
+"level":"7",
+"applies_to":"",
+"applies_what":["Whenever you or one of your arcane or undead minions takes damage from an enemy, deal 5 arcane damage to that enemy."]
+},{
+"title": "Necrostatics",
+"schools":["Lightning","Dark"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Gain +1 lightning damage for each undead ally."]
+},{
+"title": "Purestrike",
+"schools":["Holy","Arcane"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Whenever you or an ally deals physical damage to an enemy, if the source of that damage is shielded, redeal 50% of that damage as holy and 50% as arcane."]
+},{
+"title": "Silkshifter",
+"schools":["Nature","Translocation"],
+"level":"5",
+"applies_to":"",
+"applies_what":["You are a spider. Passively spawn a web each turn on a random adjacent tile. The webs will not spawn on top of units or walls. Whenever you cast a translocation spell target a webbed tile, refund the charge and consume the web."]
+}]
