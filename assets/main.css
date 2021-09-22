@@ -1,0 +1,61 @@
+body {
+font-size:14px;
+color:white;
+background:black;
+}
+.column,.info_panel {
+overflow:hidden;
+padding:0;
+}
+.column,.info_panel,.entry {
+border:1px solid white;
+border-radius:7px;
+}
+.info_panel .cont, .column .cont{
+overflow:hidden;
+overflow-y:auto;
+height:100%;
+padding:3px 5px;
+}
+.entry {
+padding:3px;
+}
+.entry.selected {
+outline: 2px white;
+-moz-box-shadow:inset 2px 2px 10px white;
+-webkit-box-shadow:inset 2px 2px 10px white;
+box-shadow:inset 2px 2px 10px white;
+}
+.info_panel {
+height:24vh;
+}
+
+.column {
+height:74vh;
+overflow:auto;
+overflow-x:hidden;
+}
+.schools_filter .school_name, .entry {
+cursor:pointer;
+display:inline-block;
+width:100%;
+}
+.schools_filter .school_name:hover,.entry:hover {
+background:rgba(255,255,255,0.3);
+}
+.school_name {
+color:#969696;
+text-transform:capitalize;
+display:inline-block;
+}
+
+.school_name.no-conjuration, .school_name.conjuration-only {
+color:red;
+text-decoration-thickness: 3px;
+}
+.school_name.conjuration-only {
+text-decoration-line:underline;
+}
+.school_name.no-conjuration {
+text-decoration-line:line-through;
+}

@@ -6,6 +6,8 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
 <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
 
+<link href="/assets/main.css" rel="stylesheet">
+
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
 
 </head>
@@ -13,61 +15,7 @@
 
 <!--todo: move this to separate file-->
 <style>
-body {
-font-size:14px;
-color:white;
-background:black;
-}
-.column,.info_panel,.entry {
-border:1px solid white;
-border-radius:7px;
-}
-.info_panel {
-overflow-y:auto;
-}
-.entry {
-padding:3px;
-/*margin:3px 0;*/
-}
-.entry.selected {
-outline: 2px white;
--moz-box-shadow:inset 2px 2px 10px white;
--webkit-box-shadow:inset 2px 2px 10px white;
-box-shadow:inset 2px 2px 10px white;
-}
-.info_panel {
-height:23vh;
-}
 
-.column {
-height:75vh;
-overflow:auto;
-overflow-x:hidden;
-}
-.schools_filter .school_name, .entry {
-cursor:pointer;
-display:inline-block;
-width:100%;
-}
-.schools_filter .school_name:hover,.entry:hover {
-background:rgba(255,255,255,0.3);
-}
-.school_name {
-color:#969696;
-text-transform:capitalize;
-display:inline-block;
-}
-
-.school_name.no-conjuration, .school_name.conjuration-only {
-color:red;
-text-decoration-thickness: 3px;
-}
-.school_name.conjuration-only {
-text-decoration-line:underline;
-}
-.school_name.no-conjuration {
-text-decoration-line:line-through;
-}
 
 </style>
 
@@ -75,6 +23,7 @@ text-decoration-line:line-through;
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-3 info_panel">
+			<div class="cont">
 				<template v-if="displayed_item">
 					<template v-if="displayed_item_type=='spell'">
 						<div>
@@ -151,7 +100,9 @@ text-decoration-line:line-through;
 					&nbsp;
 				</template>
 			</div>
+			</div>
 			<div class="col-3 info_panel">
+			<div class="cont">
 				<template v-if="displayed_item">
 					<template v-if="displayed_item_type=='spell'">
 						<template v-for="upgrade in displayed_item.upgrades">
@@ -173,14 +124,18 @@ text-decoration-line:line-through;
 					</template>
 				</template>
 			</div>
+			</div>
 			<div class="col-3 info_panel">
+			<div class="cont">
 				<template v-if="hovered_upgrade">
 					{{ hovered_upgrade.description }}
 				</template>
 			</div>
+			</div>
 		</div>
 		<div class="row">
 			<div :class="[{'v-hidden':false},'col-3','column','spells']">
+			<div class="cont">
 				<template v-for="(item,index) in spells">
 					<div
 					@mouseover="hover_over(item,'spell')"
@@ -201,7 +156,9 @@ text-decoration-line:line-through;
 					</div>
 				</template>
 			</div>
+			</div>
 			<div :class="[{'v-hidden':false},'col-3','column','skills']">
+			<div class="cont">
 				<template v-for="(item,index) in skills">
 					<div
 					@mouseover="hover_over(item,'skill')"
@@ -223,7 +180,9 @@ text-decoration-line:line-through;
 					
 				</template>
 			</div>
+			</div>
 			<div :class="[{'v-hidden':false},'col-3','column','shrines']">
+			<div class="cont">
 				<template v-for="(item,index) in shrines">
 					<div
 					@mouseover="hover_over(item,'shrine')"
@@ -243,6 +202,7 @@ text-decoration-line:line-through;
 					</div>
 				</template>
 			</div>
+			</div>
 			<div class="schools_filter col-3">
 				<template v-for="(item,index) in schools">
 					<div>
@@ -257,119 +217,84 @@ text-decoration-line:line-through;
 
 <!--todo: move this to separate file-->
 <script>
-const indexOfCI = (arr, q) => arr.findIndex( item => q.toLowerCase() === item.toLowerCase()); // case-independant indexOf
+var indexOfCI = function (arr, q) {// case-independent indexOf
+	return arr.findIndex( 
+		function (item) {
+			return q.toLowerCase() === item.toLowerCase()
+		}
+	)
+};
 
-var known_schools_stuff = { // icons for schools was just an idea - probably a bad one
-	"fire" : {color:'#dc1b22',icon_class:'fa-eye-slash',letter:'f'},
-	"lightning" : {color:'#fbea57',icon_class:'fa-eye-slash',letter:'l'},
-	"ice" : {color:'#4ec1f4',icon_class:'fa-eye-slash',letter:'i'},
-	"nature" : {color:'#5dad5d',icon_class:'fa-eye-slash',letter:'n'},
-	"arcane" : {color:'#f06292',icon_class:'fa-eye-slash',letter:'a'},
-	"dark" : {color:'#9c27b0',icon_class:'fa-eye-slash',letter:'d'},
-	"holy" : {color:'#f6fe8d',icon_class:'fa-eye-slash',letter:'h'},
-	"sorcery" : {color:'#e91e63',icon_class:'fa-eye-slash',letter:'s'},
-	"conjuration" : {color:'#f36c60',icon_class:'fa-eye-slash',letter:'c'},
-	"enchantment" : {color:'#31a490',icon_class:'fa-eye-slash',letter:'e'},
-	"word" : {color:'#ffd54f',icon_class:'fa-eye-slash',letter:'w'},
-	"orb" : {color:'#f8a8b7',icon_class:'fa-eye-slash',letter:'b'},
-	"dragon" : {color:'#b0120a',icon_class:'fa-eye-slash',letter:'r'},
-	"translocation" : {color:'#ba68c8',icon_class:'fa-eye-slash',letter:'t'},
-	"eye" : {color:'#ffffff',icon_class:'fa-eye',letter:'y'},
-	"chaos" : {color:'#ffab4d',icon_class:'fa-eye-slash',letter:'o'},
-}
-
-function sumstartingsht (jsons) { 
-	window.schools = jsons.skills.reduce(function(acc,item,index,array){ // select distinct schools from jsons
-		for (var i=0;i<item.schools.length;i++){
-			if (indexOfCI(acc,item.schools[i])===-1){
-				acc.push(item.schools[i].toLowerCase())
-			}
-			return acc;
-		}
-	},[]);
-	// sort stuff by lvl. TODO: make it look better
-	jsons.spells.sort(function(a, b) {
-		if (a.level > b.level) {
-			return 1;
-		}
-		if (a.level < b.level) {
-			return -1;
-		}
-		
-		if (a.title > b.title) {
-			return 1;
-		}
-		if (a.title < b.title) {
-			return -1;
-		}
-		
-		return 0;
-	});
-	jsons.skills.sort(function(a, b) {
-		if (a.level > b.level) {
-			return 1;
-		}
-		if (a.level < b.level) {
-			return -1;
-		}
-		
-		if (a.title > b.title) {
-			return 1;
-		}
-		if (a.title < b.title) {
-			return -1;
-		}
-		
-		return 0;
-	});
-	jsons.shrines.sort(function(a, b) {
-		if (a.title > b.title) {
-			return 1;
-		}
-		if (a.title < b.title) {
-			return -1;
-		}
-		
-		return 0;
-	});
-	
-	var css = '', //css for highlighting the letters
-		head = document.head || document.getElementsByTagName('head')[0],
-		style = document.createElement('style');
-		head.appendChild(style);
-		style.type = 'text/css';
-
-		for (k in known_schools_stuff) {
-			css += '.school_name.' + k + ' .letter{color:' + known_schools_stuff[k].color + "}\r\n";
-			css += '.school_name.' + k + '.selected{color:' + known_schools_stuff[k].color + "}\r\n";
-		};
-		
-		css += '.school_name.no-conjuration .letter{color:' + known_schools_stuff['conjuration'].color + "}\r\n";
-		css += '.school_name.conjuration-only .letter{color:' + known_schools_stuff['conjuration'].color + "}\r\n";
-
-		if (style.styleSheet){
-		  style.styleSheet.cssText = css;
-		} else {
-		  style.appendChild(document.createTextNode(css));
-		}
+var known_schools_stuff = {
+	"fire" : {color:'#dc1b22',letter:'f'},
+	"lightning" : {color:'#fbea57',letter:'l'},
+	"ice" : {color:'#4ec1f4',letter:'i'},
+	"nature" : {color:'#5dad5d',letter:'n'},
+	"arcane" : {color:'#f06292',letter:'a'},
+	"dark" : {color:'#9c27b0',letter:'d'},
+	"holy" : {color:'#f6fe8d',letter:'h'},
+	"sorcery" : {color:'#e91e63',letter:'s'},
+	"conjuration" : {color:'#f36c60',letter:'c'},
+	"enchantment" : {color:'#31a490',letter:'e'},
+	"word" : {color:'#ffd54f',letter:'w'},
+	"orb" : {color:'#f8a8b7',letter:'b'},
+	"dragon" : {color:'#b0120a',letter:'r'},
+	"translocation" : {color:'#ba68c8',letter:'t'},
+	"eye" : {color:'#ffffff',letter:'y'},
+	"chaos" : {color:'#ffab4d',letter:'o'},
 }
 
 var url = "/data_sources/";
 url = "https://8008fondler.github.io/riftwiz/data_sources/";
 
-jsons = {};
 
 
-Promise.all([ // bye-bye IE11
-	fetch(url + 'skills.json').then(response => response.json()),
-	fetch(url + 'shrines.json').then(response => response.json()),
-	fetch(url + 'spells.json').then(response => response.json()),
-]).then(([skills, shrines,spells]) => init({skills:skills, shrines:shrines,spells:spells}));
+var css = '', /* letter highlighting css */
+head = document.head || document.getElementsByTagName('head')[0],
+style = document.createElement('style');
+head.appendChild(style);
+style.type = 'text/css';
+
+for (k in known_schools_stuff) {
+	css += '.school_name.' + k + ' .letter{color:' + known_schools_stuff[k].color + "}\r\n";
+	css += '.school_name.' + k + '.selected{color:' + known_schools_stuff[k].color + "}\r\n";
+};
+	
+css += '.school_name.no-conjuration .letter{color:' + known_schools_stuff['conjuration'].color + "}\r\n";
+css += '.school_name.conjuration-only .letter{color:' + known_schools_stuff['conjuration'].color + "}\r\n";
+
+if (style.styleSheet){
+	style.styleSheet.cssText = css;
+} else {
+	style.appendChild(document.createTextNode(css));
+}
+
+
 
 function init (jsons) {
-	sumstartingsht(jsons);
+
+	jsons.spells.sort(function(a, b) {
+		if (a.level > b.level) return 1;
+		if (a.level < b.level) return -1;
+		if (a.title > b.title) return 1;
+		if (a.title < b.title) return -1;
+		return 0;
+	});
+	jsons.skills.sort(function(a, b) {
+		if (a.level > b.level) return 1;
+		if (a.level < b.level) return -1;
+		if (a.title > b.title) return 1;
+		if (a.title < b.title) return -1;
+		return 0;
+	});
+	jsons.shrines.sort(function(a, b) {
+		if (a.title > b.title) return 1;
+		if (a.title < b.title) return -1;		
+		return 0;
+	});
 	
-	new Vue({ // TODO: move into a separate file
+	
+	new Vue({ // TODO(?): move vue part into a separate file
 		el:"#app",
 		data: {
 			skills:jsons.skills,
@@ -377,12 +302,9 @@ function init (jsons) {
 			shrines:jsons.shrines,
 			
 			schools:window.known_schools_stuff,
-			schools_present: window.schools,
 			
 			hovered_item: null,
 			hovered_item_type: null,
-			/*hovered_shrine: null,
-			hovered_skill: null,*/
 			hovered_upgrade:null,
 			
 			selected_item: null,
@@ -432,17 +354,13 @@ function init (jsons) {
 			},
 			key_pressed (e){
 				var K = e.key;
-				if (e.ctrlKey)
-					return
+				if (e.ctrlKey) return; // ignore ctrl+ shortcuts 
 					
 				for (name in this.schools) {
 					if (this.schools[name].letter.toLowerCase() == K.toLowerCase()){
 						this.toggle_school(e,name)
 					}
 				}
-			},
-			refresh_lists(){
-			
 			},
 			hover_over(item,type){
 				this.hovered_item = item;
@@ -469,7 +387,6 @@ function init (jsons) {
 			},
 			check_against_filters(){ // TODO:rework this stuff
 				var _t=this;
-				
 				return {
 					'spell':function(spell_data){
 						for (k in _t.schools){
@@ -494,7 +411,7 @@ function init (jsons) {
 							if (indexOfCI(shrine_data.conditions,'conjuration-only')!==-1) {
 								if (indexOfCI(spell_schools,'conjuration')===-1) {
 									return false;
-								} else if (shrine_data.conditions.length==1) { // for cases with "non-cj" being the only requirement
+								} else if (shrine_data.conditions.length==1) { // for cases with "cj-only" being the only requirement
 									return true;
 								}
 							}
@@ -518,7 +435,7 @@ function init (jsons) {
 				}
 			}
 		},
-		computed: { // TODO(?): separate these: make more than one selectable, make more than one type selectable; how? why?
+		computed: { // TODO(?): separate these: make more than one selectable, make more than one type selectable (as a feature to have some other filtering options)- decide on how will it look and what will this multi-selection do
 			displayed_item: function() {
 				return null || this.hovered_item || this.selected_item;
 			},
@@ -529,6 +446,13 @@ function init (jsons) {
 		},
 	});
 };
+
+
+Promise.all([ // bye-bye IE11;
+	fetch(url + 'skills.json').then(response => response.json()),
+	fetch(url + 'shrines.json').then(response => response.json()),
+	fetch(url + 'spells.json').then(response => response.json()),
+]).then(([skills, shrines,spells]) => init({skills:skills, shrines:shrines,spells:spells}));
 </script>
 
 </body>
