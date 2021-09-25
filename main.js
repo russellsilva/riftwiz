@@ -53,25 +53,11 @@ if (style.styleSheet){
 
 function init (jsons) {
 
-  jsons.spells.sort(function(a, b) {
-    if (a.level > b.level) return 1;
-    if (a.level < b.level) return -1;
-    if (a.title > b.title) return 1;
-    if (a.title < b.title) return -1;
-    return 0;
-  });
-  jsons.skills.sort(function(a, b) {
-    if (a.level > b.level) return 1;
-    if (a.level < b.level) return -1;
-    if (a.title > b.title) return 1;
-    if (a.title < b.title) return -1;
-    return 0;
-  });
-  jsons.shrines.sort(function(a, b) {
-    if (a.title > b.title) return 1;
-    if (a.title < b.title) return -1;    
-    return 0;
-  });
+  levelLexicographicalCompare = (a,b) => a.level - b.level || a.title.localeCompare(b.title)
+
+  jsons.spells.sort(levelLexicographicalCompare)
+  jsons.skills.sort(levelLexicographicalCompare)
+  jsons.shrines.sort((a,b) => a.title.localeCompare(b.title))
 
 
   new Vue({ // TODO(?): move vue part into a separate file
@@ -100,7 +86,7 @@ function init (jsons) {
 
     },
     methods:{
-      decorate_school_name (name,letter_only) {
+      decorate_school_name (name, letter_only) {
         name = name.toLowerCase();
         const tmp_name = name;
 
