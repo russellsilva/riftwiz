@@ -1,3 +1,4 @@
+// Is this needed?
 const indexOfCI = function (arr, q) { // case-independent indexOf
   return arr.findIndex(
     function (item) {
@@ -28,7 +29,6 @@ var known_schools_stuff = {
 
 const url = "/data_sources/"//"https://carlank.github.io/riftwiz/data_sources/";
 
-
 let css = '', /* letter highlighting css */
 head = document.head || document.getElementsByTagName('head')[0],
 style = document.createElement('style');
@@ -53,12 +53,11 @@ if (style.styleSheet){
 
 function init (jsons) {
 
-  levelLexicographicalCompare = (a,b) => a.level - b.level || a.title.localeCompare(b.title)
+  levelLocaleCompare = (a,b) => a.level - b.level || a.title.localeCompare(b.title)
 
-  jsons.spells.sort(levelLexicographicalCompare)
-  jsons.skills.sort(levelLexicographicalCompare)
+  jsons.spells.sort(levelLocaleCompare)
+  jsons.skills.sort(levelLocaleCompare)
   jsons.shrines.sort((a,b) => a.title.localeCompare(b.title))
-
 
   new Vue({ // TODO(?): move vue part into a separate file
     el:"#app",
