@@ -29,9 +29,11 @@ var schoolConfig = {
 
 const url = "/data_sources/"//"https://carlank.github.io/riftwiz/data_sources/";
 
-let css = '', /* letter highlighting css */
-head = document.head || document.getElementsByTagName('head')[0],
-style = document.createElement('style');
+// Create and inject the letter highlighting css
+
+let css = '';
+const head = document.head || document.getElementsByTagName('head')[0];
+const style = document.createElement('style');
 head.appendChild(style);
 style.type = 'text/css';
 
@@ -49,7 +51,7 @@ if (style.styleSheet){
   style.appendChild(document.createTextNode(css));
 }
 
-
+// Initialization function for the data source files
 
 function init (jsons) {
 
