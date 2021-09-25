@@ -7,8 +7,8 @@ const indexOfCI = function (arr, q) { // case-independent indexOf
   )
 };
 
-// nasty business. accessed via window.known_schools_stuff
-var = {
+// nasty business. accessed via window.schoolConfig
+var schoolConfig = {
   "fire" : {color:'#dc1b22',letter:'f'},
   "lightning" : {color:'#fbea57',letter:'l'},
   "ice" : {color:'#4ec1f4',letter:'i'},
@@ -35,13 +35,13 @@ style = document.createElement('style');
 head.appendChild(style);
 style.type = 'text/css';
 
-for (k in known_schools_stuff) {
-  css += '.school_name.' + k + ' .letter{color:' + known_schools_stuff[k].color + "}\r\n";
-  css += '.school_name.' + k + '.selected{color:' + known_schools_stuff[k].color + "}\r\n";
+for (k in schoolConfig) {
+  css += '.school_name.' + k + ' .letter{color:' + schoolConfig[k].color + "}\r\n";
+  css += '.school_name.' + k + '.selected{color:' + schoolConfig[k].color + "}\r\n";
 };
 
-css += '.school_name.no-conjuration .letter{color:' + known_schools_stuff['conjuration'].color + "}\r\n";
-css += '.school_name.conjuration-only .letter{color:' + known_schools_stuff['conjuration'].color + "}\r\n";
+css += '.school_name.no-conjuration .letter{color:' + schoolConfig['conjuration'].color + "}\r\n";
+css += '.school_name.conjuration-only .letter{color:' + schoolConfig['conjuration'].color + "}\r\n";
 
 if (style.styleSheet){
   style.styleSheet.cssText = css;
@@ -66,7 +66,7 @@ function init (jsons) {
       spells:jsons.spells,
       shrines:jsons.shrines,
 
-      schools:window.known_schools_stuff,
+      schools:window.schoolConfig,
 
       hovered_item: null,
       hovered_item_type: null,
