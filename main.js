@@ -26,8 +26,7 @@ var known_schools_stuff = {
 }
 
 var url = "/data_sources/";
-url = "https://8008fondler.github.io/riftwiz/data_sources/";
-
+url = "https://carlank.github.io/riftwiz/data_sources/";
 
 
 var css = '', /* letter highlighting css */
