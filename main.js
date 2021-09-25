@@ -25,8 +25,7 @@ var known_schools_stuff = {
   "chaos" : {color:'#ffab4d',letter:'o'},
 }
 
-var url = "/data_sources/";
-url = "https://carlank.github.io/riftwiz/data_sources/";
+const url = "https://carlank.github.io/riftwiz/data_sources/";
 
 
 var css = '', /* letter highlighting css */
