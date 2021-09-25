@@ -1,3 +1,6 @@
+import Build from './Build.js';
+
+
 // Is this needed?
 const indexOfCI = function (arr, q) { // case-independent indexOf
   return arr.findIndex(
@@ -7,8 +10,7 @@ const indexOfCI = function (arr, q) { // case-independent indexOf
   )
 };
 
-// nasty business. accessed via window.schoolConfig
-var schoolConfig = {
+const schoolConfig = {
   "fire" : {color:'#dc1b22',letter:'f'},
   "lightning" : {color:'#fbea57',letter:'l'},
   "ice" : {color:'#4ec1f4',letter:'i'},
@@ -37,7 +39,7 @@ const style = document.createElement('style');
 head.appendChild(style);
 style.type = 'text/css';
 
-for (k in schoolConfig) {
+for (const k in schoolConfig) {
   css += '.school_name.' + k + ' .letter{color:' + schoolConfig[k].color + "}\r\n";
   css += '.school_name.' + k + '.selected{color:' + schoolConfig[k].color + "}\r\n";
 };
@@ -55,7 +57,7 @@ if (style.styleSheet){
 
 function init (jsons) {
 
-  levelLocaleCompare = (a,b) => a.level - b.level || a.title.localeCompare(b.title)
+  const levelLocaleCompare = (a,b) => a.level - b.level || a.title.localeCompare(b.title)
 
   jsons.spells.sort(levelLocaleCompare)
   jsons.skills.sort(levelLocaleCompare)
@@ -68,7 +70,7 @@ function init (jsons) {
       spells:jsons.spells,
       shrines:jsons.shrines,
 
-      schools:window.schoolConfig,
+      schools:schoolConfig,
 
       hovered_item: null,
       hovered_item_type: null,
@@ -76,6 +78,8 @@ function init (jsons) {
 
       selected_item: null,
       selected_item_type:null,
+
+      build: new Build(),
 
       school_filters: [],
     },
@@ -144,6 +148,11 @@ function init (jsons) {
         this.hovered_item_type = null;
       },
       toggle_item_select(item,type){
+        if (this.build.has(type,item)){
+          this.build.remove(type,item);
+        } else {
+          this.build.add(type,item)
+        }
         if (this.selected_item == item) {
           this.selected_item = null;
           this.selected_item_type = null;
@@ -151,12 +160,13 @@ function init (jsons) {
           this.selected_item = item;
           this.selected_item_type = type;
         }
+        console.log(this.build)
       },
       check_against_filters(){ // TODO:rework this stuff
         const _t=this;
         return {
           'spell':function(spell_data){
-            for (k in _t.schools){
+            for (const k in _t.schools){
               if (_t.schools[k].selected && indexOfCI(spell_data.schools,k)===-1){
                 return false;
               }
@@ -164,7 +174,7 @@ function init (jsons) {
             return true;
           },
           'skill':function(skill_data){
-            for (k in _t.schools){
+            for (const k in _t.schools){
               if (_t.schools[k].selected && indexOfCI(skill_data.schools,k)===-1){
                 return false;
               }
