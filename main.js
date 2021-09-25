@@ -91,6 +91,10 @@ function init (jsons) {
 
     },
     methods:{
+      sort_all () {
+        this.spells.sort((a,b)=> (this.build.has('spell',b) - this.build.has('spell',a)) || levelLocaleCompare(a,b))
+        this.skills.sort((a,b)=> (this.build.has('skill',b) - this.build.has('skill',a)) || levelLocaleCompare(a,b))
+      },
       decorate_school_name (name, letter_only) {
         name = name.toLowerCase();
         const tmp_name = name;
@@ -147,12 +151,14 @@ function init (jsons) {
         this.hovered_item = null;
         this.hovered_item_type = null;
       },
-      toggle_item_select(item,type){
+      toggle_item_build(item,type){
         if (this.build.has(type,item)){
           this.build.remove(type,item);
         } else {
           this.build.add(type,item)
         }
+      },
+      toggle_item_select(item,type){
         if (this.selected_item == item) {
           this.selected_item = null;
           this.selected_item_type = null;

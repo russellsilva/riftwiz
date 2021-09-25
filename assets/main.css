@@ -26,6 +26,10 @@ outline: 2px white;
 -webkit-box-shadow:inset 2px 2px 10px white;
 box-shadow:inset 2px 2px 10px white;
 }
+.entry.build {
+  box-shadow:inset 2px 2px 10px gold;
+}
+
 .info_panel {
 height:24vh;
 }

@@ -153,9 +153,9 @@
                     <div
                     @mouseover="hover_over(item,'spell')"
                     @mouseout="hover_out()"
-                    @click="toggle_item_select(item,'spell')"
+                    @click="toggle_item_select(item,'spell');toggle_item_build(item,'spell'); sort_all();"
                     class="entry"
-                    :class="{'selected':selected_item==item,'d-none': !(selected_item==item) && !check_against_filters()['spell'](item)}"
+                    :class="{'selected':selected_item==item,'build':build.has('spell',item),'d-none': !(selected_item==item) && !check_against_filters()['spell'](item)}"
                     v-if="item.title.indexOf('ingame') == -1">
                         <div class="title row">
                             <div class="col-8">{{ item.title }}</div>
@@ -176,9 +176,9 @@
                     <div
                     @mouseover="hover_over(item,'skill')"
                     @mouseout="hover_out()"
-                    @click="toggle_item_select(item,'skill')"
+                    @click="toggle_item_select(item,'skill'); toggle_item_build(item,'skill'); sort_all();"
                     class="entry"
-                    :class="{'selected':selected_item==item,'d-none': !(selected_item==item) && !check_against_filters()['skill'](item)}"
+                    :class="{'selected':selected_item==item,'build':build.has('skill',item),'d-none': !(selected_item==item) && !check_against_filters()['skill'](item)}"
                     v-if="item.title.indexOf('ingame') == -1">
                         <div class="title row">
                             <div class="col-8">{{ item.title }}</div>
