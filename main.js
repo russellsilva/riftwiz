@@ -1,11 +1,12 @@
-var indexOfCI = function (arr, q) {// case-independent indexOf
-  return arr.findIndex( 
+const indexOfCI = function (arr, q) { // case-independent indexOf
+  return arr.findIndex(
     function (item) {
       return q.toLowerCase() === item.toLowerCase()
     }
   )
 };
 
+// nasty business. accessed via window.known_schools_stuff
 var known_schools_stuff = {
   "fire" : {color:'#dc1b22',letter:'f'},
   "lightning" : {color:'#fbea57',letter:'l'},
@@ -25,10 +26,10 @@ var known_schools_stuff = {
   "chaos" : {color:'#ffab4d',letter:'o'},
 }
 
-const url = "https://carlank.github.io/riftwiz/data_sources/";
+const url = "/data_sources/"//"https://carlank.github.io/riftwiz/data_sources/";
 
 
-var css = '', /* letter highlighting css */
+let css = '', /* letter highlighting css */
 head = document.head || document.getElementsByTagName('head')[0],
 style = document.createElement('style');
 head.appendChild(style);
@@ -92,7 +93,7 @@ function init (jsons) {
       school_filters: [],
     },
     mounted: function(){
-      var _t=this;
+      const _t=this;
       window.addEventListener('keydown', function(e) {
         _t.key_pressed(e);
       });
@@ -100,20 +101,20 @@ function init (jsons) {
     },
     methods:{
       decorate_school_name (name,letter_only) {
-        var name = name.toLowerCase();
-        var tmp_name = name;
+        name = name.toLowerCase();
+        const tmp_name = name;
 
         if ((name=='no-conjuration' || name=='conjuration-only')) {
           name = 'conjuration';
         }
 
-        var school_data = this.schools[name];
+        const school_data = this.schools[name];
         if (!school_data) {
           return 'unknown school';
         }
-        var ind = name.indexOf(school_data.letter);
+        const ind = name.indexOf(school_data.letter);
 
-        var res = name.split('');
+        let res = name.split('');
         if (!letter_only) {
           res.splice(ind+1, 0, "</span>");
           res.splice(ind, 0, "<span class='letter'>");
@@ -132,7 +133,7 @@ function init (jsons) {
         this.schools[name].selected = !this.schools[name].selected;
       },
       key_pressed (e){
-        var K = e.key;
+        const K = e.key;
         if (e.ctrlKey) return; // ignore ctrl+ shortcuts 
 
         for (name in this.schools) {
@@ -165,7 +166,7 @@ function init (jsons) {
         }
       },
       check_against_filters(){ // TODO:rework this stuff
-        var _t=this;
+        const _t=this;
         return {
           'spell':function(spell_data){
             for (k in _t.schools){
@@ -185,7 +186,7 @@ function init (jsons) {
           },
           'shrine':function(shrine_data){ // shrines conditions are || between eachother, then && if the "cj-only"/"non-cj" is present
             if (_t.selected_item && _t.selected_item_type == 'spell' && shrine_data.conditions.length) {
-              var spell_schools = _t.selected_item.schools;
+              const spell_schools = _t.selected_item.schools;
 
               if (indexOfCI(shrine_data.conditions,'conjuration-only')!==-1) {
                 if (indexOfCI(spell_schools,'conjuration')===-1) {
@@ -200,9 +201,8 @@ function init (jsons) {
                   return false;
                 }
               }
-
-              for (var z = 0; z<spell_schools.length;z++){
-                if (indexOfCI(shrine_data.conditions,spell_schools[z])!==-1)
+              for (const school of spell_schools){
+                if (indexOfCI(shrine_data.conditions,school)!==-1)
                   return true;
               }
 
