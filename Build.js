@@ -1,3 +1,5 @@
+import Spell from './Spell.js';
+
 export default class Build {
   constructor(){
     this.name = '';
@@ -22,7 +24,7 @@ export default class Build {
   add(type, item){
     switch(type){
       case 'spell':
-        this.spells.set(item.title,item);
+        this.spells.set(item.title,new Spell(item));
         break;
       case 'skill':
         this.skills.set(item.title,item);

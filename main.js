@@ -1,4 +1,5 @@
 import Build from './Build.js';
+import Spell from './Spell.js';
 
 
 // Is this needed?
@@ -150,6 +151,12 @@ function init (jsons) {
       hover_out(){
         this.hovered_item = null;
         this.hovered_item_type = null;
+      },
+      toggle_upgrade_build(upgrade){
+        if (this.build.has('spell',this.selected_item)){
+          this.build.spells.get(this.selected_item.title).toggleUpgrade(upgrade);
+        }
+        console.log(this.selected_item,this.build.spells.get(this.selected_item.title))
       },
       toggle_item_build(item,type){
         if (this.build.has(type,item)){

@@ -122,6 +122,8 @@
                         <div class="entry"
                         @mouseover="hover_upgrade(upgrade)"
                         @mouseout="hover_upgrade_out()"
+                        @click="toggle_upgrade_build(upgrade)"
+                             :class="{'build': selected_item != null && build.has('spell',selected_item) && build.spells.get(selected_item.title).upgrades.has(upgrade.title)}"
                         >
                             <div class="row"
                             >
