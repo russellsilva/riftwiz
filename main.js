@@ -8,7 +8,7 @@ const indexOfCI = function (arr, q) { // case-independent indexOf
 };
 
 // nasty business. accessed via window.known_schools_stuff
-var known_schools_stuff = {
+var = {
   "fire" : {color:'#dc1b22',letter:'f'},
   "lightning" : {color:'#fbea57',letter:'l'},
   "ice" : {color:'#4ec1f4',letter:'i'},
