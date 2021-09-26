@@ -17,20 +17,19 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-3 build_spell_panel">
-                <template v-for="spell in build.spells.values()">
+                <template v-for="spell in spells.filter(s=>s.active)">
                   {{ spell.title }}
-                  <br>
                 </template>
             </div>
             <div class="col-3 build_spell_panel">
-                <template v-for="skill in build.skills.values()">
+                <template v-for="skill in skills.filter(s=>s.active)">
                   {{ skill.title }}
                   <br>
                 </template>
             </div>
             <div class="col-6 build_info_panel">
               <template>
-                SP: {{ [...build.items.values()].reduce((acc,item)=>acc+(+item.level),0) }} 
+                SP: {{ [...spells,...skills].filter(s=>s.active).reduce((acc,item)=>acc+(+item.level),0) }} 
               </template>
             </div>
         </div>
@@ -123,7 +122,7 @@
                         @mouseover="hover_upgrade(upgrade)"
                         @mouseout="hover_upgrade_out()"
                         @click="toggle_upgrade_build(upgrade)"
-                             :class="{'build': selected_item != null && build.has('spell',selected_item) && build.spells.get(selected_item.title).upgrades.has(upgrade.title)}"
+                             :class="{'build': selected_item != null && selected_item.activeUpgrades.has(upgrade.title)}"
                         >
                             <div class="row"
                             >
@@ -157,7 +156,7 @@
                     @mouseout="hover_out()"
                     @click="toggle_item_select(item,'spell');toggle_item_build(item,'spell'); sort_all();"
                     class="entry"
-                    :class="{'selected':selected_item==item,'build':build.has('spell',item),'d-none': !(selected_item==item) && !check_against_filters()['spell'](item)}"
+                    :class="{'selected':selected_item==item,'build': item.active,'d-none': !(selected_item==item) && !check_against_filters()['spell'](item)}"
                     v-if="item.title.indexOf('ingame') == -1">
                         <div class="title row">
                             <div class="col-8">{{ item.title }}</div>
@@ -180,7 +179,7 @@
                     @mouseout="hover_out()"
                     @click="toggle_item_select(item,'skill'); toggle_item_build(item,'skill'); sort_all();"
                     class="entry"
-                    :class="{'selected':selected_item==item,'build':build.has('skill',item),'d-none': !(selected_item==item) && !check_against_filters()['skill'](item)}"
+                    :class="{'selected':selected_item==item,'build':item.active,'d-none': !(selected_item==item) && !check_against_filters()['skill'](item)}"
                     v-if="item.title.indexOf('ingame') == -1">
                         <div class="title row">
                             <div class="col-8">{{ item.title }}</div>

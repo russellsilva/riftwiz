@@ -1,0 +1,2 @@
+title,description,range,radius,damage,los_required,charges,schools,level
+Fireball,Deal {this.damage.fire} in a {this.radius} burst,8,2,9,TRUE,18,FS,1

@@ -1,0 +1,8 @@
+spell,title,cost,description,damage,range,charges,radius
+Fireball,Radius,3,+1 radius,,,,1
+Fireball,Damage,2,+8 damage,8,,,
+Fireball,Charges,2,+8 charges,,,8,
+Fireball,Range,1,+3 range,,3,,
+Fireball,Chaos Ball,3,"Fireball deals physical, lightning, or fire at random. Lowest resist element chosen",,,,
+Fireball,Energy Ball,4,"Fireball deals arcane, holy, or fire at random. Lowest resist element chosen",,,,
+Fireball,Ash Ball,5,"Fireball deals poison, dark, or fire at random. Lowest resist element chosen",,,,

@@ -1,4 +1,3 @@
-import Build from './Build.js';
 import Spell from './Spell.js';
 
 
@@ -60,6 +59,8 @@ function init (jsons) {
 
   const levelLocaleCompare = (a,b) => a.level - b.level || a.title.localeCompare(b.title)
 
+  jsons.spells = jsons.spells.map(spell => new Spell(spell))
+
   jsons.spells.sort(levelLocaleCompare)
   jsons.skills.sort(levelLocaleCompare)
   jsons.shrines.sort((a,b) => a.title.localeCompare(b.title))
@@ -80,8 +81,6 @@ function init (jsons) {
       selected_item: null,
       selected_item_type:null,
 
-      build: new Build(),
-
       school_filters: [],
     },
     mounted: function(){
@@ -93,8 +92,8 @@ function init (jsons) {
     },
     methods:{
       sort_all () {
-        this.spells.sort((a,b)=> (this.build.has('spell',b) - this.build.has('spell',a)) || levelLocaleCompare(a,b))
-        this.skills.sort((a,b)=> (this.build.has('skill',b) - this.build.has('skill',a)) || levelLocaleCompare(a,b))
+        this.spells.sort((a,b)=> b.active - a.active || levelLocaleCompare(a,b))
+        this.skills.sort((a,b)=> b.active - a.active || levelLocaleCompare(a,b))
       },
       decorate_school_name (name, letter_only) {
         name = name.toLowerCase();
@@ -153,17 +152,10 @@ function init (jsons) {
         this.hovered_item_type = null;
       },
       toggle_upgrade_build(upgrade){
-        if (this.build.has('spell',this.selected_item)){
-          this.build.spells.get(this.selected_item.title).toggleUpgrade(upgrade);
-        }
-        console.log(this.selected_item,this.build.spells.get(this.selected_item.title))
+        this.selected_item.toggleUpgrade(upgrade);
       },
       toggle_item_build(item,type){
-        if (this.build.has(type,item)){
-          this.build.remove(type,item);
-        } else {
-          this.build.add(type,item)
-        }
+        item.active = !item.active;
       },
       toggle_item_select(item,type){
         if (this.selected_item == item) {
@@ -173,7 +165,6 @@ function init (jsons) {
           this.selected_item = item;
           this.selected_item_type = type;
         }
-        console.log(this.build)
       },
       check_against_filters(){ // TODO:rework this stuff
         const _t=this;
