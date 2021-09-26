@@ -154,7 +154,7 @@ Icy Spriggan Shrine: On cast, summon an Ice spriggan at target; Nature & Ice
 
 Sunlight Shrine: Damaging an enemy heal all allied units in LoS of that enemy for half the damage; Nature & Fire & Holy; no-conjuration
 
-Searing Shrine: Redeal half of spell damage to random enemy in LoS of original target; Fire & Holy
+Searing Shrine: Redeal half of spell or minion damage to random enemy in LoS of original target; Fire & Holy
 
 Chaos Quill Shrine: On killing a lightning or fire unit, summon a living scroll of lightning or fire at that location. On casting last charge, summon a Chaos Quill for 36 turns; Chaos & Fire & Lightning
 

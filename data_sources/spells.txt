@@ -232,7 +232,7 @@ Duration: +7 duration; 2
 Holy Fury: Also affects holy abilities; 3
 Dark Fury: Also affects dark abilities; 3
 -------------------------------------------------------------------------------------------------------------------------------
-Healing Light: Heall allies in LoS for 25; 10 charges; Holy & Sorcery; Level 2
+Healing Light: Heal allies in LoS for 25; 10 charges; Holy & Sorcery; Level 2
 
 Upgrades: 
 

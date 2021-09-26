@@ -3,9 +3,9 @@ export default class Spell extends Item{
   constructor(base){
     super(base);
     this._charges = +base.charges;
-    this._damage = base.damage;
-    this._radius = base.radius;
-    this._range = +base.range;
+    this._damage = base.damage || {};
+    this._radius = base.radius || 0;
+    this._range = base.range || 0;
     this.upgrades = base.upgrades;//new Map();
     this.activeUpgrades = new Map();
     this.shrine = null;

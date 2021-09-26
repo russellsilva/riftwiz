@@ -51,7 +51,7 @@
                             ({{ displayed_item.level }})
                         </div>
                         <div>
-                            <template v-if="!(displayed_item.range =='none')">
+                            <template v-if="!(displayed_item.range == 'none')">
                                 <i class="fas fa-external-link-square-alt"></i> {{ displayed_item.range }}
                             </template>
                             
@@ -151,7 +151,7 @@
         <div class="row">
             <div :class="[{'v-hidden':false},'col-3','column','spells']">
             <div class="cont">
-                <template v-for="(item,index) in spells">
+                <template v-for="(item,index) in spells.filter(s => s.title.toLowerCase().search(query) !== -1)">
                     <div
                     @mouseover="hover_over(item,'spell')"
                     @mouseout="hover_out()"
@@ -175,7 +175,7 @@
             </div>
             <div :class="[{'v-hidden':false},'col-3','column','skills']">
             <div class="cont">
-                <template v-for="(item,index) in skills">
+                <template v-for="(item,index) in skills.filter(s => s.title.toLowerCase().search(query) !== -1)">
                     <div
                     @mouseover="hover_over(item,'skill')"
                     @mouseout="hover_out()"
@@ -221,6 +221,7 @@
             </div>
             </div>
             <div class="schools_filter col-3">
+                <input type="search" v-model="query"></input>
                 <template v-for="(item,index) in schools">
                     <div>
                             <span class="school_name" @click="toggle_school($event,index)" :class="[{selected:item.selected},index]" v-html="decorate_school_name(index)"></span>

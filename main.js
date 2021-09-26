@@ -85,11 +85,13 @@ function init (jsons) {
       selected_item_type:null,
 
       school_filters: [],
+
+      query: '',
     },
     mounted: function(){
       const _t=this;
       window.addEventListener('keydown', function(e) {
-        _t.key_pressed(e);
+        // _t.key_pressed(e);
       });
 
     },
