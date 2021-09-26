@@ -1,4 +1,5 @@
 import Spell from './Spell.js';
+import Skill from './Skill.js';
 
 
 // Is this needed?
@@ -61,6 +62,7 @@ function init (jsons) {
   const levelLocaleCompare = (a,b) => a.level - b.level || a.title.localeCompare(b.title)
 
   jsons.spells = jsons.spells.map(spell => new Spell(spell))
+  jsons.skills = jsons.skills.map(skill => new Skill(skill))
 
   jsons.spells.sort(levelLocaleCompare)
   jsons.skills.sort(levelLocaleCompare)

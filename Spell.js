@@ -1,9 +1,7 @@
-export default class Spell{
+import Item from './Item.js';
+export default class Spell extends Item{
   constructor(base){
-    this.title = base.title;
-    this._description = base.description || "No description given";
-    this.schools = base.schools; // shallow copy, but schools never change
-    this._level = +base.level;
+    super(base);
     this._charges = +base.charges;
     this._damage = base.damage;
     this._radius = base.radius;
@@ -11,17 +9,10 @@ export default class Spell{
     this.upgrades = base.upgrades;//new Map();
     this.activeUpgrades = new Map();
     this.shrine = null;
-    this.active = false;
   }
 
-  get description(){
-    // oh god eval why have I done this
-    console.log(this._description)
-    return this._description.replace(/\{(.*?)\}/g,(_,p1) => eval(p1))
-  }
-
-  get level(){
-    return this._level + [...this.activeUpgrades.values()].reduce((acc,up)=>+up.cost+acc,0);
+  get cost(){
+    return this.level + [...this.activeUpgrades.values()].reduce((acc,up)=>+up.cost+acc,0);
   }
 
   get charges(){
@@ -41,15 +32,16 @@ export default class Spell{
   }
 
   get radius(){
-    console.log(this.activeUpgrades)
     return this._radius + [...this.activeUpgrades.values()].reduce((acc,up)=>(+up?.radius || 0)+acc,0);
   }
 
   toggleUpgrade(upgrade){
-    if(this.activeUpgrades.has(upgrade.title)){
-      this.activeUpgrades.delete(upgrade.title);
-    } else {
-      this.activeUpgrades.set(upgrade.title,upgrade);
+    if(this.active){
+      if(this.activeUpgrades.has(upgrade.title)){
+        this.activeUpgrades.delete(upgrade.title);
+      } else {
+        this.activeUpgrades.set(upgrade.title,upgrade);
+      }
     }
   }
 

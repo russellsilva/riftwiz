@@ -18,7 +18,8 @@
         <div class="row">
             <div class="col-3 build_spell_panel">
                 <template v-for="spell in spells.filter(s=>s.active)">
-                  {{ spell.title }}
+                  {{ spell.title }} {{ spell.cost }}
+                  <br>
                 </template>
             </div>
             <div class="col-3 build_spell_panel">
@@ -29,7 +30,7 @@
             </div>
             <div class="col-6 build_info_panel">
               <template>
-                SP: {{ [...spells,...skills].filter(s=>s.active).reduce((acc,item)=>acc+(+item.level),0) }} 
+                SP: {{ [...spells,...skills].filter(s=>s.active).reduce((acc,item)=>acc+(+item.cost),0) }} 
               </template>
             </div>
         </div>
@@ -154,7 +155,8 @@
                     <div
                     @mouseover="hover_over(item,'spell')"
                     @mouseout="hover_out()"
-                    @click="toggle_item_select(item,'spell');toggle_item_build(item,'spell'); sort_all();"
+                    @click="toggle_item_select(item,'spell')"
+                    @dblclick="toggle_item_build(item,'spell'); sort_all();"
                     class="entry"
                     :class="{'selected':selected_item==item,'build': item.active,'d-none': !(selected_item==item) && !check_against_filters()['spell'](item)}"
                     v-if="item.title.indexOf('ingame') == -1">
@@ -177,7 +179,8 @@
                     <div
                     @mouseover="hover_over(item,'skill')"
                     @mouseout="hover_out()"
-                    @click="toggle_item_select(item,'skill'); toggle_item_build(item,'skill'); sort_all();"
+                    @click="toggle_item_select(item,'skill')"
+                    @dblclick="toggle_item_build(item,'skill'); sort_all();"
                     class="entry"
                     :class="{'selected':selected_item==item,'build':item.active,'d-none': !(selected_item==item) && !check_against_filters()['skill'](item)}"
                     v-if="item.title.indexOf('ingame') == -1">
