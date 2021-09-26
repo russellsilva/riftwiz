@@ -29,7 +29,8 @@ const schoolConfig = {
   "chaos" : {color:'#ffab4d',letter:'o'},
 }
 
-const url = "/data_sources/"//"https://carlank.github.io/riftwiz/data_sources/";
+
+const url = location.hostname === 'localhost' ? "/data_sources/" : "/riftwiz/data_sources/"
 
 // Create and inject the letter highlighting css
 
