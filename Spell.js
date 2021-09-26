@@ -53,4 +53,8 @@ export default class Spell{
     }
   }
 
+  clearUpgrades(){
+    this.activeUpgrades.clear()
+  }
+
 }

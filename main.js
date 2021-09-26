@@ -157,6 +157,9 @@ function init (jsons) {
       },
       toggle_item_build(item,type){
         item.active = !item.active;
+        if(!item.active){
+          item.clearUpgrades()
+        }
       },
       toggle_item_select(item,type){
         if (this.selected_item == item) {
