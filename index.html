@@ -200,7 +200,7 @@
             </div>
             <div :class="[{'v-hidden':false},'col-3','column','shrines']">
             <div class="cont">
-                <template v-for="(item,index) in shrines">
+                <template v-for="(item,index) in shrines.filter(s => s.title.toLowerCase().search(query) !== -1)">
                     <div
                     @mouseover="hover_over(item,'shrine')"
                     @mouseout="hover_out()"

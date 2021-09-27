@@ -1,6 +1,7 @@
 import Spell from './Spell.js';
 import Skill from './Skill.js';
 
+import * as Constants from './constants.js';
 
 // Is this needed?
 const indexOfCI = function (arr, q) { // case-independent indexOf
@@ -10,26 +11,6 @@ const indexOfCI = function (arr, q) { // case-independent indexOf
     }
   )
 };
-
-const schoolConfig = {
-  "fire" : {color:'#dc1b22',letter:'f'},
-  "lightning" : {color:'#fbea57',letter:'l'},
-  "ice" : {color:'#4ec1f4',letter:'i'},
-  "nature" : {color:'#5dad5d',letter:'n'},
-  "arcane" : {color:'#f06292',letter:'a'},
-  "dark" : {color:'#9c27b0',letter:'d'},
-  "holy" : {color:'#f6fe8d',letter:'h'},
-  "sorcery" : {color:'#e91e63',letter:'s'},
-  "conjuration" : {color:'#f36c60',letter:'c'},
-  "enchantment" : {color:'#31a490',letter:'e'},
-  "word" : {color:'#ffd54f',letter:'w'},
-  "orb" : {color:'#f8a8b7',letter:'b'},
-  "dragon" : {color:'#b0120a',letter:'r'},
-  "translocation" : {color:'#ba68c8',letter:'t'},
-  "eye" : {color:'#ffffff',letter:'y'},
-  "chaos" : {color:'#ffab4d',letter:'o'},
-}
-
 
 const url = location.hostname === 'localhost' ? "/data_sources/" : "/riftwiz/data_sources/"
 
@@ -41,13 +22,13 @@ const style = document.createElement('style');
 head.appendChild(style);
 style.type = 'text/css';
 
-for (const k in schoolConfig) {
-  css += '.school_name.' + k + ' .letter{color:' + schoolConfig[k].color + "}\r\n";
-  css += '.school_name.' + k + '.selected{color:' + schoolConfig[k].color + "}\r\n";
+for (const k in Constants.schoolConfig) {
+  css += '.school_name.' + k + ' .letter{color:' + Constants.schoolConfig[k].color + "}\r\n";
+  css += '.school_name.' + k + '.selected{color:' + Constants.schoolConfig[k].color + "}\r\n";
 };
 
-css += '.school_name.no-conjuration .letter{color:' + schoolConfig['conjuration'].color + "}\r\n";
-css += '.school_name.conjuration-only .letter{color:' + schoolConfig['conjuration'].color + "}\r\n";
+css += '.school_name.no-conjuration .letter{color:' + Constants.schoolConfig['conjuration'].color + "}\r\n";
+css += '.school_name.conjuration-only .letter{color:' + Constants.schoolConfig['conjuration'].color + "}\r\n";
 
 if (style.styleSheet){
   style.styleSheet.cssText = css;
@@ -75,7 +56,7 @@ function init (jsons) {
       spells:jsons.spells,
       shrines:jsons.shrines,
 
-      schools:schoolConfig,
+      schools:Constants.schoolConfig,
 
       hovered_item: null,
       hovered_item_type: null,

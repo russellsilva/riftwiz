@@ -18,7 +18,7 @@
     {
         "title" : "Damage",
         "description" : "+8 damage",
-        "damage": {"fire": 8},
+        "damage": {"all": 8},
         "cost" : "2"
     },
     {
@@ -49,8 +49,9 @@
 }
 ,{
 "title" : "Meteor Shower",
-"description" : "Rains 7 meteors down on random tiles in a 7 tile radius each turn. Meteors deal 23 physical damage, destroy walls, and inflict stun for 2 turns. Meteors also deal 23 fire damage in a 2 radius. This spell can be channeled for up to 5 turns.  The effect is repeated each turn the spell is channeled",
+"description" : "Rains 7 meteors down on random tiles in a 7 tile radius each turn. Meteors deal {this.damage.physical} physical damage, destroy walls, and inflict stun for 2 turns. Meteors also deal {this.damage.fire} fire damage in a 2 radius. This spell can be channeled for up to 5 turns.  The effect is repeated each turn the spell is channeled",
 "range" : "none",
+"damage" : {"physical": 23, "fire": 23},
 "los_required" : "1",
 "charges" : "1",
 "schools" : ["Fire","Sorcery"],
@@ -79,7 +80,7 @@
 }
 ,{
 "title" : "Lightning Bolt",
-"description" : "Deal {this.damage.lightning} lightning damage in a beam",
+"description" : "Deal {this.damage.lightning} lightning damage lightning damage in a beam",
 "range" : "10",
 "los_required" : "1",
 "damage" : {"lightning": 12},
@@ -123,6 +124,7 @@
 "title" : "Annihilate",
 "description" : "Deal 16 fire, lightning and physical damage to target",
 "range" : "6",
+"damage": {"fire": 16, "lightning": 16, "physical": 16},
 "los_required" : "1",
 "charges" : "8",
 "schools" : ["Chaos","Sorcery"],
@@ -153,6 +155,7 @@
 "title" : "Mega Annihilate",
 "description" : "Deal 99 fire, lightning and physical damage to target",
 "range" : "6",
+"damage": {"fire": 99, "lightning": 99, "physical": 99},
 "los_required" : "1",
 "charges" : "3",
 "schools" : ["Chaos","Sorcery"],
@@ -281,9 +284,10 @@
 }
 ,{
 "title" : "Void Beam",
-"description" : "Deal 25 arcane damage and destroy walls in a beam",
+"description" : "Deal {this.damage.arcane} arcane damage and destroy walls in a beam",
 "range" : "15",
 "los_required" : "0",
+"damage": {"arcane": 25},
 "charges" : "7",
 "schools" : ["Arcane","Sorcery"],
 "level" : "4",
@@ -306,8 +310,9 @@
 }
 ,{
 "title" : "Thunder Strike",
-"description" : "Deal 24 lightning damage to target. Stun all enemies in 2 radius burst around the target for 3 turns",
+"description" : "Deal {this.damage.lightning} lightning damage to target. Stun all enemies in 2 radius burst around the target for 3 turns",
 "range" : "10",
+"damage" : {"lightning": 24},
 "los_required" : "1",
 "charges" : "9",
 "schools" : ["Lightning","Sorcery"],
@@ -378,6 +383,7 @@
 "title" : "(Not ingame) Inferno",
 "description" : "Create a spreading inferno that deals 10 fire damage to units inside",
 "range" : "none",
+"damage" : {"fire": 10},
 "los_required" : "0",
 "charges" : "none",
 "schools" : ["3 range"],
@@ -626,7 +632,7 @@
 }
 ,{
 "title" : "Lightning Storm",
-"description" : "Create a thunderstorm with a 4 tile radius. 50% chance to deal 12 lightning damage each turn to units in affected tiles. Storm lasts 10 turns",
+"description" : "Create a thunderstorm with a 4 tile radius. 50% chance to deal {this.damage.lightning} lightning damage each turn to units in affected tiles. Storm lasts 10 turns",
 "range" : "9",
 "los_required" : "1",
 "charges" : "4",
@@ -686,8 +692,9 @@
 }
 ,{
 "title" : "Pillar of Fire",
-"description" : "Deal 50 fire damage in a 1 radius burst, double damage on target tile",
+"description" : "Deal {this.damage.fire} fire damage in a 1 radius burst, double damage on target tile",
 "range" : "10",
+"damage" : {"fire": 50},
 "los_required" : "1",
 "charges" : "2",
 "schools" : ["Fire","Holy","Sorcery"],
@@ -976,8 +983,9 @@
 }
 ,{
 "title" : "Eye of Fire",
-"description" : "Every 3 turns for 30 turns, deal 15 fire damage to random enemy unit in LoS",
+"description" : "Every 3 turns for 30 turns, deal {this.damage.fire} fire damage to random enemy unit in LoS",
 "range" : "none",
+"damage" : {"fire": 15},
 "los_required" : "1",
 "charges" : "4",
 "schools" : ["Fire","Enchantment","Eye"],
@@ -1001,8 +1009,9 @@
 }
 ,{
 "title" : "Eye of Lightning",
-"description" : "Every 3 turns for 30 turns, deal 15 lightning damage to random enemy unit in LoS",
+"description" : "Every 3 turns for 30 turns, deal {this.damage.lightning} lightning damage to random enemy unit in LoS",
 "range" : "none",
+"damage" : {"lightning": 15},
 "los_required" : "1",
 "charges" : "4",
 "schools" : ["Lightning","Enchantment","Eye"],
@@ -1026,8 +1035,9 @@
 }
 ,{
 "title" : "Eye of Ice",
-"description" : "Every 3 turns for 30 turns, deal 15 ice damage to random enemy unit in LoS",
+"description" : "Every 3 turns for 30 turns, deal {this.damage.ice} ice damage to random enemy unit in LoS",
 "range" : "none",
+"damage" : {"ice": 15},
 "los_required" : "1",
 "charges" : "4",
 "schools" : ["Ice","Enchantment","Eye"],
@@ -1141,8 +1151,9 @@
 }
 ,{
 "title" : "Watcher Form",
-"description" : "Each turn for 5 turns, fire a lightning bolt at the farthest enemy in LoS, dealing 40 lightning damage in a beam. Gain 100 physical, lightning, fire and poison resistance. You can't move or cast spells",
+"description" : "Each turn for 5 turns, fire a lightning bolt at the farthest enemy in LoS, dealing {this.damage.lightning} lightning damage in a beam. Gain 100 physical, lightning, fire and poison resistance. You can't move or cast spells",
 "range" : "none",
+"damage" : {"lightning": 40},
 "los_required" : "1",
 "charges" : "5",
 "schools" : ["Enchantment","Lightning","Arcane"],
@@ -1211,8 +1222,9 @@
 }
 ,{
 "title" : "Lightning Halo",
-"description" : "Each turn for 9 turns, deal 15 lightning damage to all units in a 3 tile radius ring",
+"description" : "Each turn for 9 turns, deal {this.damage.lightning} lightning damage to all units in a 3 tile radius ring",
 "range" : "none",
+"damage" : {"lightning": 15},
 "los_required" : "1",
 "charges" : "5",
 "schools" : ["Enchantment","Lightning"],
@@ -1296,7 +1308,7 @@
 }
 ,{
 "title" : "(Not ingame) Power of Pain",
-"description" : "Your spells deal +7 damage, you take 4 dark damage per turn. Lasts until you move",
+"description" : "Your spells deal +7 damage, you take {this.damage.dark} dark damage per turn. Lasts until you move",
 "range" : "none",
 "los_required" : "1",
 "charges" : "6",
@@ -1321,8 +1333,9 @@
 }
 ,{
 "title" : "Flame Burst",
-"description" : "Deal 35 fire damage in a 6 radius burst around the caster",
+"description" : "Deal {this.damage.fire} fire damage in a 6 radius burst around the caster",
 "range" : "none",
+"damage" : {"fire": 35},
 "los_required" : "1",
 "charges" : "6",
 "schools" : ["Fire","Sorcery"],
@@ -1466,7 +1479,7 @@
 }
 ,{
 "title" : "(Not ingame) Spark",
-"description" : "Deal 6 lightning damage, chain up to 3 times in range 3",
+"description" : "Deal {this.damage.lightning} lightning damage, chain up to 3 times in range 3",
 "range" : "8",
 "los_required" : "1",
 "charges" : "26",
@@ -1486,8 +1499,9 @@
 }
 ,{
 "title" : "Chain Lightning",
-"description" : "Deal 8 lightning damage in a beam. The beam chains repeatedly to random enemy targets in range 4 until no new targets in range",
+"description" : "Deal {this.damage.lightning} lightning damage in a beam. The beam chains repeatedly to random enemy targets in range 4 until no new targets in range",
 "range" : "9",
+"damage" : {"lightning": 8},
 "los_required" : "1",
 "charges" : "8",
 "schools" : ["Lightning","Sorcery"],
@@ -1516,8 +1530,9 @@
 }
 ,{
 "title" : "Death Bolt",
-"description" : "Deal 9 dark damage to target. Slain living units are raised as skeletons, with hp equal to the max hp of slain unit and 5 physical damage melee attack. Skeletons of flying units can fly",
+"description" : "Deal {this.damage.dark} dark damage to target. Slain living units are raised as skeletons, with hp equal to the max hp of slain unit and 5 physical damage melee attack. Skeletons of flying units can fly",
 "range" : "8",
+"damage": {"dark": 9},
 "los_required" : "1",
 "charges" : "18",
 "schools" : ["Dark","Sorcery","Conjuration"],
@@ -1551,8 +1566,9 @@
 }
 ,{
 "title" : "Wheel of Death",
-"description" : "Deal 200 dark damage to a random enemy unit",
+"description" : "Deal {this.damage.dark} dark damage to a random enemy unit",
 "range" : "none",
+"damage": {"dark": 200},
 "los_required" : "1",
 "charges" : "5",
 "schools" : ["Dark","Sorcery"],
@@ -1571,8 +1587,9 @@
 }
 ,{
 "title" : "Touch of Death",
-"description" : "Deal 200 dark damage",
+"description" : "Deal {this.damage.dark} dark damage",
 "range" : "1",
+"damage": {"dark": 200},
 "los_required" : "1",
 "charges" : "9",
 "schools" : ["Dark","Sorcery"],
@@ -1641,8 +1658,9 @@
 }
 ,{
 "title" : "Volcanic Eruption",
-"description" : "Create a 6 tile radius burst of lava in a chasm. The burst flows up to 3 tiles out of the chasm and deals 46 fire damage",
+"description" : "Create a 6 tile radius burst of lava in a chasm. The burst flows up to 3 tiles out of the chasm and deals {this.damage.fire} fire damage",
 "range" : "10",
+"damage": {"fire": 46},
 "los_required" : "1",
 "charges" : "5",
 "schools" : ["Fire","Sorcery"],
@@ -1761,8 +1779,9 @@
 }
 ,{
 "title" : "Ghostball",
-"description" : "Deal 11 dark damage to enemy units in a 1 tile radius. Summon flying ghosts on each empty tile hit. Ghosts last for 14 turns, have 4 hp, 100 physical and 50 dark resists, a passive blink and a 1 dark damage melee attack",
+"description" : "Deal {this.damage.dark} dark damage to enemy units in a 1 tile radius. Summon flying ghosts on each empty tile hit. Ghosts last for 14 turns, have 4 hp, 100 physical and 50 dark resists, a passive blink and a 1 dark damage melee attack",
 "range" : "5",
+"damage": {"dark":11},
 "los_required" : "1",
 "charges" : "6",
 "schools" : ["Dark","Conjuration","Sorcery"],
@@ -1861,8 +1880,9 @@
 }
 ,{
 "title" : "Death Gaze",
-"description" : "Each allied unit deals 4 dark damage to a random enemy in its LoS",
+"description" : "Each allied unit deals {this.damage.dark} dark damage to a random enemy in its LoS",
 "range" : "none",
+"damage": {"dark": 4},
 "los_required" : "1",
 "charges" : "10",
 "schools" : ["Dark","Sorcery"],
@@ -1906,8 +1926,9 @@
 }
 ,{
 "title" : "Invoke Savagery",
-"description" : "Each living ally attacks a random unit in their melee range for 14 physical damage and a 2 turn stun",
+"description" : "Each living ally attacks a random unit in their melee range for {this.damage.physical} physical damage and a 2 turn stun",
 "range" : "none",
+"damage": {"physical": 14},
 "los_required" : "1",
 "charges" : "11",
 "schools" : ["Nature","Sorcery"],
@@ -1926,8 +1947,9 @@
 }
 ,{
 "title" : "Magic Missiles",
-"description" : "Deal 11 arcane damage to target",
+"description" : "Deal {this.damage.arcane} arcane damage to target",
 "range" : "12",
+"damage": {"arcane": 11},
 "los_required" : "1",
 "charges" : "20",
 "schools" : ["Arcane","Sorcery"],
@@ -1971,8 +1993,9 @@
 }
 ,{
 "title" : "Devour Mind",
-"description" : "Deal 25 arcane damage to target living unit, with additional 25 dark damage if target is below 50% hp after the initial hit",
+"description" : "Deal {this.damage.arcane} arcane damage to target living unit, with additional {this.damage.dark} dark damage if target is below 50% hp after the initial hit",
 "range" : "4",
+"damage": {"arcane": 25, "dark": 25},
 "los_required" : "1",
 "charges" : "7",
 "schools" : ["Arcane","Dark","Sorcery"],
@@ -2021,8 +2044,9 @@
 }
 ,{
 "title" : "Melt",
-"description" : "deal 22 fire damage and reduce target's physical resist by 100",
+"description" : "Deal {this.damage.fire} fire damage and reduce target's physical resist by 100",
 "range" : "6",
+"damage": {"fire": 22},
 "los_required" : "1",
 "charges" : "15",
 "schools" : ["Fire","Sorcery"],
@@ -2046,8 +2070,9 @@
 }
 ,{
 "title" : "Dragon Roar",
-"description" : "For 25 turns, all allied dragons gain 25 max hp, 12 melee damage and -1 turn cooldown on their breath",
+"description" : "For 25 turns, all allied dragons gain 25 max hp, {this.damage.melee} melee damage and -1 turn cooldown on their breath",
 "range" : "none",
+"damage": {"all": 12},
 "los_required" : "1",
 "charges" : "2",
 "schools" : ["Dragon","Nature","Enchantment"],
@@ -2106,8 +2131,9 @@
 }
 ,{
 "title" : "Word of Chaos",
-"description" : "Stun each enemy for 6 turns and randomly teleport them. Deal 45 fire damage to lightning units and 45 lightning damage to fire units. All constructs lose their physical resist and take 45 physical damage",
+"description" : "Stun each enemy for 6 turns and randomly teleport them. Deal {this.damage.fire} fire damage to lightning units and {this.damage.lightning} lightning damage to fire units. All constructs lose their physical resist and take {this.damage.physical} physical damage",
 "range" : "none",
+"damage": {"fire": 45, "lightning": 45, "physical": 45},
 "los_required" : "1",
 "charges" : "1",
 "schools" : ["Chaos","Word"],
@@ -2126,8 +2152,9 @@
 }
 ,{
 "title" : "Word of Beauty",
-"description" : "Fully heal the caster and all living units. Deal 25 lightning damage to demon and undead units. Stun all arcane units for 7 turns, 1 charge",
+"description" : "Fully heal the caster and all living units. Deal {this.damage.lightning} lightning damage to demon and undead units. Stun all arcane units for 7 turns, 1 charge",
 "range" : "none",
+"damage": {"lightning": 25},
 "los_required" : "1",
 "charges" : "none",
 "schools" : ["Holy","Lightning","Word"],
@@ -2221,8 +2248,9 @@
 }
 ,{
 "title" : "Arc Lightning",
-"description" : "Lightning arcs to 3 enemies in LoS of target tile. Each arc deals 16 lightning damage in a beam",
+"description" : "Lightning arcs to 3 enemies in LoS of target tile. Each arc deals {this.damage.lightning} lightning damage in a beam",
 "range" : "8",
+"damage": {"lightning": 16},
 "los_required" : "1",
 "charges" : "5",
 "schools" : ["Lightning","Sorcery"],
@@ -2246,8 +2274,9 @@
 }
 ,{
 "title" : "Poison Sting",
-"description" : "Deal 9 physical damage and poison for 30 turns",
+"description" : "Deal {this.damage.physical} physical damage and poison for 30 turns",
 "range" : "12",
+"damage": {"physical": 16},
 "los_required" : "1",
 "charges" : "20",
 "schools" : ["Sorcery","Nature"],
@@ -2276,8 +2305,9 @@
 }
 ,{
 "title" : "Fan of Flames",
-"description" : "Deal 9 fire damage to all units in a 5 range cone. Can be channeled for 10 turns",
+"description" : "Deal {this.damage.fire} fire damage to all units in a 5 range cone. Can be channeled for 10 turns",
 "range" : "none",
+"damage": {"fire": 9},
 "los_required" : "1",
 "charges" : "18",
 "schools" : ["Sorcery","Fire"],
@@ -2461,8 +2491,9 @@
 }
 ,{
 "title" : "Heavenly Blast",
-"description" : "Deal 7 holy damage to enemies and heal allies for 7 in a beam and 1 radius burst at the end of it",
+"description" : "Deal {this.damage.holy} holy damage to enemies and heal allies for 7 in a beam and 1 radius burst at the end of it",
 "range" : "7",
+"damage": {"holy": 7},
 "los_required" : "1",
 "charges" : "14",
 "schools" : ["Holy","Sorcery"],
@@ -2506,8 +2537,9 @@
 }
 ,{
 "title" : "Holy Fire",
-"description" : "Deal 22 fire damage in a 5-high vertical line and 22 holy damage in a 5-wide horizontal line. Stun demon and undead units for 3 turns",
+"description" : "Deal {this.damage.fire} fire damage in a 5-high vertical line and {this.damage.holy} holy damage in a 5-wide horizontal line. Stun demon and undead units for 3 turns",
 "range" : "7",
+"damage": {"fire": 22, "holy": 22},
 "los_required" : "1",
 "charges" : "7",
 "schools" : ["Fire","Holy","Sorcery"],
@@ -2563,6 +2595,7 @@
 "title" : "Heaven's Wrath",
 "description" : "Deal 22 lightning and holy damage to 3 enemy units with highest current hp. Cannot target gates",
 "range" : "none",
+"damage": {"lightning": 22, "holy": 22},
 "los_required" : "1",
 "charges" : "4",
 "schools" : ["Holy","Lightning","Sorcery"],
@@ -2646,8 +2679,9 @@
 }
 ,{
 "title" : "Blinding Light",
-"description" : "Blind all units in LoS for 4 turns. Deals 5 holy damage to demon and undead units",
+"description" : "Blind all units in LoS for 4 turns. Deals {this.damage.holy} holy damage to demon and undead units",
 "range" : "none",
+"damage": {"holy": 5},
 "los_required" : "1",
 "charges" : "4",
 "schools" : ["Holy","Sorcery"],
@@ -2861,8 +2895,9 @@
 }
 ,{
 "title" : "Pyrostatic Pulse",
-"description" : "Deal 14 fire damage in a beam and 14 lightning damage to tiles adjacent to the beam",
+"description" : "Deal {this.damage.fire} fire damage in a beam and {this.damage.lightning} lightning damage to tiles adjacent to the beam",
 "range" : "8",
+"damage": {"fire": 14, "lightning": 14},
 "los_required" : "1",
 "charges" : "8",
 "schools" : ["Fire","Lightning","Sorcery"],
@@ -2931,8 +2966,9 @@
 }
 ,{
 "title" : "Aether Swap",
-"description" : "Swap places with and deal 16 arcane damage to target unit, cannot target arcane immune units",
+"description" : "Swap places with and deal {this.damage.arcane} arcane damage to target unit, cannot target arcane immune units",
 "range" : "7",
+"damage": {"arcane": 16},
 "los_required" : "1",
 "charges" : "8",
 "schools" : ["Arcane","Translocation","Sorcery"],
@@ -3056,8 +3092,9 @@
 }
 ,{
 "title" : "Shrapnel Blast",
-"description" : "Detonate a wall tile, causing adjacent enemies to take 12 fire damage. The explosion causes 16 shards to hit random tiles in 4 radius burst, each dealing 12 physical damage",
+"description" : "Detonate a wall tile, causing adjacent enemies to take {this.damage.physical} physical damage. The explosion causes 16 shards to hit random tiles in 4 radius burst, each dealing {this.damage.physical} physical damage",
 "range" : "7",
+"damage": {"fire": 12, "physical": 12},
 "los_required" : "0",
 "charges" : "6",
 "schools" : ["Fire","Sorcery"],
@@ -3206,8 +3243,9 @@
 }
 ,{
 "title" : "Toxin Burst",
-"description" : "Deal 1 poison damage and inflict 20 turn poison on all units in a 4 radius",
+"description" : "Deal {this.damage.poison} poison damage and inflict 20 turn poison on all units in a 4 radius",
 "range" : "12",
+"damage": {"poison": 1},
 "los_required" : "0",
 "charges" : "10",
 "schools" : ["Sorcery","Nature","Dark"],
@@ -3351,8 +3389,9 @@
 }
 ,{
 "title" : "Iceball",
-"description" : "Deal 14 ice damage in a 2 radius burst. Damaged units are frozen for 3 turns",
+"description" : "Deal {this.damage.ice} ice damage in a 2 radius burst. Damaged units are frozen for 3 turns",
 "range" : "7",
+"damage": {"ice": 14},
 "los_required" : "1",
 "charges" : "11",
 "schools" : ["Sorcery","Ice"],
@@ -3461,8 +3500,9 @@
 }
 ,{
 "title" : "Death Chill",
-"description" : "Deal 11 dark damage to target each turn for 5 turns. If the target dies during this, deal 11 ice damage to all enemy units in 3 tile radius and freeze them for 5 turns",
+"description" : "Deal {this.damage.dark} dark damage to target each turn for 5 turns. If the target dies during this, deal {this.damage.ice} ice damage to all enemy units in 3 tile radius and freeze them for 5 turns",
 "range" : "9",
+"damage": {"dark": 11, "ice": 11},
 "los_required" : "1",
 "charges" : "12",
 "schools" : ["Enchantment","Dark","Ice"],
@@ -3506,8 +3546,9 @@
 }
 ,{
 "title" : "Word of Ice",
-"description" : "All enemies under 50 hp are frozen for 5 turns. Deals 50 ice damage to fire units",
+"description" : "All enemies under 50 hp are frozen for 5 turns. Deals {this.damage.ice} ice damage to fire units",
 "range" : "none",
+"damage": {"ice": 50},
 "los_required" : "1",
 "charges" : "1",
 "schools" : ["Ice","Word"],
@@ -3536,8 +3577,9 @@
 }
 ,{
 "title" : "Icicle",
-"description" : "Deal 6 physical damage to the target and 6 ice damage in 1 tile radius of the target",
+"description" : "Deal {this.damage.physical} physical damage to the target and {this.damage.ice} ice damage in 1 tile radius of the target",
 "range" : "9",
+"damage": {"physical": 6, "ice": 6},
 "los_required" : "1",
 "charges" : "22",
 "schools" : ["Ice","Sorcery"],
@@ -3566,8 +3608,9 @@
 }
 ,{
 "title" : "Chill Wind",
-"description" : "Deal 21 ice damage and inflict freeze for 6 turns on units in a 3 wide line perpendicular to the caster",
+"description" : "Deal {this.damage.ice} ice damage and inflict freeze for 6 turns on units in a 3 wide line perpendicular to the caster",
 "range" : "0",
+"damage": {"ice": 21},
 "los_required" : "0",
 "charges" : "2",
 "schools" : ["Ice","Sorcery"],
@@ -3611,8 +3654,9 @@
 }
 ,{
 "title" : "Earthquake",
-"description" : "Each tile in 7 radius area has a 50% chance to be affected. Units on affected tiles take 21 physical damage and walls on affected tiles are destroyed",
+"description" : "Each tile in 7 radius area has a 50% chance to be affected. Units on affected tiles take {this.damage.physical} physical damage and walls on affected tiles are destroyed",
 "range" : "none",
+"damage": {"physical": 21},
 "los_required" : "1",
 "charges" : "4",
 "schools" : ["Sorcery","Nature"],
@@ -3636,7 +3680,7 @@
 }
 ,{
 "title" : "Searing Seal",
-"description" : "Gain Seal of Searing for 6 turns. Whenever an enemy takes fire damage, the seal gains that many charges. When the seal expires, it deals charges/4 fire damage to all enemies in LoS. Recasting the seal will activate this effect",
+"description" : "Gain Seal of Searing for 6 turns. Whenever an enemy takes fire damage, the seal gains that many charges. When the seal expires, it deals charges/5 fire damage to all enemies in LoS. Recasting the seal will activate this effect",
 "range" : "none",
 "los_required" : "1",
 "charges" : "6",

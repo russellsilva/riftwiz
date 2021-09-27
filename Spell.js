@@ -1,4 +1,6 @@
 import Item from './Item.js';
+import { damageTypes } from './constants.js';
+
 export default class Spell extends Item{
   constructor(base){
     super(base);
@@ -21,8 +23,10 @@ export default class Spell extends Item{
 
   get damage(){
     const finalDamage = {}
-    for(const type in this._damage){
-      finalDamage[type] = this._damage[type] + [...this.activeUpgrades.values()].reduce((acc,up)=>(+up?.damage?.[type] || 0)+acc,0);
+    // adds damage from each upgrade and also adds 'all' damageType
+    for(const type of damageTypes){
+      debugger
+      finalDamage[type] = this._damage[type] + [...this.activeUpgrades.values()].reduce((acc,up)=>(up?.damage?.[type] || 0)+(up?.damage?.all || 0)+acc,0);
     }
     return finalDamage;
   }
