@@ -1503,7 +1503,7 @@
 "range" : "9",
 "damage" : {"lightning": 8},
 "los_required" : "1",
-"charges" : "8",
+"charges" : "6",
 "schools" : ["Lightning","Sorcery"],
 "level" : "2",
 "upgrades" : [
@@ -2090,16 +2090,16 @@
     }]
 }
 ,{
-"title" : "Protect Minions",
-"description" : "For 10 turns, all allied units gain 50 physical, fire and lightning resists",
+"title" : "Ironize",
+"description" : "For 10 turns, all allied units gain 50 physical, fire and lightning resists and become Metallic",
 "range" : "none",
 "los_required" : "1",
 "charges" : "5",
-"schools" : ["Enchantment","Conjuration","Nature"],
+"schools" : ["Enchantment","Conjuration","Metallic"],
 "level" : "3",
 "upgrades" : [
     {
-        "title" : "Reists",
+        "title" : "Resists",
         "description" : "+25 to resist bonus",
         "cost" : "2"
     },
@@ -2334,7 +2334,7 @@
 "description" : "Summon a blue lion (nature, arcane, holy) that flies and has 28 hp, 50 arcane and physical resistance and a 7 physical damage melee attack. Blue Lion additionally has a 3 cooldown spell which grants itself and all allies in LoS 1 SH, up to max of 2",
 "range" : "5",
 "los_required" : "1",
-"charges" : "6",
+"charges" : "2",
 "schools" : ["Nature","Holy","Conjuration","Arcane"],
 "level" : "5",
 "upgrades" : [
@@ -2351,7 +2351,7 @@
     {
         "title" : "Minion damage",
         "description" : "+9 minion dmg",
-        "cost" : "1"
+        "cost" : "2"
     },
     {
         "title" : "Holy bolt",
@@ -2804,8 +2804,8 @@
     },
     {
         "title" : "Dragon Mage",
-        "description" : "Gold drake can cast Healing Light with a 15 turn cooldown",
-        "cost" : "6"
+        "description" : "Gold drake can cast Healing Light with a 8 turn cooldown",
+        "cost" : "4"
     }]
 }
 ,{
@@ -3097,7 +3097,7 @@
 "damage": {"fire": 12, "physical": 12},
 "los_required" : "0",
 "charges" : "6",
-"schools" : ["Fire","Sorcery"],
+"schools" : ["Fire","Sorcery","Metallic"],
 "level" : "3",
 "upgrades" : [
     {
@@ -3906,6 +3906,186 @@
         "title" : "Linear conductance",
         "description" : "Redealt lightning damage is dealt as a beam instead",
         "cost" : "5"
+    }]
+}
+,{
+"title" : "Mercurize",
+"description" : "Afflict the target with Mercurize. The target takes 2 poison and 2 physical damage each turn for 6 turns. If the target dies while cursed, it is raised as a Quicksilver Geist. Geists are flying undead metallic units with many resistances and immunities. The Geist has max HP equal to the cursed unit, and a trample attack dealing 10 damage. ",
+"range" : "8",
+"los_required" : "1",
+"charges" : "6",
+"schools" : ["Dark","Metallic","Enchantment","Conjuration"],
+"level" : "3",
+"upgrades" : [
+    {
+        "title" : "Damage",
+        "description" : "+4 radius",
+        "cost" : "4"
+    },
+    {
+        "title" : "Duration",
+        "description" : "+10 duration",
+        "cost" : "3"
+    },
+    {
+        "title" : "Morbidity",
+        "description" : "Mercurized targets also take dark damage",
+        "cost" : "2"
+    },
+    {
+        "title" : "Corrosion",
+        "description" : "Mercurized targets lose 25 physical resist.",
+        "cost" : "2"
+    },
+    {
+        "title" : "Toxic Fumes",
+        "description" : "Quicksilver Geists have a noxious aura that deals 1 poison damage to enemy units within 2 tiles each turn.",
+        "cost" : "5"
+    },
+    {
+        "title" : "Mercurial Vengeance",
+        "description" : "When a Quicksilver Geist is killed, its killer is affliected with Mercurize.",
+        "cost" : "5"
+    }]
+}
+,{
+"title" : "Magnetize",
+"description" : "Magnetize target metallic unit. Enemy units within a radius of 4 tiles of the magnetized unit are pulled 1 towards the unit each turn. Afterwards, adjacent enemy units are stunned for 1 turn. Lasts 5 turns",
+"range" : "9",
+"los_required" : "0",
+"charges" : "10",
+"schools" : ["Lightning", "Metallic", "Enchantment"],
+"level" : "2",
+"upgrades" : [
+    {
+        "title" : "Radius",
+        "description" : "+2 radius",
+        "cost" : "3"
+    },
+    {
+        "title" : "Pull Distance",
+        "description" : "+1 pull distance",
+        "cost" : "3"
+    },
+    {
+        "title" : "Universal Magnetism",
+        "description" : "Magnetize can target non-metallic units",
+        "cost" : "4"
+    }]
+}
+,{
+"title" : "Lightning Spire",
+"description" : "Summon a Lightning Spire. Lightning Spires are stationary metallic constructs with 25 max hp. Each turn, the spire will zap up to 4 enemy units up to 4 tiles away, dealing 6 lightning damage.",
+"range" : "6",
+"los_required" : "1",
+"charges" : "5",
+"schools" : ["Lightning","Metallic","Conjuration"],
+"level" : "3",
+"upgrades" : [
+    {
+        "title" : "Max Charges",
+        "description" : "+4 charges",
+        "cost" : "3"
+    },
+    {
+        "title" : "Minion Damage",
+        "description" : "+4 minion damage",
+        "cost" : "3"
+    },
+    {
+        "title" : "Num Targets",
+        "description" : "+3 targets",
+        "cost" : "2"
+    },
+    {
+        "title" : "Radius",
+        "description" : "+2 radius",
+        "cost" : "4"
+    },
+    {
+        "title" : "Wall Penetration",
+        "description" : "The spires can zap enemies through walls.",
+        "cost" : "5"
+    },
+    {
+        "title" : "Resistance Penetration",
+        "description" : "Zapped units permanently lose 10 lightning resistance.",
+        "cost" : "5"
+    }]
+}
+,{
+"title" : "Silver Spear",
+"description" : "Deals 27 physical damage to the target. Deals 27 holy damage to dark and arcane units within 1 tile away from the projectile's path",
+"range" : "11",
+"los_required" : "1",
+"charges" : "25",
+"schools" : ["Holy","Metallic","Sorcery"],
+"level" : "3",
+"upgrades" : [
+    {
+        "title" : "Radius",
+        "description" : "+1 radius",
+        "cost" : "4"
+    },
+    {
+        "title" : "Damage",
+        "description" : "+15 damage",
+        "cost" : "3"
+    },
+    {
+        "title" : "Max charges",
+        "description" : "+12 max charges",
+        "cost" : "3"
+    }]
+}
+,{
+"title" : "Siege Golems",
+"description" : "Summons a crew of 3 siege golems. The siege golems will assemble an inferno cannon, or operate one if it is within 3 tiles. The inferno cannon deals 30 fire damage to units in a 3 tile radius. The cannon will explode when destroyed, dealing 30 fire damage in a 3 tile radius.",
+"range" : "5",
+"los_required" : "1",
+"charges" : "3",
+"schools" : ["Fire","Conjuration","Metallic"],
+"level" : "4",
+"upgrades" : [
+    {
+        "title" : "Radius",
+        "description" : "+2 radius",
+        "cost" : "4"
+    },
+    {
+        "title" : "Num Summons",
+        "description" : "+3 duration",
+        "cost" : "3"
+    },
+    {
+        "title" : "Minion Range",
+        "description" : "+7 minion range",
+        "cost" : "2"
+    }]
+}
+,{
+"title" : "Spikeball Factory",
+"description" : "Surrounds the caster with spikeball gates, which will spawn spikeballs. Spikeballs are metallic constructs with 60 HP, 100 lightning, ice, and poison resistance, 50 physical and fire resistance, deal 9 physical damage in a trample attack, and deal 6 physical damage to melee attackers.",
+"range" : "none",
+"los_required" : "1",
+"charges" : "1",
+"schools" : ["Metallic","Conjuration"],
+"level" : "7",
+"upgrades" : [
+    {
+        "title" : "Manufactory",
+        "description" : "Surrounds the initially summoned gates with another layer of gates",
+        "cost" : "6"
+    },
+    {
+        "title" : "Copper Spikeballs",
+        "description" : "Summons copper spikeballs instead of normal ones",
+        "cost" : "7"
+    },
+    {
+        "title" : "Minion Health",
+        "description" : "+20 minion range",
+        "cost" : "3"
     }]
 }
 ]

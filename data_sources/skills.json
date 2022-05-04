@@ -442,4 +442,16 @@
 "level":"5",
 "applies_to":"",
 "applies_what":["You are a spider. Passively spawn a web each turn on a random adjacent tile. The webs will not spawn on top of units or walls. Whenever you cast a translocation spell target a webbed tile, refund the charge and consume the web."]
+},{
+"title": "Metal Lord",
+"schools":["Metallic"],
+"level":"7",
+"applies_to":"",
+"applies_what":["Metallic spellsand skills gain +3 max charges, +5 duration, and +4 range. 25% Resist Physical"]
+},{
+"title": "Inferno Engines",
+"schools":["Fire", "Metallic"],
+"level":"6",
+"applies_to":"",
+"applies_what":["Whenever you cast a fire spell, all of your metallic allies gain a 2 damage fire aura with radius equal to the level of the spell you cast for 10 turns. This damage is fixed, and cannot be increased using shrines, skills, or buffs."]
 }]

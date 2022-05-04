@@ -26,6 +26,7 @@ export const schoolConfig = {
   "translocation" : {color:'#ba68c8',letter:'t'},
   "eye" : {color:'#ffffff',letter:'y'},
   "chaos" : {color:'#ffab4d',letter:'o'},
+  "metallic" : {color:'#c0c0c0',letter:'m'},
 }
 
 
