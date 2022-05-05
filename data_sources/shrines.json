@@ -148,7 +148,7 @@
 "conditions":["Arcane","Holy","Nature","conjuration-only"]
 },{
 "title": "Grey Bone Shrine",
-"desc":"Minions split into 4 bone shamblers on death. Bone shamblers have 1/4 of the hp of the minion",
+"desc":"Minions split into 2 bone shamblers on death. Bone shamblers have 1/4 of the hp of the minion",
 "conditions":["conjuration-only"]
 },{
 "title": "Stoning Shrine",
@@ -330,6 +330,10 @@
 "title": "Deathchill Chimera Shrine",
 "desc":"For each 70 spell or minion damage, summon a Deathchill chimera near target",
 "conditions":["Ice","Dark"]
+},{
+"title": "Razor Shrine",
+"desc":"Whenever you cast this spell, deal 27 physical damage to 1 enemy in line of sight per spell level.",
+"conditions":["Metallic"]
 },{
 "title": "Bloodrage Shrine",
 "desc":"On kill, all allies in LoS of killed unit gain +3 damage for 5 turns",

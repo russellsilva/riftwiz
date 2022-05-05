@@ -177,7 +177,7 @@
 "schools":["Dark"],
 "level":"4",
 "applies_to":"",
-"applies_what":["Your undead minions learn Hunger. Hunter is a 2 range 5 dark damage sГҐpell that heals the caster (minion) for damage dealt and has cooldown of 3 turns."]
+"applies_what":["Your undead minions learn Hunger. Hunter is a 3 range 7 dark damage spell that heals the caster (minion) for damage dealt and has cooldown of 3 turns."]
 },{
 "title": "Lightning Warp",
 "schools":["Lightning","Translocation"],
@@ -253,13 +253,13 @@
 },{
 "title": "Fiery Judgement",
 "schools":["Fire","Holy"],
-"level":"6",
+"level":"7",
 "applies_to":"",
 "applies_what":["Redeal 50% of all fire damage as holy."]
 },{
 "title": "Holy Thunder",
 "schools":["Lightning","Holy"],
-"level":"6",
+"level":"7",
 "applies_to":"",
 "applies_what":["Redeal 50% of all lightning damage as holy."]
 },{
@@ -333,7 +333,7 @@
 "schools":["Nature"],
 "level":"4",
 "applies_to":"",
-"applies_what":["Summoned nature units learn Venom Spit. Spit is a 6 range 4 poison damage attack which poisons for 10 turns and has a cooldown of 4 turns."]
+"applies_what":["Summoned living and nature units learn Venom Spit. Spit is a 6 range 4 poison damage attack which poisons for 10 turns and has a cooldown of 4 turns."]
 },{
 "title": "Icy Vengeance",
 "schools":["Ice","Dark"],
@@ -367,9 +367,9 @@
 },{
 "title": "Holy Water",
 "schools":["Ice","Holy"],
-"level":"5",
+"level":"4",
 "applies_to":"",
-"applies_what":["Whenever a frozen enemy takes holy damage, you and all allies in LoS gain 1 SH, up to a max of 3 SH"]
+"applies_what":["Whenever a frozen enemy takes holy damage, you and all allies in LoS gain 1 SH, up to a max of 5 SH"]
 },{
 "title": "Hibernation",
 "schools":["Ice","Nature"],
@@ -391,7 +391,7 @@
 },{
 "title": "Shatter Shards",
 "schools":["Ice"],
-"level":"4",
+"level":"6",
 "applies_to":"",
 "applies_what":["Whenever a unit is unfrozen or a frozen unit dies, deal 9 physical and ice damage to 3 targets in a 6 tile burst."]
 },{
@@ -447,11 +447,29 @@
 "schools":["Metallic"],
 "level":"7",
 "applies_to":"",
-"applies_what":["Metallic spellsand skills gain +3 max charges, +5 duration, and +4 range. 25% Resist Physical"]
+"applies_what":["Metallic spells and skills gain +3 max charges, +5 duration, and +4 range. 25% Resist Physical"]
 },{
 "title": "Inferno Engines",
 "schools":["Fire", "Metallic"],
 "level":"6",
 "applies_to":"",
 "applies_what":["Whenever you cast a fire spell, all of your metallic allies gain a 2 damage fire aura with radius equal to the level of the spell you cast for 10 turns. This damage is fixed, and cannot be increased using shrines, skills, or buffs."]
+},{
+"title": "Megavenom",
+"schools":["Nature", "Dark"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Poisoned enemies take 4 additional poison damage each turn."]
+},{
+"title": "Acid Fumes",
+"schools":["Nature", "Dark"],
+"level":"5",
+"applies_to":"",
+"applies_what":["Each turn, a random unacidified enemy is acidified. Acidified units lose 100 poison resist."]
+},{
+"title": "Voidflame Lantern",
+"schools":["Fire", "Arcane"],
+"level":"4",
+"applies_to":"",
+"applies_what":["Whenever you cast a fire or arcane spell, gain starcharged with duration equal to the spell's level. Starcharged deals 6 fire damage to one random enemy in line of sigh each turn, and 6 arcane damage to another"]
 }]

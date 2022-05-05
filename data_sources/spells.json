@@ -290,7 +290,7 @@
 "damage": {"arcane": 25},
 "charges" : "7",
 "schools" : ["Arcane","Sorcery"],
-"level" : "4",
+"level" : "3",
 "upgrades" : [
     {
         "title" : "Damage",
@@ -989,7 +989,7 @@
 "los_required" : "1",
 "charges" : "4",
 "schools" : ["Fire","Enchantment","Eye"],
-"level" : "3",
+"level" : "2",
 "upgrades" : [
     {
         "title" : "Shot cooldown",
@@ -1015,7 +1015,7 @@
 "los_required" : "1",
 "charges" : "4",
 "schools" : ["Lightning","Enchantment","Eye"],
-"level" : "3",
+"level" : "2",
 "upgrades" : [
     {
         "title" : "Shot cooldown",
@@ -1041,7 +1041,7 @@
 "los_required" : "1",
 "charges" : "4",
 "schools" : ["Ice","Enchantment","Eye"],
-"level" : "3",
+"level" : "2",
 "upgrades" : [
     {
         "title" : "Shot cooldown",
@@ -1066,7 +1066,7 @@
 "los_required" : "1",
 "charges" : "4",
 "schools" : ["Nature","Enchantment","Eye"],
-"level" : "3",
+"level" : "2",
 "upgrades" : [
     {
         "title" : "Shot cooldown",
@@ -1593,7 +1593,7 @@
 "los_required" : "1",
 "charges" : "9",
 "schools" : ["Dark","Sorcery"],
-"level" : "3",
+"level" : "2",
 "upgrades" : [
     {
         "title" : "Arcane damage",
@@ -1922,6 +1922,11 @@
         "title" : "Cursed Bones",
         "description" : "Also deals dark damage",
         "cost" : "5"
+    },
+    {
+        "title" : "Shambler Assembly",
+        "description" : "Bone Barrage can target empty tiles. If it does, it creates a bone shambler at that tile with hp equal to the damage it would have dealt..",
+        "cost" : "7"
     }]
 }
 ,{
@@ -2198,7 +2203,7 @@
 "los_required" : "1",
 "charges" : "6",
 "schools" : ["Eye","Arcane","Conjuration"],
-"level" : "4",
+"level" : "5",
 "upgrades" : [
     {
         "title" : "Minion duration",
@@ -2285,7 +2290,7 @@
     {
         "title" : "Range",
         "description" : "+2 range",
-        "cost" : "4"
+        "cost" : "1"
     },
     {
         "title" : "Charges",
@@ -2361,7 +2366,7 @@
 }
 ,{
 "title" : "Death Cleave",
-"description" : "For 2 turns, whenever a spell you cast kills its primary target, that spell is recast on a random enemy target within 4 tiles. This repeats until a target survives the spell",
+"description" : "Whenever a spell you cast kills its primary target, that spell is recast on a randomly selected nearby valid enemy target up to 5 tiles away. This process repeats until the target survives the spell, or there are no nearby valid targets. Lasts 2 turns.",
 "range" : "none",
 "los_required" : "1",
 "charges" : "4",
@@ -2370,8 +2375,8 @@
 "upgrades" : [
     {
         "title" : "Cascade range",
-        "description" : "+4 new target seek range",
-        "cost" : "3"
+        "description" : "+3 new target seek range",
+        "cost" : "4"
     },
     {
         "title" : "Duration",
@@ -3268,7 +3273,7 @@
     }]
 }
 ,{
-"title" : "Tocic Spores",
+"title" : "Toxic Spores",
 "description" : "Summon 2 mushbooms. Mushbooms have 11 hp and a 2 range 1 poison damage attack which poisons for 4 turns. Mushbooms apply 12 turns of poison to targets in melee range on death",
 "range" : "8",
 "los_required" : "1",
@@ -3295,36 +3300,6 @@
         "title" : "Glass mushboom",
         "description" : "Summon glass mushbooms instead, which apply glassify instead of poison",
         "cost" : "4"
-    }]
-}
-,{
-"title" : "Amplify Venom",
-"description" : "For 10 turns, all poisoned enemies lose 100 poison resist",
-"range" : "none",
-"los_required" : "1",
-"charges" : "8",
-"schools" : ["Enchantment","Nature"],
-"level" : "3",
-"upgrades" : [
-    {
-        "title" : "Resistance debuff",
-        "description" : "+100 poison resist reduction",
-        "cost" : "3"
-    },
-    {
-        "title" : "Duration",
-        "description" : "+10 duration",
-        "cost" : "1"
-    },
-    {
-        "title" : "Charges",
-        "description" : "+12 charges",
-        "cost" : "2"
-    },
-    {
-        "title" : "Spread poison",
-        "description" : "Now spreads poison to enemies in radius 2",
-        "cost" : "2"
     }]
 }
 ,{
@@ -4064,6 +4039,21 @@
     }]
 }
 ,{
+"title" : "Essence Flux",
+"description" : "Swap the polarity of the resistances of a group of units. Fire resistance is swapped with ice. Lightning resistance is swapped with physical. Dark resistance is swapped with holy. Poison resistance is swapped with arcane.",
+"range" : "7",
+"los_required" : "1",
+"charges" : "12",
+"schools" : ["Arcane","Chaos","Enchantment"],
+"level" : "4",
+"upgrades" : [
+    {
+        "title" : "Max Charges",
+        "description" : "+6 charges",
+        "cost" : "2"
+    }]
+}
+,{
 "title" : "Spikeball Factory",
 "description" : "Surrounds the caster with spikeball gates, which will spawn spikeballs. Spikeballs are metallic constructs with 60 HP, 100 lightning, ice, and poison resistance, 50 physical and fire resistance, deal 9 physical damage in a trample attack, and deal 6 physical damage to melee attackers.",
 "range" : "none",
@@ -4079,12 +4069,12 @@
     },
     {
         "title" : "Copper Spikeballs",
-        "description" : "Summons copper spikeballs instead of normal ones",
+        "description" : "Summons copper spikeballs instead of normal ones. Copper spikeballs deal 3 lightning damage to enemy units in a 2 tile radius each turn",
         "cost" : "7"
     },
     {
         "title" : "Minion Health",
-        "description" : "+20 minion range",
+        "description" : "+20 minion health",
         "cost" : "3"
     }]
 }
